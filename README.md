@@ -17,3 +17,15 @@ A brand-neutral UI design-system repository for reusable product interfaces acro
 | `industrial-clean-a` | 工业简洁A / Industrial Clean A | Light, dense, engineering-oriented industrial software UI | Desktop, Web, Mobile, PPT | Active |
 
 See [`registry.json`](./registry.json) for machine-readable metadata.
+
+## Current template
+
+### Industrial Clean A
+
+![Industrial Clean A](./industrial/industrial-clean-a/preview/overview.svg)
+
+Start with [`industrial/industrial-clean-a/README.md`](./industrial/industrial-clean-a/README.md), then read `SPEC.md` and `SCREEN_CONTRACT.md` before implementation.
+
+## Repository validation
+
+Every push and pull request runs a structural and brand-neutrality validation workflow under `.github/workflows/validate.yml`.
