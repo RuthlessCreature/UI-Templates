@@ -7,6 +7,10 @@
 
 ![Industrial Clean A neutral preview](./preview/overview.svg)
 
+## 24 场景索引
+
+![Industrial Clean A 24-scene contact sheet](./preview/contact-sheet.svg)
+
 ## 适用场景
 
 - 工业机器视觉与检测软件
