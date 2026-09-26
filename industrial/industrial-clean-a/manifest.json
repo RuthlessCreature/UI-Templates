@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "industrial-clean-a",
+  "display_name": {
+    "zh": "工业简洁A",
+    "en": "Industrial Clean A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "design_intent": [
+    "engineering clarity",
+    "high information density",
+    "fast scanning",
+    "consistent operational state"
+  ],
+  "platforms": {
+    "desktop": "primary",
+    "web": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "current_state",
+    "what_matters",
+    "is_anything_wrong",
+    "next_action"
+  ],
+  "forbidden_base_identity": [
+    "company_name",
+    "logo",
+    "trademark",
+    "customer_name",
+    "real_domain",
+    "real_email",
+    "real_phone",
+    "vendor_specific_style_reference"
+  ]
+}
