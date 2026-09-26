@@ -1,0 +1,26 @@
+/* Industrial Clean A — brand-neutral base tokens */
+:root {
+  --ui-bg-canvas:#EEF2F6;
+  --ui-bg-surface:#FFFFFF;
+  --ui-bg-surface-alt:#F8FAFC;
+  --ui-border:#C7D0DA;
+  --ui-border-strong:#9AA9B8;
+  --ui-text:#18212B;
+  --ui-text-muted:#667481;
+  --ui-accent:#1688D8;
+  --ui-accent-strong:#0C5F9E;
+  --ui-accent-soft:#E6F3FF;
+  --ui-success:#26A269;
+  --ui-warning:#F59E0B;
+  --ui-danger:#D64545;
+  --ui-radius-control:4px;
+  --ui-radius-panel:3px;
+  --ui-space-1:4px;
+  --ui-space-2:8px;
+  --ui-space-3:12px;
+  --ui-space-4:16px;
+  --ui-space-6:24px;
+  --ui-space-8:32px;
+  --ui-space-12:48px;
+  --ui-font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+}
