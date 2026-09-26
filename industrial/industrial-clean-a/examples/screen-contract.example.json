@@ -1,0 +1,78 @@
+{
+  "screen_id": "production-overview",
+  "platform": "desktop",
+  "primary_user": "operator",
+  "user_task": "Confirm that the current station is running normally and respond to exceptions.",
+  "location_context": [
+    "module_name",
+    "station_name",
+    "current_recipe"
+  ],
+  "current_state": [
+    "machine_state",
+    "connection_state"
+  ],
+  "information": {
+    "L1": [
+      "machine_state",
+      "output_today",
+      "yield",
+      "cycle_time",
+      "active_alarm_count"
+    ],
+    "L2": [
+      "current_inspection_result",
+      "station_work_area"
+    ],
+    "L3": [
+      "short_trend",
+      "recent_alarm_summary"
+    ],
+    "L4": [
+      "current_time",
+      "recipe_version",
+      "operator_role"
+    ]
+  },
+  "exceptions": [
+    {
+      "type": "alarm",
+      "surface": "persistent",
+      "requires_action": true
+    },
+    {
+      "type": "offline",
+      "surface": "persistent",
+      "requires_action": true
+    },
+    {
+      "type": "partial_data_failure",
+      "surface": "inline",
+      "requires_action": false
+    }
+  ],
+  "actions": {
+    "primary": "open_active_alarm_or_start_when_ready",
+    "secondary": [
+      "view_history",
+      "open_recipe_summary"
+    ],
+    "dangerous": [
+      "stop",
+      "reset",
+      "clear_counter"
+    ]
+  },
+  "required_states": [
+    "loading",
+    "empty",
+    "error",
+    "offline",
+    "permission_denied"
+  ],
+  "acceptance_criteria": [
+    "Five three-second questions are answerable without opening another panel",
+    "Critical state is encoded by text/icon in addition to color",
+    "Dangerous actions identify the affected station before confirmation"
+  ]
+}
