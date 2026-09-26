@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#EEF2F6"/>
+<rect x="24" y="24" width="1552" height="852" rx="6" fill="#FFFFFF" stroke="#C7D0DA"/>
+<rect x="24" y="24" width="1552" height="52" fill="#F8FAFC" stroke="#C7D0DA"/>
+<text x="48" y="57" font-family="system-ui" font-size="18" fill="#18212B" font-weight="600">Inspection / Station 01</text>
+<circle cx="1344" cy="50" r="7" fill="#26A269"/><text x="1360" y="57" font-family="system-ui" font-size="14" fill="#667481">RUNNING</text>
+<text x="1460" y="57" font-family="system-ui" font-size="14" fill="#667481">20:45:18</text>
+<rect x="24" y="76" width="236" height="800" fill="#F8FAFC" stroke="#C7D0DA"/>
+<text x="48" y="112" font-family="system-ui" font-size="13" fill="#667481">WORKSPACE</text>
+<rect x="38" y="128" width="208" height="38" rx="3" fill="#E6F3FF"/><text x="54" y="152" font-family="system-ui" font-size="14" fill="#0C5F9E">Overview</text>
+<text x="54" y="196" font-family="system-ui" font-size="14" fill="#18212B">Inspection</text><text x="54" y="234" font-family="system-ui" font-size="14" fill="#18212B">Recipes</text><text x="54" y="272" font-family="system-ui" font-size="14" fill="#18212B">Alarms</text><text x="54" y="310" font-family="system-ui" font-size="14" fill="#18212B">Quality</text><text x="54" y="348" font-family="system-ui" font-size="14" fill="#18212B">Settings</text>
+<rect x="282" y="98" width="238" height="112" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="304" y="128" font-family="system-ui" font-size="13" fill="#667481">OUTPUT TODAY</text><text x="304" y="177" font-family="system-ui" font-size="36" fill="#18212B" font-weight="700">12,864</text>
+<rect x="536" y="98" width="238" height="112" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="558" y="128" font-family="system-ui" font-size="13" fill="#667481">YIELD</text><text x="558" y="177" font-family="system-ui" font-size="36" fill="#26A269" font-weight="700">99.68%</text>
+<rect x="790" y="98" width="238" height="112" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="812" y="128" font-family="system-ui" font-size="13" fill="#667481">CYCLE TIME</text><text x="812" y="177" font-family="system-ui" font-size="36" fill="#18212B" font-weight="700">41.2 ms</text>
+<rect x="1044" y="98" width="238" height="112" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="1066" y="128" font-family="system-ui" font-size="13" fill="#667481">ACTIVE ALARMS</text><text x="1066" y="177" font-family="system-ui" font-size="36" fill="#F59E0B" font-weight="700">1</text>
+<rect x="282" y="230" width="930" height="470" rx="4" fill="#1D252C" stroke="#9AA9B8"/>
+<line x1="747" y1="250" x2="747" y2="680" stroke="#29333C"/><line x1="302" y1="465" x2="1192" y2="465" stroke="#29333C"/>
+<rect x="508" y="354" width="470" height="220" rx="8" fill="#BFC7CF" stroke="#E8EDF2" stroke-width="2"/>
+<rect x="546" y="382" width="394" height="164" fill="#A9B4BE" stroke="#7B8791"/>
+<rect x="584" y="407" width="318" height="112" fill="none" stroke="#29A8FF" stroke-width="4"/><text x="596" y="432" font-family="system-ui" font-size="16" fill="#29A8FF">ROI-01</text>
+<rect x="816" y="414" width="62" height="46" fill="none" stroke="#D64545" stroke-width="4"/><text x="887" y="440" font-family="system-ui" font-size="18" fill="#D64545" font-weight="700">NG</text>
+<rect x="1230" y="230" width="322" height="470" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="1250" y="264" font-family="system-ui" font-size="16" fill="#18212B" font-weight="600">Properties</text>
+<text x="1250" y="310" font-family="system-ui" font-size="13" fill="#667481">Threshold</text><rect x="1366" y="288" width="158" height="34" fill="#FFFFFF" stroke="#9AA9B8"/><text x="1380" y="311" font-family="system-ui" font-size="14" fill="#18212B">128</text>
+<text x="1250" y="358" font-family="system-ui" font-size="13" fill="#667481">Min Area</text><rect x="1366" y="336" width="158" height="34" fill="#FFFFFF" stroke="#9AA9B8"/><text x="1380" y="359" font-family="system-ui" font-size="14" fill="#18212B">24 px²</text>
+<text x="1250" y="406" font-family="system-ui" font-size="13" fill="#667481">Sensitivity</text><rect x="1366" y="384" width="158" height="34" fill="#FFFFFF" stroke="#9AA9B8"/><text x="1380" y="407" font-family="system-ui" font-size="14" fill="#18212B">0.82</text>
+<rect x="1250" y="466" width="130" height="40" rx="4" fill="#1688D8"/><text x="1291" y="491" font-family="system-ui" font-size="14" fill="#FFFFFF" font-weight="600">Apply</text>
+<rect x="282" y="720" width="1270" height="130" rx="4" fill="#FFFFFF" stroke="#C7D0DA"/><text x="302" y="752" font-family="system-ui" font-size="15" fill="#18212B" font-weight="600">Recent status</text><circle cx="309" cy="790" r="6" fill="#26A269"/><text x="326" y="795" font-family="system-ui" font-size="13" fill="#667481">Camera online</text><circle cx="466" cy="790" r="6" fill="#26A269"/><text x="483" y="795" font-family="system-ui" font-size="13" fill="#667481">PLC connected</text><circle cx="647" cy="790" r="6" fill="#F59E0B"/><text x="664" y="795" font-family="system-ui" font-size="13" fill="#667481">1 warning requires review</text>
+</svg>
