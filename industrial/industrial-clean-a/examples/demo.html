@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Industrial Clean A — Neutral Demo</title>
+<style>
+:root{
+ --bg:#EEF2F6;--surface:#fff;--surface2:#F8FAFC;--border:#C7D0DA;--border2:#9AA9B8;
+ --text:#18212B;--muted:#667481;--accent:#1688D8;--accent2:#0C5F9E;--soft:#E6F3FF;
+ --ok:#26A269;--warn:#F59E0B;--danger:#D64545;
+ --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;
+ font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif
+}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-size:14px}
+.top{height:52px;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 16px;gap:16px}
+.title{font-weight:700}.crumb{color:var(--muted)}.spacer{flex:1}.status{display:flex;align-items:center;gap:6px;font-weight:600}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok)}
+.shell{display:grid;grid-template-columns:240px 1fr 320px;min-height:calc(100vh - 80px)}
+.left,.right{background:var(--surface);padding:12px}.left{border-right:1px solid var(--border)}.right{border-left:1px solid var(--border)}
+.section{font-size:12px;text-transform:uppercase;color:var(--muted);font-weight:700;margin:6px 0}
+.nav{padding:8px;border-radius:4px;margin:2px 0}.nav.active{background:var(--soft);color:var(--accent2);font-weight:700}
+.main{padding:16px;min-width:0}.kpis{display:grid;grid-template-columns:repeat(5,minmax(120px,1fr));gap:10px;margin-bottom:12px}
+.card,.panel{background:var(--surface);border:1px solid var(--border);border-radius:3px}.card{padding:12px}
+.klabel{color:var(--muted);font-size:12px}.kvalue{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px}.good{color:var(--ok)}.bad{color:var(--danger)}
+.work{display:grid;grid-template-columns:2fr 1fr;gap:12px}.panel-head{height:40px;border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 12px;font-weight:700}
+.canvas{height:390px;background:#202A32;display:grid;place-items:center;position:relative;overflow:hidden}
+.part{width:64%;height:45%;background:#D9E1E8;border:2px solid #8A9AAA;position:relative}
+.roi{position:absolute;left:42%;top:30%;width:22%;height:28%;border:2px solid var(--danger)}.axis-x,.axis-y{position:absolute;background:#38A0E6}.axis-x{height:1px;width:86%;left:7%;top:50%}.axis-y{width:1px;height:82%;top:9%;left:50%}
+.oktag{position:absolute;right:14px;top:12px;color:#7EE2AD;font-weight:800}
+.table{width:100%;border-collapse:collapse}.table th,.table td{padding:9px 10px;border-bottom:1px solid #E1E7ED;text-align:left}.table th{font-size:12px;color:var(--muted);background:var(--surface2)}
+.badge{display:inline-block;padding:2px 7px;border-radius:10px;font-size:12px;font-weight:700;background:#E8F7EF;color:#147848}
+.badge.warn{background:#FFF4D6;color:#9A6500}.badge.danger{background:#FDEAEA;color:#A72929}
+.field{margin:9px 0}.field label{display:block;color:var(--muted);font-size:12px;margin-bottom:4px}.input{height:32px;border:1px solid var(--border);background:white;border-radius:4px;padding:6px 8px;width:100%}
+.row{display:grid;grid-template-columns:1fr 90px;gap:8px}.btns{display:flex;gap:8px;margin-top:14px}.btn{height:34px;padding:0 14px;border:1px solid var(--border2);background:white;border-radius:4px;font-weight:600}.btn.primary{background:var(--accent);border-color:var(--accent);color:white}.btn.danger{color:var(--danger);border-color:#E4AAAA}
+.bottom{height:28px;background:var(--surface);border-top:1px solid var(--border);display:flex;align-items:center;padding:0 12px;color:var(--muted);font-size:12px;gap:18px}
+@media(max-width:1050px){.shell{grid-template-columns:210px 1fr}.right{display:none}.kpis{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="title">System</div><div class="crumb">Inspection / Station 01 / Running</div><div class="spacer"></div><div class="status"><span class="dot"></span> RUNNING</div><div>Operator</div></header>
+<div class="shell">
+ <aside class="left">
+   <div class="section">Workflow</div>
+   <div class="nav">Image Acquisition</div><div class="nav active">Inspection</div><div class="nav">Measurement</div><div class="nav">Output</div>
+   <div class="section" style="margin-top:18px">System</div>
+   <div class="nav">Devices</div><div class="nav">Recipes</div><div class="nav">Alarm Center</div><div class="nav">History</div>
+ </aside>
+ <main class="main">
+   <div class="kpis">
+     <div class="card"><div class="klabel">Output Today</div><div class="kvalue">12,684</div></div>
+     <div class="card"><div class="klabel">Yield</div><div class="kvalue good">99.65%</div></div>
+     <div class="card"><div class="klabel">Cycle Time</div><div class="kvalue">41.2 ms</div></div>
+     <div class="card"><div class="klabel">NG</div><div class="kvalue bad">47</div></div>
+     <div class="card"><div class="klabel">Active Alarm</div><div class="kvalue">0</div></div>
+   </div>
+   <div class="work">
+     <section class="panel">
+       <div class="panel-head">Current Inspection</div>
+       <div class="canvas"><div class="part"><div class="roi"></div></div><div class="axis-x"></div><div class="axis-y"></div><div class="oktag">OK</div></div>
+     </section>
+     <section class="panel">
+       <div class="panel-head">Recent Results</div>
+       <table class="table"><thead><tr><th>Time</th><th>Result</th></tr></thead>
+       <tbody><tr><td>21:08:42</td><td><span class="badge">OK</span></td></tr><tr><td>21:08:41</td><td><span class="badge">OK</span></td></tr><tr><td>21:08:40</td><td><span class="badge danger">NG</span></td></tr><tr><td>21:08:39</td><td><span class="badge">OK</span></td></tr></tbody></table>
+     </section>
+   </div>
+ </main>
+ <aside class="right">
+   <div class="section">Selected Tool</div>
+   <h3 style="margin:6px 0 14px">Edge Inspection</h3>
+   <div class="field"><label>Threshold</label><input class="input" value="128"></div>
+   <div class="row"><div class="field"><label>Minimum</label><input class="input" value="40"></div><div class="field"><label>Unit</label><input class="input" value="px"></div></div>
+   <div class="field"><label>Direction</label><select class="input"><option>Left → Right</option></select></div>
+   <div class="field"><label>Decision</label><select class="input"><option>Within Range</option></select></div>
+   <div class="btns"><button class="btn primary">Apply</button><button class="btn">Reset</button><button class="btn danger">Delete</button></div>
+ </aside>
+</div>
+<footer class="bottom"><span>Camera: Online</span><span>PLC: Online</span><span>Robot: Ready</span><span style="margin-left:auto">No active alarm</span></footer>
+</body></html>
