@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "id": "industrial-clean-a",
+      "name_zh": "工业简洁A",
+      "name_en": "Industrial Clean A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-clean-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "engineering",
+        "machine-vision",
+        "hmi",
+        "light",
+        "dense",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    }
+  ]
+}
