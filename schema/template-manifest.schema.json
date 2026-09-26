@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ui-templates/template-manifest.schema.json",
+  "title": "UI Template Manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "id",
+    "display_name",
+    "version",
+    "brand_neutral",
+    "platforms",
+    "canonical_files"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "display_name": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "brand_neutral": {
+      "const": true
+    },
+    "design_intent": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "platforms": {
+      "type": "object",
+      "properties": {
+        "desktop": {
+          "enum": [
+            "primary",
+            "supported",
+            "adapted",
+            "unsupported"
+          ]
+        },
+        "web": {
+          "enum": [
+            "primary",
+            "supported",
+            "adapted",
+            "unsupported"
+          ]
+        },
+        "mobile": {
+          "enum": [
+            "primary",
+            "supported",
+            "adapted",
+            "unsupported"
+          ]
+        },
+        "ppt": {
+          "enum": [
+            "primary",
+            "supported",
+            "adapted",
+            "unsupported"
+          ]
+        }
+      }
+    },
+    "canonical_files": {
+      "type": "object"
+    },
+    "required_screen_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_base_identity": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
