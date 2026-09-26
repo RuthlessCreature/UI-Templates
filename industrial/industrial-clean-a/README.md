@@ -5,6 +5,8 @@
 **Positioning:** 浅色、高信息密度、工程导向、状态清楚、操作直接的工业软件界面。  
 **Brand policy:** 完全中立。基础模板不承载任何公司、产品、客户或供应商品牌身份。
 
+![Industrial Clean A neutral preview](./preview/overview.svg)
+
 ## 适用场景
 
 - 工业机器视觉与检测软件
@@ -25,11 +27,15 @@
 ## 使用顺序
 
 1. `SPEC.md` — 总规范与设计决策。
-2. `tokens/tokens.json` — 机器可读设计令牌。
-3. `components/COMPONENTS.md` — 组件行为与状态。
-4. `platforms/*.md` — 跨端适配。
-5. `scenes/SCENES.md` — 24 个工业场景参考。
-6. `prompts/UI_GENERATION.md` — 用于生成/实现界面的中立提示词。
+2. `SCREEN_CONTRACT.md` — 页面开工前先定义用户、任务、L1 信息、异常与主动作。
+3. `layouts/LAYOUTS.md` — 选择工程工作台、运行 HMI、数据分析等布局配方。
+4. `tokens/tokens.json` — 机器可读设计令牌。
+5. `components/COMPONENTS.md` — 组件行为与状态。
+6. `platforms/*.md` — Desktop / Web / Mobile / PPT 跨端适配。
+7. `scenes/SCENES.md` — 24 个工业场景参考。
+8. `prompts/UI_GENERATION.md` — 用于生成/实现界面的中立提示词。
+9. `CHECKLIST.md` — 验收前检查。
+10. `examples/demo.html` — 无品牌静态示例。
 
 ## 禁止事项
 
@@ -37,3 +43,7 @@
 - 不写“像某某品牌”“模仿某某产品”等依附式风格描述。
 - 不以赛博朋克大屏代替可操作的工程软件。
 - 不为“科技感”牺牲状态辨识度、表格扫描效率或参数编辑效率。
+
+## Validation
+
+Repository pushes and pull requests run `scripts/validate_template.py` through GitHub Actions. The validator checks required structure, the 24-scene registry, brand-neutral declarations, and forbidden identity contamination.
