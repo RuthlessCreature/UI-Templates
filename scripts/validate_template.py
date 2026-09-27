@@ -42,6 +42,9 @@ for item in items:
         fail(f"{tid}: manifest id mismatch")
     if manifest.get("version") != item.get("version"):
         fail(f"{tid}: version mismatch")
+    display=manifest.get("display_name",{})
+    if display.get("zh") != item.get("name_zh") or display.get("en") != item.get("name_en"):
+        fail(f"{tid}: registry/display_name mismatch")
     if manifest.get("brand_neutral") is not True:
         fail(f"{tid}: manifest brand_neutral must be true")
     tokens=json.loads((base/"tokens/tokens.json").read_text(encoding="utf-8"))
