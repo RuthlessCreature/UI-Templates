@@ -331,7 +331,7 @@
       "id": "industrial-blue-white-workbench-a",
       "name_zh": "蓝白工程台",
       "name_en": "Industrial Blue White Workbench A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "经典蓝白工程软件语法、稳定工具栏与高可预测结构。",
@@ -359,13 +359,15 @@
       "high_fidelity_preview": "industrial/industrial-blue-white-workbench-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-deep-space-monitoring-a",
       "name_zh": "深空监控",
       "name_en": "Industrial Deep Space Monitoring A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深空蓝黑、沉浸式监控与大范围状态感知。",
@@ -393,13 +395,15 @@
       "high_fidelity_preview": "industrial/industrial-deep-space-monitoring-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-metallic-a",
       "name_zh": "金属质感",
       "name_en": "Industrial Metallic A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "钢灰、金属层次与精密制造气质。",
@@ -427,13 +431,15 @@
       "high_fidelity_preview": "industrial/industrial-metallic-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-ai-vision-lab-a",
       "name_zh": "AI视觉实验室",
       "name_en": "Industrial AI Vision Lab A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "机器视觉与工业 AI 分析，突出图像、热力图、模型与样本证据。",
@@ -462,13 +468,15 @@
       "high_fidelity_preview": "industrial/industrial-ai-vision-lab-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-pure-minimal-a",
       "name_zh": "纯净极简",
       "name_en": "Industrial Pure Minimal A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "大量留白、极低视觉噪音与强任务聚焦。",
@@ -496,13 +504,15 @@
       "high_fidelity_preview": "industrial/industrial-pure-minimal-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-cool-console-a",
       "name_zh": "酷炫操作台",
       "name_en": "Industrial Cool Console A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "高端蓝黑操作台、动态层次与强科技氛围。",
@@ -530,7 +540,9 @@
       "high_fidelity_preview": "industrial/industrial-cool-console-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "internet-us-saas-clean-a",

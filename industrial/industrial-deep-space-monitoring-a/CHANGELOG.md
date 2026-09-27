@@ -1,9 +1,14 @@
 # Changelog
 
+## 1.3.0 — 2026-09-28
+- Rebuilt all 12 live pages to production-reference fidelity.
+- Preserved 雷达拓扑监控 / radar-topology across desktop and mobile.
+- Removed generic dashboard-card composition.
+- Reused repository-local high-fidelity showcase imagery as visual evidence surfaces.
+- Mobile pages are independent 390×844 task flows.
+
 ## 1.2.0 — 2026-09-27
 - Added 12-page Gold showcase system.
-- Preview now means the complete live page family.
-- Added page-specific layouts, realistic task content and mobile coverage.
 
 ## 1.1.0 — 2026-09-27
 - Introduced unique visual signature and layout archetype.

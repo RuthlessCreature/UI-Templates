@@ -1,9 +1,17 @@
 # Changelog
 
+## 1.3.0 — 2026-09-28
+- Rebuilt all 12 live pages to production-reference fidelity.
+- Preserved AI 证据实验台 / evidence-lab across desktop and mobile.
+- Removed generic dashboard-card composition.
+- Reused repository-local high-fidelity showcase imagery as visual evidence surfaces.
+- Mobile pages are independent 390×844 task flows.
+
+## 1.2.0 — 2026-09-27
+- Added 12-page Gold showcase system.
+
 ## 1.1.0 — 2026-09-27
-- Rebuilt around **AI 证据实验台** (`evidence-lab`).
-- Reworked preview and live demo to be structurally distinct, not a palette swap.
-- Added STYLE_DNA.md and grayscale recognition rule.
+- Introduced unique visual signature and layout archetype.
 
 ## 1.0.0 — 2026-09-27
 Initial release.
