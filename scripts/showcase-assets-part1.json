@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "id": "industrial-clean-a",
+      "path": "industrial/industrial-clean-a",
+      "destination": "industrial/industrial-clean-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/47c34cec-7085-4bca-8366-02aaa1ac73bd/6b0a8648-797b-4ef7-a0f1-a3364e773d8e/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiY2NhYTA4OTI3MjFhMWI0YiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYyNjU3OH0.ynLe_QVAktpOOaXu9X0roQtHhewKc5le0y4QiRPVmLc"
+    },
+    {
+      "id": "industrial-dark-professional-a",
+      "path": "industrial/industrial-dark-professional-a",
+      "destination": "industrial/industrial-dark-professional-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/33c3943e-9bf4-421d-8d97-7469345074a3/8f2278ec-2de6-4604-878d-85681f66b2e4/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNGNlODgxMzFkMmQ2MTc5NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY0ODI0MX0.4hAYSLxFKox1p48gO7SVbsFxGf7XYNWs78MawBSfRvA"
+    },
+    {
+      "id": "industrial-future-blueblack-a",
+      "path": "industrial/industrial-future-blueblack-a",
+      "destination": "industrial/industrial-future-blueblack-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/0d5c7121-535b-46d7-a561-0cf8620cbdbe/71520c15-f715-4ec0-8f01-4839618eca45/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTA2YjkxZDY0MzgzZTkyMCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY0NDU2Nn0.Cl1NSuo6DQbgQ0TCohXA1dP6LhGBel-5q3qigGCC5pw"
+    },
+    {
+      "id": "industrial-wireframe-minimal-a",
+      "path": "industrial/industrial-wireframe-minimal-a",
+      "destination": "industrial/industrial-wireframe-minimal-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/572944e8-a9e5-4d00-9839-a4945deba2d6/0bb8b6c1-7c41-4422-b7c1-c362303b44bc/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjYyN2E2ZDJjOGZmMmJjYyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYwMDE0Nn0.h-mXzGm5xlRoJ2UHFgK4R2NiEC_-qRh6iTG9wiVHGQU"
+    },
+    {
+      "id": "industrial-cool-gray-a",
+      "path": "industrial/industrial-cool-gray-a",
+      "destination": "industrial/industrial-cool-gray-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/9513d9d1-ec45-40f0-95ec-4a6ae3d4e7ee/30b5925a-e105-4ed8-b742-a9be50d965ad/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjA2ZTcyYTA3MzY4YjA1MiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY1MTA0MH0.ruVCVXltjsAe8JUMN5FKuXCbuLVTzJpOCiK8J2Ha_no"
+    },
+    {
+      "id": "industrial-data-hub-a",
+      "path": "industrial/industrial-data-hub-a",
+      "destination": "industrial/industrial-data-hub-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/40bc1a1b-6cf5-4be6-ac27-41808df33f22/72481db3-9ecd-4386-aea6-8a7a099ed2a8/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjk1Njk4NDhhNTkyZGQ5NyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxMDc2MH0.XfLfQAbnguHL0BgbP0_1Fmwo7mUHXMPhmGv1V4Ri8ZA"
+    },
+    {
+      "id": "industrial-glass-light-a",
+      "path": "industrial/industrial-glass-light-a",
+      "destination": "industrial/industrial-glass-light-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/c259c41d-4c23-4006-be50-3eb396b28c5f/69290a54-eec7-4561-bb20-b017a52c280a/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWNlNDE4NjMzMGFjYTc5NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxMTQyN30.AX72-GBaSckC1ck0Gjxg_Ryjrb7TkzZtvwRxGa5a54A"
+    },
+    {
+      "id": "industrial-modular-a",
+      "path": "industrial/industrial-modular-a",
+      "destination": "industrial/industrial-modular-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/8521ad5c-c747-4415-9447-431d5cc77d02/6eb407fa-32d5-4445-af2c-2cebb1acc12b/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzA1NzQ4ZDEzY2UwNjZkMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYyOTg0MX0.p_ox3jcGPWYSkWxYmZe9VQ92qgnPWGMoqyiCT_MWrjo"
+    },
+    {
+      "id": "industrial-black-yellow-safety-a",
+      "path": "industrial/industrial-black-yellow-safety-a",
+      "destination": "industrial/industrial-black-yellow-safety-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/474503d0-a992-4769-ac38-94690d404429/b83267f9-d822-40d2-bc38-13052ad906f4/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDAxNWZhNjNhOGEzMWMzZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY2MDU3OX0.uqJPT2MNYVy0w1eK1-wlU2g2sXBW7AvYWjsM5PPZ39w"
+    },
+    {
+      "id": "industrial-blue-white-workbench-a",
+      "path": "industrial/industrial-blue-white-workbench-a",
+      "destination": "industrial/industrial-blue-white-workbench-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/67fd6737-0f4f-4806-84ce-8276f66cdb4a/2e0fc094-b0f3-4a0d-b6b7-8b9fc2db69ae/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDMwNzI0YTZlNTQ3ZjVkYSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYzNjU4Mn0.4IEN32Feimu1lixLlMVm9wr2vFuSUORbjOoRcdTf3Bg"
+    }
+  ]
+}
