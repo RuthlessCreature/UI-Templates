@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 国企数据驾驶舱
 
-生成品牌中立的“国企数据驾驶舱”UI。深蓝数据驾驶舱、宏观指标、地图与趋势结合的经营监控风格。 用于经营驾驶舱、生产经营态势和综合监控；允许深色氛围，但图表必须可核验，不能做空洞领导大屏。 正式、可靠、业务优先，禁止真实单位 Logo、特定机构克隆和空洞领导大屏。
+Use **经营态势驾驶舱** as the dominant composition.
+Archetype: `executive-command`
+Core motif: 中央区域态势图 + 左右指标塔 + 底部经营趋势
+Shape language: 地图轮廓、指标塔、横向趋势带
+Interaction language: 指标联动高亮区域
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 美式编辑部
 
-生成“美式编辑部”风格的品牌中立 Web 产品 UI。大标题、强排版、杂志式信息节奏与产品界面结合的美式编辑风格。 靠字号、字重、留白和分栏建立层级；卡片感弱，内容感强，适合知识、媒体、AI 工具和专业服务。 强调真实产品结构、可访问性、清晰 CTA、完整状态，不得克隆真实品牌。
+Use **杂志式产品版** as the dominant composition.
+Archetype: `editorial-spread`
+Core motif: 超大标题 + 不对称双栏 + 内容流胜过卡片
+Shape language: 粗细字体对比、长分隔线、大留白
+Interaction language: 章节/对象切换像翻版面
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

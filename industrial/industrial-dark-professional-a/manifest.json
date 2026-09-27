@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-dark-professional-a",
   "display_name": {
     "zh": "工业深色专业",
     "en": "Industrial Dark Professional A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "深色石墨、低眩光、高密度、严肃克制的专业工业工作台。",
-    "低眩光深色面板、细边框、克制高亮；适合长期工程调试与控制。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "dockyard",
+  "visual_signature": "深色停靠坞",
+  "core_motif": "多坞口面板 + 命令行日志 + 可停靠属性区",
+  "shape_language": "方正 dock、窄标题栏、密集树结构",
+  "motion_language": "面板像 IDE 一样停靠/展开",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

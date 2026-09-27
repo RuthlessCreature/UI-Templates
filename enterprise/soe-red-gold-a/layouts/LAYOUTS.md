@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 国企红金
 
-综合门户：顶部主导航 + 栏目。业务系统：侧栏 + 主工作区。数据页：范围 → KPI → 图表 → 表格。审批页：对象摘要 → 流程 → 意见 → 动作。
+Primary archetype: **庄重红金公报板** (`ceremonial-board`)
+
+红色题头 + 细金分隔 + 公报主版 + 专题侧栏
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

@@ -1,4 +1,9 @@
 # Changelog
 
+## 1.1.0 — 2026-09-27
+- Rebuilt around **AI 证据实验台** (`evidence-lab`).
+- Reworked preview and live demo to be structurally distinct, not a palette swap.
+- Added STYLE_DNA.md and grayscale recognition rule.
+
 ## 1.0.0 — 2026-09-27
-Initial brand-neutral release of AI视觉实验室.
+Initial release.

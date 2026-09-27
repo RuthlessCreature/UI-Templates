@@ -1,5 +1,12 @@
 # UI Generation Prompt — 数据中枢
 
-设计完全品牌中立、可交付的工业软件 UI。面向产线级监控与分析的数据中枢，深色高密度、多指标、强趋势与异常聚焦。
-KPI、趋势、状态矩阵和异常构成主要视觉骨架；青绿高亮，数据优先于装饰。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **遥测数据墙** as the dominant composition.
+
+Archetype: `telemetry-wall`
+Core motif: 顶部 ticker + 中央指标矩阵 + 异常瀑布 + station heatmap
+Shape language: 矩阵、热力格、长条 ticker
+Interaction language: ticker/事件瀑布持续流动
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

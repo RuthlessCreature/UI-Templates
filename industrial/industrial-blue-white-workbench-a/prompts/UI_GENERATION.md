@@ -1,5 +1,12 @@
 # UI Generation Prompt — 蓝白工程台
 
-设计完全品牌中立、可交付的工业软件 UI。经典蓝白工程软件语法、稳定工具栏与高可预测操作结构。
-强调传统工程软件熟悉感：工具栏、任务树、属性区稳定；现代化但不为了潮流破坏工程师操作习惯。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **经典工程 IDE** as the dominant composition.
+
+Archetype: `classic-ide`
+Core motif: 双层工具栏 + 左树 + 中编辑器 + 右属性 + 底部多标签
+Shape language: 标准 dock、工具图标条、tabs
+Interaction language: 面板停靠、tab 切换、快捷键驱动
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

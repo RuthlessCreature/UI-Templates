@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 美式金融科技
 
-生成“美式金融科技”风格的品牌中立 Web 产品 UI。冷静深蓝、精确数字与可信赖信息层级的美式 FinTech 扁平风格。 数字、状态和账户信息优先；使用冷静蓝绿与严谨对齐，强调可信、透明、可核验，避免金融产品常见的炫富视觉。 强调真实产品结构、可访问性、清晰 CTA、完整状态，不得克隆真实品牌。
+Use **资产账本工作台** as the dominant composition.
+Archetype: `financial-ledger`
+Core motif: 净资产主数字 + 资产分布条 + 交易账本 + 现金流 waterfall
+Shape language: 数字对齐、账本行、细趋势线
+Interaction language: 范围切换驱动账本和总资产同步
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

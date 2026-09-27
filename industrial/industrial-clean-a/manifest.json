@@ -1,18 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-clean-a",
   "display_name": {
     "zh": "工业简洁A",
     "en": "Industrial Clean A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "engineering clarity",
-    "high information density",
-    "fast scanning",
-    "consistent operational state"
-  ],
+  "category": "industrial",
+  "layout_archetype": "precision-rail",
+  "visual_signature": "精密测量轨道",
+  "core_motif": "窄工具轨 + 超宽检测画布 + 底部结果胶片带",
+  "shape_language": "直线、细边框、窄轨道、横向胶片",
+  "motion_language": "状态沿底部结果带推进",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -21,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

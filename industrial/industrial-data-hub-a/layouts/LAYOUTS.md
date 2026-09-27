@@ -1,14 +1,10 @@
 # Layout Recipes — 数据中枢
 
-## Engineering Workbench
-Context + Task Tree + Main Workspace + Properties + Status/Log。
-## Operational HMI
-State/Recipe/Connection → KPI → Current Result/Exception → Main actions。
-## Data / Quality
-Scope/Filter → KPI/Trend → Table/Traceability。
-## Navigator
-Search + Categories + compact object list/cards。
-## Mobile
-State → Alarm → KPI → task → primary action。
+Primary archetype: **遥测数据墙** (`telemetry-wall`)
 
-Style: KPI、趋势、状态矩阵和异常构成主要视觉骨架；青绿高亮，数据优先于装饰。
+顶部 ticker + 中央指标矩阵 + 异常瀑布 + station heatmap
+
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
+
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.

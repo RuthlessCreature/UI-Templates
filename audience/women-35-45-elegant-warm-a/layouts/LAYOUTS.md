@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 雅致暖白
 
-Discover：首页主任务 + 推荐；Booking：服务 → 时间 → 确认；Membership：权益 → 状态 → 使用；Account：订单/家庭/隐私；Mobile：底部导航 + 单主任务。
+Primary archetype: **暖白礼宾杂志页** (`concierge-editorial`)
+
+大封面留白 + 预约推荐 + 服务精选像编辑稿
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

@@ -1,12 +1,12 @@
 # UI Generation Prompt — 冷峻灰白
 
-设计一个可交付、完全品牌中立的工业软件界面，使用“冷峻灰白”设计语言。冷灰白、低饱和、理性克制的企业级工业界面。
+Create a brand-neutral interface using **冷灰工艺带** as the dominant composition.
 
-视觉与交互要求：
-- 降低色彩噪音，以灰阶层次和钢蓝强调构建高级、可靠的工程气质。
-- 保持真实工业软件的信息密度、状态体系和可操作控件。
-- 根据任务使用顶部上下文、导航/任务树、主工作区、属性/参数、状态/日志区域。
-- 表格、数值输入、阈值、状态、报警、趋势、ROI/图像叠加必须像真实工程工具。
-- 三秒内让用户知道位置、状态、重点、异常和下一步动作。
+Archetype: `process-ribbon`
+Core motif: 横向工序 ribbon + 纵向批次矩阵 + 单色状态点
+Shape language: 长条、分段、矩阵、低饱和
+Interaction language: 当前工序沿 ribbon 平移
 
-禁止任何公司名、Logo、商标、客户名、真实域名、真实账号；禁止模仿具体厂商专有界面。
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

@@ -1,5 +1,12 @@
 # UI Generation Prompt — 轻科技玻璃
 
-设计完全品牌中立、可交付的工业软件 UI。浅色半透明层次、柔和玻璃感与现代工程控件结合的轻科技工业界面。
-允许轻透明、柔和模糊与层叠，但必须保持输入框、表格、报警和边界清楚，不做消费级梦幻玻璃。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **光学镜片甲板** as the dominant composition.
+
+Archetype: `lens-deck`
+Core motif: 中心透镜视窗 + 玻璃浮层 + 半透明参数胶囊
+Shape language: 圆角透镜、圆角浮片、浅层叠
+Interaction language: 参数浮层围绕镜片展开
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

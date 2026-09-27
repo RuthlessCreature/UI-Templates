@@ -1,5 +1,12 @@
 # UI Generation Prompt — 金属质感
 
-设计完全品牌中立、可交付的工业软件 UI。钢灰、金属层次与精密制造气质结合的硬朗工业界面。
-使用钢灰阶、细金属分隔与轻微明暗层次，严禁拟物按钮和重度 2000 年代金属皮肤。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **金属仪表机架** as the dominant composition.
+
+Archetype: `instrument-rack`
+Core motif: 垂直仪表条 + 大旋钮/环表 + 机柜分槽
+Shape language: 硬边槽位、刻度、表盘、机械分区
+Interaction language: 数值/指针变化而非卡片闪动
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

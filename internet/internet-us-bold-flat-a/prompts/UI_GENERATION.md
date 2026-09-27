@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 美式高对比扁平
 
-生成“美式高对比扁平”风格的品牌中立 Web 产品 UI。高对比色块、粗体排版和直接操作的美式产品化扁平风格。 色块明确、边界硬朗、按钮直接；允许橙红等强强调，但页面必须保持可扫描，适合增长、运营和高行动密度产品。 强调真实产品结构、可访问性、清晰 CTA、完整状态，不得克隆真实品牌。
+Use **美式粗暴块面** as the dominant composition.
+Archetype: `neo-brutal-blocks`
+Core motif: 2px 黑边 + 巨型数字 + 橙红动作砖块
+Shape language: 硬边、无阴影、粗标题、矩形按钮
+Interaction language: 块面直接替换/推入
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

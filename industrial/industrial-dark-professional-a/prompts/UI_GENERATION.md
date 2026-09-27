@@ -1,12 +1,12 @@
 # UI Generation Prompt — 工业深色专业
 
-设计一个可交付、完全品牌中立的工业软件界面，使用“工业深色专业”设计语言。深色石墨、低眩光、高密度、严肃克制的专业工业工作台。
+Create a brand-neutral interface using **深色停靠坞** as the dominant composition.
 
-视觉与交互要求：
-- 低眩光深色面板、细边框、克制高亮；适合长期工程调试与控制。
-- 保持真实工业软件的信息密度、状态体系和可操作控件。
-- 根据任务使用顶部上下文、导航/任务树、主工作区、属性/参数、状态/日志区域。
-- 表格、数值输入、阈值、状态、报警、趋势、ROI/图像叠加必须像真实工程工具。
-- 三秒内让用户知道位置、状态、重点、异常和下一步动作。
+Archetype: `dockyard`
+Core motif: 多坞口面板 + 命令行日志 + 可停靠属性区
+Shape language: 方正 dock、窄标题栏、密集树结构
+Interaction language: 面板像 IDE 一样停靠/展开
 
-禁止任何公司名、Logo、商标、客户名、真实域名、真实账号；禁止模仿具体厂商专有界面。
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 国企政务蓝
 
-综合门户：顶部主导航 + 栏目。业务系统：侧栏 + 主工作区。数据页：范围 → KPI → 图表 → 表格。审批页：对象摘要 → 流程 → 意见 → 动作。
+Primary archetype: **正式综合门户** (`formal-portal`)
+
+深蓝顶栏 + 中央通知公报 + 两侧栏目矩阵
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

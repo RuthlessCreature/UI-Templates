@@ -1,68 +1,40 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>UI Template Gallery</title>
-  <meta name="description" content="Brand-neutral UI template gallery">
-  <link rel="stylesheet" href="./styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UI Template Gallery</title><meta name="description" content="Brand-neutral UI template gallery">
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <div class="eyebrow">UI-TEMPLATES</div>
-      <h1>UI Template Gallery</h1>
-      <p>从 GitHub 实时读取模板索引。仓库更新后，这里自动刷新，不需要手工同步。</p>
-    </div>
-    <div class="meta">
-      <span id="count">— templates</span>
-      <a href="https://github.com/RuthlessCreature/UI-Templates" target="_blank" rel="noreferrer">GitHub</a>
-    </div>
-  </header>
+<header class="topbar">
+  <div><div class="eyebrow">UI-TEMPLATES</div><h1>UI Template Gallery</h1>
+  <p>30 套不是换皮：每套都绑定独立 Visual Signature、Layout Archetype 和 STYLE DNA。</p></div>
+  <div class="meta"><span id="count">— templates</span><button id="openCompare" class="compare-top">比较 <b id="compareCount">0</b></button><a href="https://github.com/RuthlessCreature/UI-Templates" target="_blank" rel="noreferrer">GitHub</a></div>
+</header>
+<main>
+<section class="controls"><div id="categories" class="chips"></div><input id="search" type="search" placeholder="搜索模板、母题、布局、标签……"></section>
+<section id="grid" class="grid" aria-live="polite"></section>
+</main>
 
-  <main>
-    <section class="controls">
-      <div id="categories" class="chips"></div>
-      <input id="search" type="search" placeholder="搜索模板、标签、风格……">
-    </section>
-    <section id="grid" class="grid" aria-live="polite"></section>
-  </main>
+<dialog id="previewDialog"><div class="dialog-head"><div><div class="eyebrow">LIVE PREVIEW</div><h2 id="dialogTitle">Preview</h2></div><button id="closeDialog" class="icon-btn">×</button></div><iframe id="previewFrame" title="Template preview"></iframe></dialog>
 
-  <dialog id="previewDialog">
-    <div class="dialog-head">
-      <div>
-        <div class="eyebrow">LIVE PREVIEW</div>
-        <h2 id="dialogTitle">Preview</h2>
-      </div>
-      <button id="closeDialog" class="icon-btn">×</button>
-    </div>
-    <iframe id="previewFrame" title="Template preview"></iframe>
-  </dialog>
+<dialog id="compareDialog" class="compare-dialog">
+ <div class="dialog-head"><div><div class="eyebrow">SIDE-BY-SIDE</div><h2>模板对比</h2></div><button id="closeCompare" class="icon-btn">×</button></div>
+ <div id="compareGrid" class="compare-grid"></div>
+</dialog>
 
-  <template id="cardTemplate">
-    <article class="card">
-      <button class="preview-hit" type="button">
-        <img class="preview-img" alt="">
-      </button>
-      <div class="card-body">
-        <div class="card-top">
-          <div>
-            <div class="category-label"></div>
-            <h3 class="name"></h3>
-            <p class="en-name"></p>
-          </div>
-          <span class="version"></span>
-        </div>
-        <p class="summary"></p>
-        <div class="tags"></div>
-        <div class="actions">
-          <button class="btn primary live-btn" type="button">在线预览</button>
-          <a class="btn repo-btn" target="_blank" rel="noreferrer">查看规范</a>
-        </div>
-      </div>
-    </article>
-  </template>
-
-  <script src="./app.js"></script>
-</body>
-</html>
+<template id="cardTemplate">
+<article class="card">
+  <button class="preview-hit" type="button"><img class="preview-img" alt=""></button>
+  <div class="card-body">
+    <div class="card-top"><div><div class="category-label"></div><h3 class="name"></h3><p class="en-name"></p></div><span class="version"></span></div>
+    <div class="signature"></div>
+    <p class="summary"></p>
+    <div class="motif"></div>
+    <div class="tags"></div>
+    <div class="actions"><button class="btn primary live-btn" type="button">在线预览</button><button class="btn compare-btn" type="button">＋比较</button><a class="btn repo-btn" target="_blank" rel="noreferrer">规范</a></div>
+  </div>
+</article>
+</template>
+<script src="./app.js"></script>
+</body></html>

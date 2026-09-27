@@ -1,5 +1,12 @@
 # UI Generation Prompt — 深空监控
 
-设计完全品牌中立、可交付的工业软件 UI。深空蓝黑、沉浸式监控与大范围状态感知的工业监控界面。
-适合控制室和大屏监控：强状态地图、趋势和异常信号；允许氛围光但交互控件仍需工程化。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **雷达拓扑监控** as the dominant composition.
+
+Archetype: `radar-topology`
+Core motif: 中央雷达拓扑 + 左系统树 + 右事件流
+Shape language: 同心圆、拓扑连线、脉冲点
+Interaction language: 脉冲节点、事件沿连线传递
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

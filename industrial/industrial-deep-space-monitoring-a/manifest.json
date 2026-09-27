@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-deep-space-monitoring-a",
   "display_name": {
     "zh": "深空监控",
     "en": "Industrial Deep Space Monitoring A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "深空蓝黑、沉浸式监控与大范围状态感知的工业监控界面。",
-    "适合控制室和大屏监控：强状态地图、趋势和异常信号；允许氛围光但交互控件仍需工程化。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "radar-topology",
+  "visual_signature": "雷达拓扑监控",
+  "core_motif": "中央雷达拓扑 + 左系统树 + 右事件流",
+  "shape_language": "同心圆、拓扑连线、脉冲点",
+  "motion_language": "脉冲节点、事件沿连线传递",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

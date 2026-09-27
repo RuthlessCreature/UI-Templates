@@ -1,14 +1,10 @@
 # Layout Recipes — 蓝白工程台
 
-## Engineering Workbench
-Context + Task Tree + Main Workspace + Properties + Status/Log。
-## Operational HMI
-State/Recipe/Connection → KPI → Current Result/Exception → Main actions。
-## Data / Quality
-Scope/Filter → KPI/Trend → Table/Traceability。
-## Navigator
-Search + Categories + compact object list/cards。
-## Mobile
-State → Alarm → KPI → task → primary action。
+Primary archetype: **经典工程 IDE** (`classic-ide`)
 
-Style: 强调传统工程软件熟悉感：工具栏、任务树、属性区稳定；现代化但不为了潮流破坏工程师操作习惯。
+双层工具栏 + 左树 + 中编辑器 + 右属性 + 底部多标签
+
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
+
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.

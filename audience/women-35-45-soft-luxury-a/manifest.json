@@ -1,29 +1,30 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "women-35-45-soft-luxury-a",
   "display_name": {
     "zh": "低奢柔金",
     "en": "Soft Luxury A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "women-35-45",
-  "audience": "35-45 women",
-  "design_intent": [
-    "奶油白、深咖与克制香槟金构成的低调品质感界面。",
-    "品质感来自排版、留白和克制金色，不使用满屏金、黑金会所感或奢侈品仿牌；适合高客单服务、会员、旅行、家居和精品零售。"
-  ],
+  "layout_archetype": "premium-concierge",
+  "visual_signature": "低奢会员礼宾台",
+  "core_motif": "会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选",
+  "shape_language": "细金线、深咖字、非对称高级留白",
+  "motion_language": "礼宾动作从中心身份卡展开",
   "platforms": {
     "web": "primary",
-    "mobile": "primary",
     "desktop": "supported",
+    "mobile": "adapted",
     "ppt": "supported"
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

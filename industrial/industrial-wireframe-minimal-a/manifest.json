@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-wireframe-minimal-a",
   "display_name": {
     "zh": "极简线框",
     "en": "Industrial Wireframe Minimal A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "以线框、留白和严格网格为核心的极简工程界面。",
-    "几乎无阴影，靠 1px 线框、对齐和留白建立层级；适合参数、测量与工程配置。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "blueprint-sheet",
+  "visual_signature": "工程蓝图纸",
+  "core_motif": "整页工程图纸 + 标尺 + 尺寸链 + 侧边注记",
+  "shape_language": "无卡片、尺寸线、标尺、图纸标题栏",
+  "motion_language": "只让测量线和选中对象变化",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

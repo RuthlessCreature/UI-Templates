@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-glass-light-a",
   "display_name": {
     "zh": "轻科技玻璃",
     "en": "Industrial Light Glass A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "浅色半透明层次、柔和玻璃感与现代工程控件结合的轻科技工业界面。",
-    "允许轻透明、柔和模糊与层叠，但必须保持输入框、表格、报警和边界清楚，不做消费级梦幻玻璃。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "lens-deck",
+  "visual_signature": "光学镜片甲板",
+  "core_motif": "中心透镜视窗 + 玻璃浮层 + 半透明参数胶囊",
+  "shape_language": "圆角透镜、圆角浮片、浅层叠",
+  "motion_language": "参数浮层围绕镜片展开",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

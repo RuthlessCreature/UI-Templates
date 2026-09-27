@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 低奢柔金
 
-Discover：首页主任务 + 推荐；Booking：服务 → 时间 → 确认；Membership：权益 → 状态 → 使用；Account：订单/家庭/隐私；Mobile：底部导航 + 单主任务。
+Primary archetype: **低奢会员礼宾台** (`premium-concierge`)
+
+会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

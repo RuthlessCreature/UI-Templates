@@ -1,5 +1,12 @@
 # UI Generation Prompt — 高对比黑黄
 
-设计完全品牌中立、可交付的工业软件 UI。黑底黄强调、强异常识别与安全语义的高对比工业界面。
-黄色主要用于选择、警戒和关键操作；红色只给严重故障/危险。强对比但不能让全屏都像报警。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **安全警戒舱** as the dominant composition.
+
+Archetype: `hazard-bay`
+Core motif: 斜纹 hazard rail + 大型故障舱 + 明确安全联锁
+Shape language: 黑黄斜纹、粗边、警戒框
+Interaction language: 异常时边框/警戒带替代普通 toast
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

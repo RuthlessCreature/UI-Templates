@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-cool-console-a",
   "display_name": {
     "zh": "酷炫操作台",
     "en": "Industrial Cool Console A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "高端蓝黑操作台、动态层次与强科技氛围结合的沉浸式工业控制界面。",
-    "允许更强的层次、环形状态和设备舞台感，但主界面仍需真实可操作；酷炫只服务于状态与焦点。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "device-stage",
+  "visual_signature": "环形设备舞台",
+  "core_motif": "中央设备舞台 + 三层运行环 + 两侧控制塔 + 底部 action deck",
+  "shape_language": "椭圆舞台、环、塔、动作甲板",
+  "motion_language": "环形状态、设备聚焦、动作甲板展开",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

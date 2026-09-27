@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 国企稳健商务
 
-生成品牌中立的“国企稳健商务”UI。深蓝灰、商务表格与稳健布局构成的企业经营管理风格。 适合经营管理、项目、采购、资产和办公系统；表格、审批和状态优先，视觉不抢业务内容。 正式、可靠、业务优先，禁止真实单位 Logo、特定机构克隆和空洞领导大屏。
+Use **审批经营操作台** as the dominant composition.
+Archetype: `approval-operations`
+Core motif: 左待办队列 + 中央经营表格 + 右审批时间轴
+Shape language: 表格优先、审批节点、状态 tag
+Interaction language: 审批节点逐步推进
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

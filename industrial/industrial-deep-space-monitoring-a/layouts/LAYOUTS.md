@@ -1,14 +1,10 @@
 # Layout Recipes — 深空监控
 
-## Engineering Workbench
-Context + Task Tree + Main Workspace + Properties + Status/Log。
-## Operational HMI
-State/Recipe/Connection → KPI → Current Result/Exception → Main actions。
-## Data / Quality
-Scope/Filter → KPI/Trend → Table/Traceability。
-## Navigator
-Search + Categories + compact object list/cards。
-## Mobile
-State → Alarm → KPI → task → primary action。
+Primary archetype: **雷达拓扑监控** (`radar-topology`)
 
-Style: 适合控制室和大屏监控：强状态地图、趋势和异常信号；允许氛围光但交互控件仍需工程化。
+中央雷达拓扑 + 左系统树 + 右事件流
+
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
+
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.

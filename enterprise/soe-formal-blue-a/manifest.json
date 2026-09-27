@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "soe-formal-blue-a",
   "display_name": {
     "zh": "国企政务蓝",
     "en": "SOE Formal Blue A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "soe",
-  "design_intent": [
-    "稳重政务蓝、清晰分区和正式信息层级的国企门户/业务系统风格。",
-    "正式、可靠、层级明确；标题、栏目、数据和流程都强调秩序感，避免互联网产品过度轻浮。"
-  ],
+  "layout_archetype": "formal-portal",
+  "visual_signature": "正式综合门户",
+  "core_motif": "深蓝顶栏 + 中央通知公报 + 两侧栏目矩阵",
+  "shape_language": "栏目标题条、规整双列、正式编号",
+  "motion_language": "栏目展开/公报切换",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,9 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

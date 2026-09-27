@@ -1,12 +1,12 @@
 # UI Generation Prompt — 极简线框
 
-设计一个可交付、完全品牌中立的工业软件界面，使用“极简线框”设计语言。以线框、留白和严格网格为核心的极简工程界面。
+Create a brand-neutral interface using **工程蓝图纸** as the dominant composition.
 
-视觉与交互要求：
-- 几乎无阴影，靠 1px 线框、对齐和留白建立层级；适合参数、测量与工程配置。
-- 保持真实工业软件的信息密度、状态体系和可操作控件。
-- 根据任务使用顶部上下文、导航/任务树、主工作区、属性/参数、状态/日志区域。
-- 表格、数值输入、阈值、状态、报警、趋势、ROI/图像叠加必须像真实工程工具。
-- 三秒内让用户知道位置、状态、重点、异常和下一步动作。
+Archetype: `blueprint-sheet`
+Core motif: 整页工程图纸 + 标尺 + 尺寸链 + 侧边注记
+Shape language: 无卡片、尺寸线、标尺、图纸标题栏
+Interaction language: 只让测量线和选中对象变化
 
-禁止任何公司名、Logo、商标、客户名、真实域名、真实账号；禁止模仿具体厂商专有界面。
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

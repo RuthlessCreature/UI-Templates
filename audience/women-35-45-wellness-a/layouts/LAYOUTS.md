@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 柔和健康
 
-Discover：首页主任务 + 推荐；Booking：服务 → 时间 → 确认；Membership：权益 → 状态 → 使用；Account：订单/家庭/隐私；Mobile：底部导航 + 单主任务。
+Primary archetype: **健康周环与习惯板** (`wellness-week`)
+
+周进度环 + 健康指标条 + 下次行动 + 习惯连续性
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 国企红金
 
-生成品牌中立的“国企红金”UI。克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。 红色只做主强调、标题和关键节点，金色只做细节辅助；禁止满屏红金和廉价庆典感。 正式、可靠、业务优先，禁止真实单位 Logo、特定机构克隆和空洞领导大屏。
+Use **庄重红金公报板** as the dominant composition.
+Archetype: `ceremonial-board`
+Core motif: 红色题头 + 细金分隔 + 公报主版 + 专题侧栏
+Shape language: 题头带、细金线、章标题
+Interaction language: 专题切换保持版式庄重
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

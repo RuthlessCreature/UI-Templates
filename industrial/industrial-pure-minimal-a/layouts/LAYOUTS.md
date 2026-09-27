@@ -1,14 +1,10 @@
 # Layout Recipes — 纯净极简
 
-## Engineering Workbench
-Context + Task Tree + Main Workspace + Properties + Status/Log。
-## Operational HMI
-State/Recipe/Connection → KPI → Current Result/Exception → Main actions。
-## Data / Quality
-Scope/Filter → KPI/Trend → Table/Traceability。
-## Navigator
-Search + Categories + compact object list/cards。
-## Mobile
-State → Alarm → KPI → task → primary action。
+Primary archetype: **单任务静默画布** (`single-task-canvas`)
 
-Style: 减少常驻边框和辅助信息，通过留白、排版、分组建立层级；仅适合任务较聚焦页面，不拿极简掩盖复杂工程信息。
+一块大画布 + 一个结果块 + 一个下一步块
+
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
+
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.

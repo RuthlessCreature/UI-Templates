@@ -1,14 +1,10 @@
 # Layout Recipes — 轻科技玻璃
 
-## Engineering Workbench
-Context + Task Tree + Main Workspace + Properties + Status/Log。
-## Operational HMI
-State/Recipe/Connection → KPI → Current Result/Exception → Main actions。
-## Data / Quality
-Scope/Filter → KPI/Trend → Table/Traceability。
-## Navigator
-Search + Categories + compact object list/cards。
-## Mobile
-State → Alarm → KPI → task → primary action。
+Primary archetype: **光学镜片甲板** (`lens-deck`)
 
-Style: 允许轻透明、柔和模糊与层叠，但必须保持输入框、表格、报警和边界清楚，不做消费级梦幻玻璃。
+中心透镜视窗 + 玻璃浮层 + 半透明参数胶囊
+
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
+
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.

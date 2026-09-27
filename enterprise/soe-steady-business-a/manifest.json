@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "soe-steady-business-a",
   "display_name": {
     "zh": "国企稳健商务",
     "en": "SOE Steady Business A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "soe",
-  "design_intent": [
-    "深蓝灰、商务表格与稳健布局构成的企业经营管理风格。",
-    "适合经营管理、项目、采购、资产和办公系统；表格、审批和状态优先，视觉不抢业务内容。"
-  ],
+  "layout_archetype": "approval-operations",
+  "visual_signature": "审批经营操作台",
+  "core_motif": "左待办队列 + 中央经营表格 + 右审批时间轴",
+  "shape_language": "表格优先、审批节点、状态 tag",
+  "motion_language": "审批节点逐步推进",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,9 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

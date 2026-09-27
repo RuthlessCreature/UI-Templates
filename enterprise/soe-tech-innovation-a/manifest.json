@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "soe-tech-innovation-a",
   "display_name": {
     "zh": "国企科技创新",
     "en": "SOE Tech Innovation A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "soe",
-  "design_intent": [
-    "蓝青科技感与正式企业结构融合的创新平台风格。",
-    "比传统国企系统更现代，但仍保持正式、克制和可信；适合科创平台、研发管理和数字化项目。"
-  ],
+  "layout_archetype": "innovation-pipeline",
+  "visual_signature": "科创项目管线",
+  "core_motif": "研发阶段 gate + 项目泳道 + 成果里程碑 + 专利/课题卡",
+  "shape_language": "泳道、阶段 gate、里程碑菱形",
+  "motion_language": "项目沿阶段管线推进",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,9 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

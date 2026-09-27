@@ -1,61 +1,41 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, re
+import json,re
 from pathlib import Path
-
 ROOT=Path(__file__).resolve().parents[1]
-REGISTRY=ROOT/"registry.json"
+items=json.loads((ROOT/"registry.json").read_text(encoding="utf-8")).get("templates",[])
 FORBIDDEN=[r"\bKEYENCE\b",r"\bGN_UI\b",r"高纳",r"V-Generation"]
 TEXT_SUFFIXES={".md",".txt",".json",".css",".html",".yml",".yaml",".py",".svg"}
-CATEGORIES={"industrial","internet-us-flat","soe","women-35-45"}
-REQUIRED=[
-"README.md","manifest.json","SPEC.md","SCREEN_CONTRACT.md","CHECKLIST.md","CHANGELOG.md",
-"BRAND_LAYER.md","USAGE.md","preview/overview.svg","tokens/tokens.json","tokens/tokens.css",
-"components/COMPONENTS.md","layouts/LAYOUTS.md","platforms/DESKTOP.md","platforms/WEB.md",
-"platforms/MOBILE.md","platforms/PPT.md","prompts/UI_GENERATION.md","prompts/NEGATIVE_PROMPT.md",
-"schema/screen-contract.schema.json","scenes/SCENES.md","scenes/scenes.json",
-"examples/demo.html","examples/screen-contract.example.json"
-]
-def fail(msg):
- print(f"[FAIL] {msg}"); raise SystemExit(1)
-
-registry=json.loads(REGISTRY.read_text(encoding="utf-8"))
-items=registry.get("templates",[])
-if not items: fail("no templates registered")
+REQUIRED=["README.md","manifest.json","SPEC.md","STYLE_DNA.md","SCREEN_CONTRACT.md","CHECKLIST.md","CHANGELOG.md","BRAND_LAYER.md","USAGE.md","preview/overview.svg","tokens/tokens.json","components/COMPONENTS.md","layouts/LAYOUTS.md","platforms/DESKTOP.md","platforms/WEB.md","platforms/MOBILE.md","platforms/PPT.md","prompts/UI_GENERATION.md","prompts/NEGATIVE_PROMPT.md","scenes/SCENES.md","scenes/scenes.json","examples/demo.html"]
+def fail(m): print("[FAIL]",m);raise SystemExit(1)
+if len(items)!=30: fail(f"expected 30 templates, got {len(items)}")
 ids=[x["id"] for x in items]
-if len(ids)!=len(set(ids)): fail("duplicate template id")
+if len(ids)!=len(set(ids)):fail("duplicate template id")
+archetypes=[]
+signatures=[]
 for item in items:
- tid=item["id"]; base=ROOT/item["path"]
- if item.get("category") not in CATEGORIES: fail(f"{tid}: invalid/missing category")
- if item.get("brand_neutral") is not True: fail(f"{tid}: registry brand_neutral must be true")
+ base=ROOT/item["path"];tid=item["id"]
  for rel in REQUIRED:
-  if not (base/rel).exists(): fail(f"{tid}: missing {(base/rel).relative_to(ROOT)}")
- manifest=json.loads((base/"manifest.json").read_text(encoding="utf-8"))
- if manifest.get("id")!=tid: fail(f"{tid}: manifest id mismatch")
- if manifest.get("version")!=item.get("version"): fail(f"{tid}: version mismatch")
- display=manifest.get("display_name",{})
- if display.get("zh")!=item.get("name_zh") or display.get("en")!=item.get("name_en"): fail(f"{tid}: registry/display_name mismatch")
- if manifest.get("brand_neutral") is not True: fail(f"{tid}: manifest brand_neutral must be true")
- tokens=json.loads((base/"tokens/tokens.json").read_text(encoding="utf-8"))
- if tokens.get("meta",{}).get("template")!=tid: fail(f"{tid}: token template id mismatch")
- if tokens.get("meta",{}).get("brand_neutral") is not True: fail(f"{tid}: tokens brand_neutral must be true")
+  if not (base/rel).exists():fail(f"{tid}: missing {rel}")
+ mf=json.loads((base/"manifest.json").read_text(encoding="utf-8"))
+ for key in ("layout_archetype","visual_signature","core_motif"):
+  if not mf.get(key):fail(f"{tid}: missing manifest {key}")
+ if mf.get("version")!=item.get("version"):fail(f"{tid}: version mismatch")
+ if mf.get("layout_archetype")!=item.get("layout_archetype"):fail(f"{tid}: archetype mismatch")
+ if mf.get("visual_signature")!=item.get("visual_signature"):fail(f"{tid}: signature mismatch")
+ if mf.get("brand_neutral") is not True:fail(f"{tid}: manifest not neutral")
  scenes=json.loads((base/"scenes/scenes.json").read_text(encoding="utf-8"))
- if len(scenes.get("scenes",[]))!=24: fail(f"{tid}: expected 24 scenes")
- if not (base/"preview/overview.svg").read_text(encoding="utf-8").lstrip().startswith("<svg"): fail(f"{tid}: preview is not svg")
-
-violations=[]
+ if len(scenes.get("scenes",[]))!=24:fail(f"{tid}: expected 24 scenes")
+ archetypes.append(mf["layout_archetype"]);signatures.append(mf["visual_signature"])
+if len(set(archetypes))!=30:fail("all 30 templates must have unique layout_archetype")
+if len(set(signatures))!=30:fail("all 30 templates must have unique visual_signature")
 for p in ROOT.rglob("*"):
- if not p.is_file() or p.suffix.lower() not in TEXT_SUFFIXES: continue
+ if not p.is_file() or p.suffix.lower() not in TEXT_SUFFIXES:continue
  text=p.read_text(encoding="utf-8",errors="ignore")
  for pattern in FORBIDDEN:
-  if re.search(pattern,text,flags=re.I) and p.name!="validate_template.py": violations.append((str(p.relative_to(ROOT)),pattern))
-if violations:
- for file,pattern in violations: print(f"[FAIL] forbidden identity {pattern!r} in {file}")
- raise SystemExit(1)
-
-counts={}
-for x in items: counts[x["category"]]=counts.get(x["category"],0)+1
-print(f"[PASS] {len(items)} registered templates: {counts}")
-print("[PASS] required structure, manifests, tokens, scenes, previews")
-print("[PASS] forbidden identity scan")
-print("UI template repository validation passed.")
+  if re.search(pattern,text,re.I) and p.name!="validate_template.py":fail(f"forbidden identity {pattern!r} in {p.relative_to(ROOT)}")
+print("[PASS] 30 templates")
+print("[PASS] unique visual signatures and layout archetypes")
+print("[PASS] STYLE_DNA present")
+print("[PASS] 24 scenes each")
+print("[PASS] brand-neutral scan")

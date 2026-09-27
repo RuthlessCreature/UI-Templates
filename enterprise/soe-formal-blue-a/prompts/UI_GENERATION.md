@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 国企政务蓝
 
-生成品牌中立的“国企政务蓝”UI。稳重政务蓝、清晰分区和正式信息层级的国企门户/业务系统风格。 正式、可靠、层级明确；标题、栏目、数据和流程都强调秩序感，避免互联网产品过度轻浮。 正式、可靠、业务优先，禁止真实单位 Logo、特定机构克隆和空洞领导大屏。
+Use **正式综合门户** as the dominant composition.
+Archetype: `formal-portal`
+Core motif: 深蓝顶栏 + 中央通知公报 + 两侧栏目矩阵
+Shape language: 栏目标题条、规整双列、正式编号
+Interaction language: 栏目展开/公报切换
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

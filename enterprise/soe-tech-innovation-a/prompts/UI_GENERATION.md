@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 国企科技创新
 
-生成品牌中立的“国企科技创新”UI。蓝青科技感与正式企业结构融合的创新平台风格。 比传统国企系统更现代，但仍保持正式、克制和可信；适合科创平台、研发管理和数字化项目。 正式、可靠、业务优先，禁止真实单位 Logo、特定机构克隆和空洞领导大屏。
+Use **科创项目管线** as the dominant composition.
+Archetype: `innovation-pipeline`
+Core motif: 研发阶段 gate + 项目泳道 + 成果里程碑 + 专利/课题卡
+Shape language: 泳道、阶段 gate、里程碑菱形
+Interaction language: 项目沿阶段管线推进
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

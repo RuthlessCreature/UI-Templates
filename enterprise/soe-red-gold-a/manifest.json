@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "soe-red-gold-a",
   "display_name": {
     "zh": "国企红金",
     "en": "SOE Red Gold A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "soe",
-  "design_intent": [
-    "克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。",
-    "红色只做主强调、标题和关键节点，金色只做细节辅助；禁止满屏红金和廉价庆典感。"
-  ],
+  "layout_archetype": "ceremonial-board",
+  "visual_signature": "庄重红金公报板",
+  "core_motif": "红色题头 + 细金分隔 + 公报主版 + 专题侧栏",
+  "shape_language": "题头带、细金线、章标题",
+  "motion_language": "专题切换保持版式庄重",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,9 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

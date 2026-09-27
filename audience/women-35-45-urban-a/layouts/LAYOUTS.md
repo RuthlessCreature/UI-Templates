@@ -1,3 +1,7 @@
-# Layouts
+# Layout Recipes — 都市轻熟
 
-Discover：首页主任务 + 推荐；Booking：服务 → 时间 → 确认；Membership：权益 → 状态 → 使用；Account：订单/家庭/隐私；Mobile：底部导航 + 单主任务。
+Primary archetype: **都市日程服务台** (`urban-agenda`)
+
+深色 masthead + 垂直时间轴 + 利落服务卡 + 莓红 CTA
+
+Preserve the distinctive composition. Do not collapse into generic card grids unless the task truly requires it. Mobile keeps one recognizable motif and the original task priority.

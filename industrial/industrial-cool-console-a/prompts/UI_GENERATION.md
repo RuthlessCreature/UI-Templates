@@ -1,5 +1,12 @@
 # UI Generation Prompt — 酷炫操作台
 
-设计完全品牌中立、可交付的工业软件 UI。高端蓝黑操作台、动态层次与强科技氛围结合的沉浸式工业控制界面。
-允许更强的层次、环形状态和设备舞台感，但主界面仍需真实可操作；酷炫只服务于状态与焦点。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **环形设备舞台** as the dominant composition.
+
+Archetype: `device-stage`
+Core motif: 中央设备舞台 + 三层运行环 + 两侧控制塔 + 底部 action deck
+Shape language: 椭圆舞台、环、塔、动作甲板
+Interaction language: 环形状态、设备聚焦、动作甲板展开
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

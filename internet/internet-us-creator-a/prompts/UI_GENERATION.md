@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 美式创意工作台
 
-生成“美式创意工作台”风格的品牌中立 Web 产品 UI。柔和中性色、彩色工具标签和模块化工作区的美式创作工具风格。 模块化但轻盈，工具状态和对象选中可用紫色/彩色标签；适合内容、设计、AI 创作、营销工作流。 强调真实产品结构、可访问性、清晰 CTA、完整状态，不得克隆真实品牌。
+Use **无限创作画布** as the dominant composition.
+Archetype: `infinite-creator-canvas`
+Core motif: 左工具轨 + 无限画布 + 右属性岛 + 浮动命令条
+Shape language: 画布对象、浮动岛、紫色选择框
+Interaction language: 对象自由移动/缩放/吸附
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

@@ -1,11 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "templates": [
     {
       "id": "industrial-clean-a",
       "name_zh": "工业简洁A",
       "name_en": "Industrial Clean A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "浅色、高信息密度、工程导向、状态清楚、操作直接。",
@@ -23,13 +23,16 @@
         "clean",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "精密测量轨道",
+      "layout_archetype": "precision-rail",
+      "core_motif": "窄工具轨 + 超宽检测画布 + 底部结果胶片带"
     },
     {
       "id": "industrial-dark-professional-a",
       "name_zh": "工业深色专业",
       "name_en": "Industrial Dark Professional A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深色石墨、低眩光、高密度、严肃克制。",
@@ -46,13 +49,16 @@
         "professional",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "深色停靠坞",
+      "layout_archetype": "dockyard",
+      "core_motif": "多坞口面板 + 命令行日志 + 可停靠属性区"
     },
     {
       "id": "industrial-future-blueblack-a",
       "name_zh": "未来蓝黑",
       "name_en": "Industrial Future Blue-Black A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "蓝黑未来感、精密线条、适度辉光与空间层次。",
@@ -69,13 +75,16 @@
         "blue-black",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "轨道式未来舱",
+      "layout_archetype": "orbital-hud",
+      "core_motif": "中央目标舱 + 环形轨道 + 四角悬浮 telemetry"
     },
     {
       "id": "industrial-wireframe-minimal-a",
       "name_zh": "极简线框",
       "name_en": "Industrial Wireframe Minimal A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "线框、留白和严格网格为核心的极简工程界面。",
@@ -92,13 +101,16 @@
         "minimal",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "工程蓝图纸",
+      "layout_archetype": "blueprint-sheet",
+      "core_motif": "整页工程图纸 + 标尺 + 尺寸链 + 侧边注记"
     },
     {
       "id": "industrial-cool-gray-a",
       "name_zh": "冷峻灰白",
       "name_en": "Industrial Cool Gray A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "冷灰白、低饱和、理性克制的企业级工业界面。",
@@ -115,13 +127,16 @@
         "enterprise",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "冷灰工艺带",
+      "layout_archetype": "process-ribbon",
+      "core_motif": "横向工序 ribbon + 纵向批次矩阵 + 单色状态点"
     },
     {
       "id": "industrial-data-hub-a",
       "name_zh": "数据中枢",
       "name_en": "Industrial Data Hub A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深色高密度、多指标、强趋势与异常聚焦的数据中枢。",
@@ -138,13 +153,16 @@
         "dashboard",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "遥测数据墙",
+      "layout_archetype": "telemetry-wall",
+      "core_motif": "顶部 ticker + 中央指标矩阵 + 异常瀑布 + station heatmap"
     },
     {
       "id": "industrial-glass-light-a",
       "name_zh": "轻科技玻璃",
       "name_en": "Industrial Light Glass A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "浅色半透明层次、柔和玻璃感与现代工程控件。",
@@ -161,13 +179,16 @@
         "modern",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "光学镜片甲板",
+      "layout_archetype": "lens-deck",
+      "core_motif": "中心透镜视窗 + 玻璃浮层 + 半透明参数胶囊"
     },
     {
       "id": "industrial-modular-a",
       "name_zh": "模块拼接",
       "name_en": "Industrial Modular A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "组件化卡片、清晰模块边界与强分区节奏。",
@@ -184,13 +205,16 @@
         "cards",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "工业 Bento 拼装墙",
+      "layout_archetype": "industrial-bento",
+      "core_motif": "不等宽 bento 模块 + 设备块 + 控制块 + 质量块"
     },
     {
       "id": "industrial-black-yellow-safety-a",
       "name_zh": "高对比黑黄",
       "name_en": "Industrial Black Yellow Safety A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "黑底黄强调、强异常识别与安全语义。",
@@ -207,13 +231,16 @@
         "high-contrast",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "安全警戒舱",
+      "layout_archetype": "hazard-bay",
+      "core_motif": "斜纹 hazard rail + 大型故障舱 + 明确安全联锁"
     },
     {
       "id": "industrial-blue-white-workbench-a",
       "name_zh": "蓝白工程台",
       "name_en": "Industrial Blue White Workbench A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "经典蓝白工程软件语法、稳定工具栏与高可预测结构。",
@@ -230,13 +257,16 @@
         "classic",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "经典工程 IDE",
+      "layout_archetype": "classic-ide",
+      "core_motif": "双层工具栏 + 左树 + 中编辑器 + 右属性 + 底部多标签"
     },
     {
       "id": "industrial-deep-space-monitoring-a",
       "name_zh": "深空监控",
       "name_en": "Industrial Deep Space Monitoring A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深空蓝黑、沉浸式监控与大范围状态感知。",
@@ -253,13 +283,16 @@
         "monitoring",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "雷达拓扑监控",
+      "layout_archetype": "radar-topology",
+      "core_motif": "中央雷达拓扑 + 左系统树 + 右事件流"
     },
     {
       "id": "industrial-metallic-a",
       "name_zh": "金属质感",
       "name_en": "Industrial Metallic A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "钢灰、金属层次与精密制造气质。",
@@ -276,13 +309,16 @@
         "steel",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "金属仪表机架",
+      "layout_archetype": "instrument-rack",
+      "core_motif": "垂直仪表条 + 大旋钮/环表 + 机柜分槽"
     },
     {
       "id": "industrial-ai-vision-lab-a",
       "name_zh": "AI视觉实验室",
       "name_en": "Industrial AI Vision Lab A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "机器视觉与工业 AI 分析，突出图像、热力图、模型与样本证据。",
@@ -299,13 +335,16 @@
         "machine-vision",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "AI 证据实验台",
+      "layout_archetype": "evidence-lab",
+      "core_motif": "左样本 filmstrip + 中央热力证据 + 右模型卡 + 底部类别分布"
     },
     {
       "id": "industrial-pure-minimal-a",
       "name_zh": "纯净极简",
       "name_en": "Industrial Pure Minimal A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "大量留白、极低视觉噪音与强任务聚焦。",
@@ -322,13 +361,16 @@
         "minimal",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "单任务静默画布",
+      "layout_archetype": "single-task-canvas",
+      "core_motif": "一块大画布 + 一个结果块 + 一个下一步块"
     },
     {
       "id": "industrial-cool-console-a",
       "name_zh": "酷炫操作台",
       "name_en": "Industrial Cool Console A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "industrial",
       "positioning": "高端蓝黑操作台、动态层次与强科技氛围。",
@@ -345,13 +387,16 @@
         "high-tech",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "环形设备舞台",
+      "layout_archetype": "device-stage",
+      "core_motif": "中央设备舞台 + 三层运行环 + 两侧控制塔 + 底部 action deck"
     },
     {
       "id": "internet-us-saas-clean-a",
       "name_zh": "美式SaaS清爽",
       "name_en": "US SaaS Clean A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "清爽白底、强层级、轻边框和高转化动作的美式 SaaS 扁平风格.",
@@ -369,13 +414,16 @@
         "flat",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "SaaS 命令中心",
+      "layout_archetype": "saas-command-center",
+      "core_motif": "左侧产品导航 + 宽 KPI 甲板 + 趋势/活动双区"
     },
     {
       "id": "internet-us-editorial-a",
       "name_zh": "美式编辑部",
       "name_en": "US Editorial Product A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "大标题、强排版、杂志式信息节奏与产品界面结合的美式编辑风格。",
@@ -393,13 +441,16 @@
         "typography",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "杂志式产品版",
+      "layout_archetype": "editorial-spread",
+      "core_motif": "超大标题 + 不对称双栏 + 内容流胜过卡片"
     },
     {
       "id": "internet-us-bold-flat-a",
       "name_zh": "美式高对比扁平",
       "name_en": "US Bold Flat A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "高对比色块、粗体排版和直接操作的美式产品化扁平风格。",
@@ -417,13 +468,16 @@
         "flat",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "美式粗暴块面",
+      "layout_archetype": "neo-brutal-blocks",
+      "core_motif": "2px 黑边 + 巨型数字 + 橙红动作砖块"
     },
     {
       "id": "internet-us-fintech-a",
       "name_zh": "美式金融科技",
       "name_en": "US Fintech Flat A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "冷静深蓝、精确数字与可信赖信息层级的美式 FinTech 扁平风格。",
@@ -441,13 +495,16 @@
         "data",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "资产账本工作台",
+      "layout_archetype": "financial-ledger",
+      "core_motif": "净资产主数字 + 资产分布条 + 交易账本 + 现金流 waterfall"
     },
     {
       "id": "internet-us-creator-a",
       "name_zh": "美式创意工作台",
       "name_en": "US Creator Workspace A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "柔和中性色、彩色工具标签和模块化工作区的美式创作工具风格。",
@@ -465,13 +522,16 @@
         "workspace",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "无限创作画布",
+      "layout_archetype": "infinite-creator-canvas",
+      "core_motif": "左工具轨 + 无限画布 + 右属性岛 + 浮动命令条"
     },
     {
       "id": "soe-formal-blue-a",
       "name_zh": "国企政务蓝",
       "name_en": "SOE Formal Blue A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "soe",
       "positioning": "稳重政务蓝、清晰分区和正式信息层级的国企门户/业务系统风格。",
@@ -488,13 +548,16 @@
         "blue",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "正式综合门户",
+      "layout_archetype": "formal-portal",
+      "core_motif": "深蓝顶栏 + 中央通知公报 + 两侧栏目矩阵"
     },
     {
       "id": "soe-red-gold-a",
       "name_zh": "国企红金",
       "name_en": "SOE Red Gold A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "soe",
       "positioning": "克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。",
@@ -512,13 +575,16 @@
         "formal",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "庄重红金公报板",
+      "layout_archetype": "ceremonial-board",
+      "core_motif": "红色题头 + 细金分隔 + 公报主版 + 专题侧栏"
     },
     {
       "id": "soe-steady-business-a",
       "name_zh": "国企稳健商务",
       "name_en": "SOE Steady Business A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "soe",
       "positioning": "深蓝灰、商务表格与稳健布局构成的企业经营管理风格。",
@@ -535,13 +601,16 @@
         "steady",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "审批经营操作台",
+      "layout_archetype": "approval-operations",
+      "core_motif": "左待办队列 + 中央经营表格 + 右审批时间轴"
     },
     {
       "id": "soe-data-command-a",
       "name_zh": "国企数据驾驶舱",
       "name_en": "SOE Data Command A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "soe",
       "positioning": "深蓝数据驾驶舱、宏观指标、地图与趋势结合的经营监控风格。",
@@ -559,13 +628,16 @@
         "dashboard",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "经营态势驾驶舱",
+      "layout_archetype": "executive-command",
+      "core_motif": "中央区域态势图 + 左右指标塔 + 底部经营趋势"
     },
     {
       "id": "soe-tech-innovation-a",
       "name_zh": "国企科技创新",
       "name_en": "SOE Tech Innovation A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "soe",
       "positioning": "蓝青科技感与正式企业结构融合的创新平台风格。",
@@ -582,13 +654,16 @@
         "innovation",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "科创项目管线",
+      "layout_archetype": "innovation-pipeline",
+      "core_motif": "研发阶段 gate + 项目泳道 + 成果里程碑 + 专利/课题卡"
     },
     {
       "id": "women-35-45-elegant-warm-a",
       "name_zh": "雅致暖白",
       "name_en": "Elegant Warm A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "暖白、细腻中性色和高可读排版构成的成熟雅致消费服务界面。",
@@ -606,13 +681,16 @@
         "lifestyle",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "暖白礼宾杂志页",
+      "layout_archetype": "concierge-editorial",
+      "core_motif": "大封面留白 + 预约推荐 + 服务精选像编辑稿"
     },
     {
       "id": "women-35-45-urban-a",
       "name_zh": "都市轻熟",
       "name_en": "Urban Mature A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "都市灰米、莓红点缀和利落信息结构结合的现代轻熟风格。",
@@ -630,13 +708,16 @@
         "service",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "都市日程服务台",
+      "layout_archetype": "urban-agenda",
+      "core_motif": "深色 masthead + 垂直时间轴 + 利落服务卡 + 莓红 CTA"
     },
     {
       "id": "women-35-45-natural-a",
       "name_zh": "自然生活",
       "name_en": "Natural Living A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "鼠尾草绿、燕麦米与自然留白构成的平静生活方式界面。",
@@ -653,13 +734,16 @@
         "wellbeing",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "自然日常计划板",
+      "layout_archetype": "organic-routine",
+      "core_motif": "习惯圆环 + 松散日程块 + 自然比例留白"
     },
     {
       "id": "women-35-45-soft-luxury-a",
       "name_zh": "低奢柔金",
       "name_en": "Soft Luxury A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "奶油白、深咖与克制香槟金构成的低调品质感界面。",
@@ -676,13 +760,16 @@
         "soft-luxury",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "低奢会员礼宾台",
+      "layout_archetype": "premium-concierge",
+      "core_motif": "会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选"
     },
     {
       "id": "women-35-45-wellness-a",
       "name_zh": "柔和健康",
       "name_en": "Calm Wellness A",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "柔灰蓝、暖米白和清楚健康状态构成的可信生活健康风格。",
@@ -700,7 +787,10 @@
         "trust",
         "brand-neutral"
       ],
-      "brand_neutral": true
+      "brand_neutral": true,
+      "visual_signature": "健康周环与习惯板",
+      "layout_archetype": "wellness-week",
+      "core_motif": "周进度环 + 健康指标条 + 下次行动 + 习惯连续性"
     }
   ]
 }

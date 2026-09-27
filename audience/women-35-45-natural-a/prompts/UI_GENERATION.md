@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 自然生活
 
-生成品牌中立的“自然生活”生活/服务类 UI。鼠尾草绿、燕麦米与自然留白构成的平静生活方式界面。 自然、平静、耐看；使用柔和绿色和材质感留白，但不做手账/森系幼态，适合健康生活、家居、旅行和社区服务。 目标用户可包含 35–45 岁女性，但不要幼态化、粉色化或套用性别刻板印象；优先信任、阅读舒适、效率和品质感。
+Use **自然日常计划板** as the dominant composition.
+Archetype: `organic-routine`
+Core motif: 习惯圆环 + 松散日程块 + 自然比例留白
+Shape language: 圆环、柔角、呼吸留白、淡绿色层次
+Interaction language: 进度环缓慢推进
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

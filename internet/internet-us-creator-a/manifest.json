@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "internet-us-creator-a",
   "display_name": {
     "zh": "美式创意工作台",
     "en": "US Creator Workspace A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "internet-us-flat",
-  "design_intent": [
-    "柔和中性色、彩色工具标签和模块化工作区的美式创作工具风格。",
-    "模块化但轻盈，工具状态和对象选中可用紫色/彩色标签；适合内容、设计、AI 创作、营销工作流。"
-  ],
+  "layout_archetype": "infinite-creator-canvas",
+  "visual_signature": "无限创作画布",
+  "core_motif": "左工具轨 + 无限画布 + 右属性岛 + 浮动命令条",
+  "shape_language": "画布对象、浮动岛、紫色选择框",
+  "motion_language": "对象自由移动/缩放/吸附",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,16 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "what_matters",
-    "what_can_i_do",
-    "is_anything_wrong",
-    "what_happens_next"
-  ]
+  }
 }

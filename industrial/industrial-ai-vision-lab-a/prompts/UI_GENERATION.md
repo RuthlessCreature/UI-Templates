@@ -1,5 +1,12 @@
 # UI Generation Prompt — AI视觉实验室
 
-设计完全品牌中立、可交付的工业软件 UI。面向机器视觉与工业 AI 分析的实验室风格，突出图像、热力图、模型与样本证据。
-中央证据区优先：原图、结果图、热力图、置信度和样本对比；AI 结论必须和可视证据并列。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **AI 证据实验台** as the dominant composition.
+
+Archetype: `evidence-lab`
+Core motif: 左样本 filmstrip + 中央热力证据 + 右模型卡 + 底部类别分布
+Shape language: filmstrip、heatmap、置信条、证据对照
+Interaction language: 样本切换驱动热力/置信度同步
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-future-blueblack-a",
   "display_name": {
     "zh": "未来蓝黑",
     "en": "Industrial Future Blue-Black A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "蓝黑未来感、精密线条、适度辉光与空间层次的高端工业界面。",
-    "可使用细描边、微辉光和深度分层，但不可做成电影 HUD 或牺牲可读性。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "orbital-hud",
+  "visual_signature": "轨道式未来舱",
+  "core_motif": "中央目标舱 + 环形轨道 + 四角悬浮 telemetry",
+  "shape_language": "圆环、细弧、悬浮框、十字准线",
+  "motion_language": "状态围绕对象旋转/锁定",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

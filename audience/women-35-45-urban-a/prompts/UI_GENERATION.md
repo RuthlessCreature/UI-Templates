@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 都市轻熟
 
-生成品牌中立的“都市轻熟”生活/服务类 UI。都市灰米、莓红点缀和利落信息结构结合的现代轻熟风格。 更利落、更都市，不用甜腻装饰；莓红只用于选择和关键动作，正文保持中性，适合预约、消费、职业成长和会员服务。 目标用户可包含 35–45 岁女性，但不要幼态化、粉色化或套用性别刻板印象；优先信任、阅读舒适、效率和品质感。
+Use **都市日程服务台** as the dominant composition.
+Archetype: `urban-agenda`
+Core motif: 深色 masthead + 垂直时间轴 + 利落服务卡 + 莓红 CTA
+Shape language: 时间线、短卡、窄边、深浅对比
+Interaction language: 日程按时间轴滑动
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

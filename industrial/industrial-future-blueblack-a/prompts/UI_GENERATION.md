@@ -1,12 +1,12 @@
 # UI Generation Prompt — 未来蓝黑
 
-设计一个可交付、完全品牌中立的工业软件界面，使用“未来蓝黑”设计语言。蓝黑未来感、精密线条、适度辉光与空间层次的高端工业界面。
+Create a brand-neutral interface using **轨道式未来舱** as the dominant composition.
 
-视觉与交互要求：
-- 可使用细描边、微辉光和深度分层，但不可做成电影 HUD 或牺牲可读性。
-- 保持真实工业软件的信息密度、状态体系和可操作控件。
-- 根据任务使用顶部上下文、导航/任务树、主工作区、属性/参数、状态/日志区域。
-- 表格、数值输入、阈值、状态、报警、趋势、ROI/图像叠加必须像真实工程工具。
-- 三秒内让用户知道位置、状态、重点、异常和下一步动作。
+Archetype: `orbital-hud`
+Core motif: 中央目标舱 + 环形轨道 + 四角悬浮 telemetry
+Shape language: 圆环、细弧、悬浮框、十字准线
+Interaction language: 状态围绕对象旋转/锁定
 
-禁止任何公司名、Logo、商标、客户名、真实域名、真实账号；禁止模仿具体厂商专有界面。
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

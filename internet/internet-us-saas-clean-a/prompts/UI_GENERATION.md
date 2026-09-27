@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 美式SaaS清爽
 
-生成“美式SaaS清爽”风格的品牌中立 Web 产品 UI。清爽白底、强层级、轻边框和高转化动作的美式 SaaS 扁平风格。 大量使用清晰标题、简洁卡片和蓝色主 CTA；边框轻、阴影克制，视觉像成熟美式 B2B SaaS，而不是花哨营销页。 强调真实产品结构、可访问性、清晰 CTA、完整状态，不得克隆真实品牌。
+Use **SaaS 命令中心** as the dominant composition.
+Archetype: `saas-command-center`
+Core motif: 左侧产品导航 + 宽 KPI 甲板 + 趋势/活动双区
+Shape language: 轻边框、宽卡、长条操作区
+Interaction language: 命令面板和详情抽屉
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

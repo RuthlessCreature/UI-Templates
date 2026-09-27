@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 柔和健康
 
-生成品牌中立的“柔和健康”生活/服务类 UI。柔灰蓝、暖米白和清楚健康状态构成的可信生活健康风格。 强调安心、可理解和行动建议，避免医疗恐吓和粉嫩美容院视觉；适合健康管理、运动、营养、预约和长期服务关系。 目标用户可包含 35–45 岁女性，但不要幼态化、粉色化或套用性别刻板印象；优先信任、阅读舒适、效率和品质感。
+Use **健康周环与习惯板** as the dominant composition.
+Archetype: `wellness-week`
+Core motif: 周进度环 + 健康指标条 + 下次行动 + 习惯连续性
+Shape language: 周环、横向指标、柔和卡片
+Interaction language: 周环与习惯连续天数同步
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

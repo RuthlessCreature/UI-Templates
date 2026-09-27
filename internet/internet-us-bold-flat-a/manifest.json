@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "internet-us-bold-flat-a",
   "display_name": {
     "zh": "美式高对比扁平",
     "en": "US Bold Flat A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "internet-us-flat",
-  "design_intent": [
-    "高对比色块、粗体排版和直接操作的美式产品化扁平风格。",
-    "色块明确、边界硬朗、按钮直接；允许橙红等强强调，但页面必须保持可扫描，适合增长、运营和高行动密度产品。"
-  ],
+  "layout_archetype": "neo-brutal-blocks",
+  "visual_signature": "美式粗暴块面",
+  "core_motif": "2px 黑边 + 巨型数字 + 橙红动作砖块",
+  "shape_language": "硬边、无阴影、粗标题、矩形按钮",
+  "motion_language": "块面直接替换/推入",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
@@ -20,16 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "what_matters",
-    "what_can_i_do",
-    "is_anything_wrong",
-    "what_happens_next"
-  ]
+  }
 }

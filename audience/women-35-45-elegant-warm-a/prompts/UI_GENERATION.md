@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 雅致暖白
 
-生成品牌中立的“雅致暖白”生活/服务类 UI。暖白、细腻中性色和高可读排版构成的成熟雅致消费服务界面。 强调从容、可信、品质感和阅读舒适，不幼态、不少女粉化；适合生活服务、会员、零售、旅行和家庭管理。 目标用户可包含 35–45 岁女性，但不要幼态化、粉色化或套用性别刻板印象；优先信任、阅读舒适、效率和品质感。
+Use **暖白礼宾杂志页** as the dominant composition.
+Archetype: `concierge-editorial`
+Core motif: 大封面留白 + 预约推荐 + 服务精选像编辑稿
+Shape language: 暖白、柔矩形、长标题、细分隔
+Interaction language: 内容像编辑精选展开
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

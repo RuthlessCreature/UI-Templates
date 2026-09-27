@@ -1,16 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "industrial-black-yellow-safety-a",
   "display_name": {
     "zh": "高对比黑黄",
     "en": "Industrial Black Yellow Safety A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
-  "design_intent": [
-    "黑底黄强调、强异常识别与安全语义的高对比工业界面。",
-    "黄色主要用于选择、警戒和关键操作；红色只给严重故障/危险。强对比但不能让全屏都像报警。"
-  ],
+  "category": "industrial",
+  "layout_archetype": "hazard-bay",
+  "visual_signature": "安全警戒舱",
+  "core_motif": "斜纹 hazard rail + 大型故障舱 + 明确安全联锁",
+  "shape_language": "黑黄斜纹、粗边、警戒框",
+  "motion_language": "异常时边框/警戒带替代普通 toast",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
@@ -19,26 +21,10 @@
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
-  },
-  "required_screen_questions": [
-    "where_am_i",
-    "current_state",
-    "what_matters",
-    "is_anything_wrong",
-    "next_action"
-  ],
-  "forbidden_base_identity": [
-    "company_name",
-    "logo",
-    "trademark",
-    "customer_name",
-    "real_domain",
-    "real_email",
-    "real_phone",
-    "vendor_specific_style_reference"
-  ]
+  }
 }

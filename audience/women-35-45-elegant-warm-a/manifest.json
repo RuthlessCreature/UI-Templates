@@ -1,29 +1,30 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "women-35-45-elegant-warm-a",
   "display_name": {
     "zh": "雅致暖白",
     "en": "Elegant Warm A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "women-35-45",
-  "audience": "35-45 women",
-  "design_intent": [
-    "暖白、细腻中性色和高可读排版构成的成熟雅致消费服务界面。",
-    "强调从容、可信、品质感和阅读舒适，不幼态、不少女粉化；适合生活服务、会员、零售、旅行和家庭管理。"
-  ],
+  "layout_archetype": "concierge-editorial",
+  "visual_signature": "暖白礼宾杂志页",
+  "core_motif": "大封面留白 + 预约推荐 + 服务精选像编辑稿",
+  "shape_language": "暖白、柔矩形、长标题、细分隔",
+  "motion_language": "内容像编辑精选展开",
   "platforms": {
     "web": "primary",
-    "mobile": "primary",
     "desktop": "supported",
+    "mobile": "adapted",
     "ppt": "supported"
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

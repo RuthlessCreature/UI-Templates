@@ -1,5 +1,12 @@
 # UI Generation Prompt — 模块拼接
 
-设计完全品牌中立、可交付的工业软件 UI。组件化卡片、清晰模块边界与强分区节奏的工业工作台。
-用模块卡片与清晰容器表达功能边界，适合多工位、多设备和多工具组合，不允许卡片泛滥。
-必须真实可操作，包含任务需要的表格、参数、报警、状态、趋势、图像/ROI 等；三秒内明确位置、状态、重点、异常和下一步动作。禁止公司名、Logo、商标、客户、真实域名账号、具体厂商模仿。
+Create a brand-neutral interface using **工业 Bento 拼装墙** as the dominant composition.
+
+Archetype: `industrial-bento`
+Core motif: 不等宽 bento 模块 + 设备块 + 控制块 + 质量块
+Shape language: 1×1 / 2×1 / 2×2 模块拼装
+Interaction language: 模块可重排、展开、占满
+
+The result must be recognizable even in grayscale. Do not default to generic sidebar + KPI cards + right properties. Keep industrial usability, state clarity, error handling, and real controls.
+
+No company names, logos, trademarks, real domains, customer names, or vendor cloning.

@@ -1,3 +1,9 @@
-# Prompt
+# UI Generation Prompt — 低奢柔金
 
-生成品牌中立的“低奢柔金”生活/服务类 UI。奶油白、深咖与克制香槟金构成的低调品质感界面。 品质感来自排版、留白和克制金色，不使用满屏金、黑金会所感或奢侈品仿牌；适合高客单服务、会员、旅行、家居和精品零售。 目标用户可包含 35–45 岁女性，但不要幼态化、粉色化或套用性别刻板印象；优先信任、阅读舒适、效率和品质感。
+Use **低奢会员礼宾台** as the dominant composition.
+Archetype: `premium-concierge`
+Core motif: 会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选
+Shape language: 细金线、深咖字、非对称高级留白
+Interaction language: 礼宾动作从中心身份卡展开
+
+The result must still be identifiable in grayscale. Avoid generic SaaS dashboard composition unless explicitly required. Remain brand-neutral.

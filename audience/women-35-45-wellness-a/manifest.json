@@ -1,29 +1,30 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "women-35-45-wellness-a",
   "display_name": {
     "zh": "柔和健康",
     "en": "Calm Wellness A"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "brand_neutral": true,
   "category": "women-35-45",
-  "audience": "35-45 women",
-  "design_intent": [
-    "柔灰蓝、暖米白和清楚健康状态构成的可信生活健康风格。",
-    "强调安心、可理解和行动建议，避免医疗恐吓和粉嫩美容院视觉；适合健康管理、运动、营养、预约和长期服务关系。"
-  ],
+  "layout_archetype": "wellness-week",
+  "visual_signature": "健康周环与习惯板",
+  "core_motif": "周进度环 + 健康指标条 + 下次行动 + 习惯连续性",
+  "shape_language": "周环、横向指标、柔和卡片",
+  "motion_language": "周环与习惯连续天数同步",
   "platforms": {
     "web": "primary",
-    "mobile": "primary",
     "desktop": "supported",
+    "mobile": "adapted",
     "ppt": "supported"
   },
   "canonical_files": {
     "spec": "SPEC.md",
+    "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
-    "scenes": "scenes/SCENES.md",
+    "layouts": "layouts/LAYOUTS.md",
     "prompt": "prompts/UI_GENERATION.md"
   }
 }

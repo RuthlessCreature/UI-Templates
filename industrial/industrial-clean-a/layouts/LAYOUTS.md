@@ -1,99 +1,10 @@
-# Layout Recipes — Industrial Clean A
+# Layout Recipes — 工业简洁A
 
-The template uses task-driven layout recipes rather than one universal screen.
+Primary archetype: **精密测量轨道** (`precision-rail`)
 
-## L1 — Engineering Workbench
+窄工具轨 + 超宽检测画布 + 底部结果胶片带
 
-Use for inspection configuration, calibration, parameter tuning, simulation, and debugging.
+Distinctive structure is mandatory. Generic three-column dashboard composition is only allowed when the actual task explicitly requires it and must still preserve the template's shape language.
 
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│ Context / Product / Module / Object / State                         │
-├───────────────┬───────────────────────────────┬──────────────────────┤
-│ Navigation /  │                               │ Properties /         │
-│ Task Tree     │       Main Workspace          │ Parameters           │
-│ 220–280 px    │                               │ 300–360 px           │
-│               │                               │                      │
-├───────────────┴───────────────────────────────┴──────────────────────┤
-│ Status / Log / Connection Summary                                  │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-Primary task examples: configure a camera, tune an inspection tool, calibrate a robot.
-
-## L2 — Operational HMI
-
-Use for production running, station operation, alarms, and shift monitoring.
-
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│ Station / Recipe / State / Connectivity                             │
-├──────────────────────────────────────────────────────────────────────┤
-│ KPI       KPI       KPI       KPI       Alarm                       │
-├────────────────────────────────┬─────────────────────────────────────┤
-│ Current Result / Process       │ Context / Recent Exception         │
-│                                │                                     │
-├────────────────────────────────┴─────────────────────────────────────┤
-│ Primary operation actions                                             │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-Rules:
-- Current state and active alarm are always visible.
-- Start/Stop/Reset/Clear are visually separated according to risk.
-- Do not force the operator to read engineering logs during normal running.
-
-## L3 — Data / Quality Analysis
-
-Use for yield, history, traceability, audit, reports.
-
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│ Page / Scope / Time Range / Filters / Export                        │
-├──────────────────────────────────────────────────────────────────────┤
-│ Summary KPI                 Trend / Distribution                    │
-├──────────────────────────────────────────────────────────────────────┤
-│ Primary Table / Traceability Results                                │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-Rules:
-- Filters describe the current data scope.
-- Summary values must agree with table filters.
-- Export inherits the same scope by default.
-
-## L4 — Catalog / Navigator
-
-Use for tool selection, recipe selection, configuration entry points.
-
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│ Page context + search                                               │
-├───────────────┬──────────────────────────────────────────────────────┤
-│ Categories    │ Cards / compact list of available objects           │
-│               │                                                      │
-└───────────────┴──────────────────────────────────────────────────────┘
-```
-
-Rules:
-- Group by user intent, not internal code module names.
-- Each item should state purpose before implementation detail.
-
-## L5 — Mobile Companion
-
-Use for status checking, alarms, acknowledgement, approvals, concise inspection results.
-
-```text
-┌───────────────────────┐
-│ Context + State       │
-├───────────────────────┤
-│ Critical KPI / Alarm  │
-├───────────────────────┤
-│ Primary task content  │
-├───────────────────────┤
-│ Primary action        │
-└───────────────────────┘
-```
-
-Never shrink L1 desktop workbench into a phone screen. Recompose the task.
+## Platform adaptation
+Desktop/Web preserve the spatial signature. Mobile preserves task priority and one recognizable motif rather than shrinking the full composition. PPT uses the motif as its layout grammar, not as a screenshot skin.
