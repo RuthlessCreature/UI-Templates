@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "industrial-ai-vision-lab-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-overview",
+      "name": "模型总览",
+      "kind": "overview",
+      "task": "全局查看模型、样本、质量与设备状态",
+      "path": "pages/01-overview.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-live-inspection",
+      "name": "实时检测",
+      "kind": "workspace",
+      "task": "查看原图、热力图、缺陷证据和实时判定",
+      "path": "pages/02-live-inspection.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-sample-library",
+      "name": "样本库",
+      "kind": "library",
+      "task": "筛选样本、标签、数据版本和覆盖度",
+      "path": "pages/03-sample-library.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-model-evidence",
+      "name": "模型证据",
+      "kind": "analysis",
+      "task": "对比类别置信度、热力区域和误检证据",
+      "path": "pages/04-model-evidence.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-training-run",
+      "name": "训练任务",
+      "kind": "process",
+      "task": "查看训练阶段、指标、资源和版本产物",
+      "path": "pages/05-training-run.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-defect-taxonomy",
+      "name": "缺陷分类树",
+      "kind": "taxonomy",
+      "task": "管理缺陷类别、严重等级和样本覆盖",
+      "path": "pages/06-defect-taxonomy.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-review-queue",
+      "name": "复判队列",
+      "kind": "review",
+      "task": "人工复核高风险或低置信样本",
+      "path": "pages/07-review-queue.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-traceability",
+      "name": "追溯查询",
+      "kind": "traceability",
+      "task": "按 SN/批次定位原图、结果与模型版本",
+      "path": "pages/08-traceability.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-device-health",
+      "name": "设备健康",
+      "kind": "monitoring",
+      "task": "监控相机、GPU、PLC 和数据链路",
+      "path": "pages/09-device-health.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-lab-settings",
+      "name": "实验室设置",
+      "kind": "settings",
+      "task": "管理模型阈值、数据策略和权限",
+      "path": "pages/10-lab-settings.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-alert",
+      "name": "移动异常",
+      "kind": "mobile",
+      "task": "移动端查看高风险异常并确认",
+      "path": "pages/11-mobile-alert.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-review",
+      "name": "移动复判",
+      "kind": "mobile-review",
+      "task": "移动端完成快速样本复判",
+      "path": "pages/12-mobile-review.html",
+      "device": "mobile"
+    }
+  ]
+}

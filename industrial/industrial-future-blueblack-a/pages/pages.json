@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "industrial-future-blueblack-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-orbital-overview",
+      "name": "轨道总览",
+      "kind": "overview",
+      "task": "全局查看对象、工位和运行轨道",
+      "path": "pages/01-orbital-overview.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-target-lock",
+      "name": "目标锁定",
+      "kind": "workspace",
+      "task": "锁定对象并观察定位、姿态与误差",
+      "path": "pages/02-target-lock.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-station-topology",
+      "name": "工位拓扑",
+      "kind": "topology",
+      "task": "查看多工位连接、负载和状态",
+      "path": "pages/03-station-topology.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-recipe-constellation",
+      "name": "配方星图",
+      "kind": "library",
+      "task": "以星图方式管理配方族与继承关系",
+      "path": "pages/04-recipe-constellation.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-alarm-orbit",
+      "name": "报警轨道",
+      "kind": "alarm",
+      "task": "按严重等级和来源查看异常轨道",
+      "path": "pages/05-alarm-orbit.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-device-network",
+      "name": "设备网络",
+      "kind": "topology",
+      "task": "查看设备网络、心跳和通讯质量",
+      "path": "pages/06-device-network.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-trend-observatory",
+      "name": "趋势观测站",
+      "kind": "analysis",
+      "task": "查看质量、节拍和状态长期趋势",
+      "path": "pages/07-trend-observatory.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-calibration-chamber",
+      "name": "标定舱",
+      "kind": "calibration",
+      "task": "完成相机、机器人和对象标定",
+      "path": "pages/08-calibration-chamber.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-sequence-orchestrator",
+      "name": "流程编排",
+      "kind": "workflow",
+      "task": "编排自动运行步骤和依赖条件",
+      "path": "pages/09-sequence-orchestrator.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-system-core",
+      "name": "系统核心",
+      "kind": "settings",
+      "task": "配置全局运行、权限和系统参数",
+      "path": "pages/10-system-core.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-status",
+      "name": "移动状态",
+      "kind": "mobile",
+      "task": "移动端查看核心运行状态",
+      "path": "pages/11-mobile-status.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-alarm",
+      "name": "移动报警",
+      "kind": "mobile-alarm",
+      "task": "移动端查看并处理异常",
+      "path": "pages/12-mobile-alarm.html",
+      "device": "mobile"
+    }
+  ]
+}

@@ -58,7 +58,7 @@
       "id": "industrial-future-blueblack-a",
       "name_zh": "未来蓝黑",
       "name_en": "Industrial Future Blue-Black A",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "active",
       "category": "industrial",
       "positioning": "蓝黑未来感、精密线条、适度辉光与空间层次。",
@@ -78,7 +78,12 @@
       "brand_neutral": true,
       "visual_signature": "轨道式未来舱",
       "layout_archetype": "orbital-hud",
-      "core_motif": "中央目标舱 + 环形轨道 + 四角悬浮 telemetry"
+      "core_motif": "中央目标舱 + 环形轨道 + 四角悬浮 telemetry",
+      "showcase_level": "gold",
+      "page_count": 12,
+      "preview_mode": "all-pages",
+      "all_pages_preview": "industrial/industrial-future-blueblack-a/preview/all-pages.svg",
+      "page_manifest": "industrial/industrial-future-blueblack-a/pages/pages.json"
     },
     {
       "id": "industrial-wireframe-minimal-a",
@@ -318,7 +323,7 @@
       "id": "industrial-ai-vision-lab-a",
       "name_zh": "AI视觉实验室",
       "name_en": "Industrial AI Vision Lab A",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "active",
       "category": "industrial",
       "positioning": "机器视觉与工业 AI 分析，突出图像、热力图、模型与样本证据。",
@@ -338,7 +343,12 @@
       "brand_neutral": true,
       "visual_signature": "AI 证据实验台",
       "layout_archetype": "evidence-lab",
-      "core_motif": "左样本 filmstrip + 中央热力证据 + 右模型卡 + 底部类别分布"
+      "core_motif": "左样本 filmstrip + 中央热力证据 + 右模型卡 + 底部类别分布",
+      "showcase_level": "gold",
+      "page_count": 12,
+      "preview_mode": "all-pages",
+      "all_pages_preview": "industrial/industrial-ai-vision-lab-a/preview/all-pages.svg",
+      "page_manifest": "industrial/industrial-ai-vision-lab-a/pages/pages.json"
     },
     {
       "id": "industrial-pure-minimal-a",
@@ -423,7 +433,7 @@
       "id": "internet-us-editorial-a",
       "name_zh": "美式编辑部",
       "name_en": "US Editorial Product A",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "大标题、强排版、杂志式信息节奏与产品界面结合的美式编辑风格。",
@@ -444,7 +454,12 @@
       "brand_neutral": true,
       "visual_signature": "杂志式产品版",
       "layout_archetype": "editorial-spread",
-      "core_motif": "超大标题 + 不对称双栏 + 内容流胜过卡片"
+      "core_motif": "超大标题 + 不对称双栏 + 内容流胜过卡片",
+      "showcase_level": "gold",
+      "page_count": 12,
+      "preview_mode": "all-pages",
+      "all_pages_preview": "internet/internet-us-editorial-a/preview/all-pages.svg",
+      "page_manifest": "internet/internet-us-editorial-a/pages/pages.json"
     },
     {
       "id": "internet-us-bold-flat-a",
@@ -743,7 +758,7 @@
       "id": "women-35-45-soft-luxury-a",
       "name_zh": "低奢柔金",
       "name_en": "Soft Luxury A",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "奶油白、深咖与克制香槟金构成的低调品质感界面。",
@@ -763,7 +778,12 @@
       "brand_neutral": true,
       "visual_signature": "低奢会员礼宾台",
       "layout_archetype": "premium-concierge",
-      "core_motif": "会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选"
+      "core_motif": "会员等级居中 + 礼宾服务 + 极细香槟金框 + 非对称精选",
+      "showcase_level": "gold",
+      "page_count": 12,
+      "preview_mode": "all-pages",
+      "all_pages_preview": "audience/women-35-45-soft-luxury-a/preview/all-pages.svg",
+      "page_manifest": "audience/women-35-45-soft-luxury-a/pages/pages.json"
     },
     {
       "id": "women-35-45-wellness-a",

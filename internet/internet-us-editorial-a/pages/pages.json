@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "internet-us-editorial-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-home",
+      "name": "产品首页",
+      "kind": "overview",
+      "task": "查看本周重点、指标和编辑精选",
+      "path": "pages/01-home.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-weekly-brief",
+      "name": "周报",
+      "kind": "editorial",
+      "task": "阅读一份具有杂志节奏的业务周报",
+      "path": "pages/02-weekly-brief.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-projects",
+      "name": "项目目录",
+      "kind": "library",
+      "task": "浏览项目、客户、状态和下一步",
+      "path": "pages/03-projects.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-project-detail",
+      "name": "项目详情",
+      "kind": "detail",
+      "task": "深入查看项目叙事、关键证据和时间线",
+      "path": "pages/04-project-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-analytics",
+      "name": "分析报告",
+      "kind": "analysis",
+      "task": "用编辑式图文结构解释数据变化",
+      "path": "pages/05-analytics.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-client-profile",
+      "name": "客户档案",
+      "kind": "detail",
+      "task": "查看客户背景、关系、活动和机会",
+      "path": "pages/06-client-profile.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-compose",
+      "name": "内容编辑",
+      "kind": "editor",
+      "task": "编写简报、报告或客户更新",
+      "path": "pages/07-compose.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-search",
+      "name": "搜索",
+      "kind": "search",
+      "task": "跨内容、项目和客户检索",
+      "path": "pages/08-search.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-settings",
+      "name": "设置",
+      "kind": "settings",
+      "task": "配置工作区、团队与发布习惯",
+      "path": "pages/09-settings.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-billing",
+      "name": "订阅与账单",
+      "kind": "billing",
+      "task": "查看套餐、用量和账单记录",
+      "path": "pages/10-billing.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-home",
+      "name": "移动首页",
+      "kind": "mobile",
+      "task": "移动端快速获取重点",
+      "path": "pages/11-mobile-home.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-brief",
+      "name": "移动周报",
+      "kind": "mobile-brief",
+      "task": "移动端阅读周报并采取行动",
+      "path": "pages/12-mobile-brief.html",
+      "device": "mobile"
+    }
+  ]
+}

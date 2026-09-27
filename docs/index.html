@@ -8,7 +8,7 @@
 <body>
 <header class="topbar">
   <div><div class="eyebrow">UI-TEMPLATES</div><h1>UI Template Gallery</h1>
-  <p>30 套不是换皮：每套都绑定独立 Visual Signature、Layout Archetype 和 STYLE DNA。</p></div>
+  <p>Preview = 完整页面系统。Gold 模板提供 12 页作品预览、逐页真实 HTML、Desktop + Mobile。</p></div>
   <div class="meta"><span id="count">— templates</span><button id="openCompare" class="compare-top">比较 <b id="compareCount">0</b></button><a href="https://github.com/RuthlessCreature/UI-Templates" target="_blank" rel="noreferrer">GitHub</a></div>
 </header>
 <main>
@@ -16,7 +16,15 @@
 <section id="grid" class="grid" aria-live="polite"></section>
 </main>
 
-<dialog id="previewDialog"><div class="dialog-head"><div><div class="eyebrow">LIVE PREVIEW</div><h2 id="dialogTitle">Preview</h2></div><button id="closeDialog" class="icon-btn">×</button></div><iframe id="previewFrame" title="Template preview"></iframe></dialog>
+<dialog id="previewDialog"><div class="dialog-head"><div><div class="eyebrow">SINGLE PAGE</div><h2 id="dialogTitle">Preview</h2></div><button id="closeDialog" class="icon-btn">×</button></div><iframe id="previewFrame" title="Template preview"></iframe></dialog>
+
+<dialog id="showcaseDialog" class="showcase-dialog">
+ <div class="dialog-head"><div><div class="eyebrow">ALL PAGES PREVIEW</div><h2 id="showcaseTitle">Showcase</h2></div><button id="closeShowcase" class="icon-btn">×</button></div>
+ <div class="showcase-shell">
+   <aside id="showcaseNav" class="showcase-nav"></aside>
+   <section id="showcaseStage" class="showcase-stage"></section>
+ </div>
+</dialog>
 
 <dialog id="compareDialog" class="compare-dialog">
  <div class="dialog-head"><div><div class="eyebrow">SIDE-BY-SIDE</div><h2>模板对比</h2></div><button id="closeCompare" class="icon-btn">×</button></div>
@@ -29,10 +37,11 @@
   <div class="card-body">
     <div class="card-top"><div><div class="category-label"></div><h3 class="name"></h3><p class="en-name"></p></div><span class="version"></span></div>
     <div class="signature"></div>
+    <div class="quality-row"><span class="quality-badge"></span><span class="page-count"></span></div>
     <p class="summary"></p>
     <div class="motif"></div>
     <div class="tags"></div>
-    <div class="actions"><button class="btn primary live-btn" type="button">在线预览</button><button class="btn compare-btn" type="button">＋比较</button><a class="btn repo-btn" target="_blank" rel="noreferrer">规范</a></div>
+    <div class="actions"><button class="btn primary live-btn" type="button">预览</button><button class="btn compare-btn" type="button">＋比较</button><a class="btn repo-btn" target="_blank" rel="noreferrer">规范</a></div>
   </div>
 </article>
 </template>

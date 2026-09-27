@@ -5,7 +5,7 @@
     "zh": "美式编辑部",
     "en": "US Editorial Product A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "internet-us-flat",
   "layout_archetype": "editorial-spread",
@@ -25,6 +25,12 @@
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
-  }
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json",
+    "all_pages_preview": "preview/all-pages.svg"
+  },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages"
 }

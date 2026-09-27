@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "women-35-45-soft-luxury-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-home",
+      "name": "会员首页",
+      "kind": "overview",
+      "task": "查看近期安排、权益和精选服务",
+      "path": "pages/01-home.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-membership",
+      "name": "会员身份",
+      "kind": "membership",
+      "task": "查看等级、权益、礼宾和使用记录",
+      "path": "pages/02-membership.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-concierge",
+      "name": "礼宾服务",
+      "kind": "service",
+      "task": "发起或继续个性化礼宾需求",
+      "path": "pages/03-concierge.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-booking",
+      "name": "预约",
+      "kind": "booking",
+      "task": "选择服务、时间和偏好并确认",
+      "path": "pages/04-booking.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-service-detail",
+      "name": "服务详情",
+      "kind": "detail",
+      "task": "理解服务价值、流程、费用和注意事项",
+      "path": "pages/05-service-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-itinerary",
+      "name": "日程",
+      "kind": "schedule",
+      "task": "查看旅行、预约和私人安排",
+      "path": "pages/06-itinerary.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-orders",
+      "name": "订单与账单",
+      "kind": "orders",
+      "task": "查看消费、付款和退款状态",
+      "path": "pages/07-orders.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-journal",
+      "name": "精选内容",
+      "kind": "editorial",
+      "task": "阅读旅行、生活方式与会员内容",
+      "path": "pages/08-journal.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-profile",
+      "name": "个人档案",
+      "kind": "profile",
+      "task": "管理个人偏好、家庭与联系方式",
+      "path": "pages/09-profile.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-privacy-settings",
+      "name": "隐私设置",
+      "kind": "settings",
+      "task": "管理通知、隐私和授权",
+      "path": "pages/10-privacy-settings.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-home",
+      "name": "移动会员首页",
+      "kind": "mobile",
+      "task": "移动端查看下一步安排",
+      "path": "pages/11-mobile-home.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-booking",
+      "name": "移动预约",
+      "kind": "mobile-booking",
+      "task": "移动端完成高价值服务预约",
+      "path": "pages/12-mobile-booking.html",
+      "device": "mobile"
+    }
+  ]
+}
