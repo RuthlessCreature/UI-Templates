@@ -734,7 +734,7 @@
       "id": "soe-formal-blue-a",
       "name_zh": "国企政务蓝",
       "name_en": "SOE Formal Blue A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "soe",
       "positioning": "稳重政务蓝、清晰分区和正式信息层级的国企门户/业务系统风格。",
@@ -762,13 +762,15 @@
       "high_fidelity_preview": "enterprise/soe-formal-blue-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "soe-red-gold-a",
       "name_zh": "国企红金",
       "name_en": "SOE Red Gold A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "soe",
       "positioning": "克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。",
@@ -797,13 +799,15 @@
       "high_fidelity_preview": "enterprise/soe-red-gold-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "soe-steady-business-a",
       "name_zh": "国企稳健商务",
       "name_en": "SOE Steady Business A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "soe",
       "positioning": "深蓝灰、商务表格与稳健布局构成的企业经营管理风格。",
@@ -831,13 +835,15 @@
       "high_fidelity_preview": "enterprise/soe-steady-business-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "soe-data-command-a",
       "name_zh": "国企数据驾驶舱",
       "name_en": "SOE Data Command A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "soe",
       "positioning": "深蓝数据驾驶舱、宏观指标、地图与趋势结合的经营监控风格。",
@@ -866,13 +872,15 @@
       "high_fidelity_preview": "enterprise/soe-data-command-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "soe-tech-innovation-a",
       "name_zh": "国企科技创新",
       "name_en": "SOE Tech Innovation A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "soe",
       "positioning": "蓝青科技感与正式企业结构融合的创新平台风格。",
@@ -900,7 +908,9 @@
       "high_fidelity_preview": "enterprise/soe-tech-innovation-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "women-35-45-elegant-warm-a",
