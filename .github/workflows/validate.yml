@@ -14,3 +14,7 @@ jobs:
           python-version: "3.12"
       - name: Validate template structure and neutrality
         run: python scripts/validate_template.py
+      - name: Check gallery JavaScript syntax
+        run: node --check docs/app.js
+      - name: Check worker JavaScript syntax
+        run: node --check worker/index.js
