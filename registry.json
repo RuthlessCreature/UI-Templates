@@ -1,5 +1,5 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "templates": [
     {
       "id": "industrial-clean-a",
@@ -30,7 +30,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-clean-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-clean-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-clean-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-dark-professional-a",
@@ -60,7 +64,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-dark-professional-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-dark-professional-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-dark-professional-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-future-blueblack-a",
@@ -91,7 +99,11 @@
       "page_count": 12,
       "preview_mode": "all-pages-live",
       "all_pages_preview": "industrial/industrial-future-blueblack-a/preview/all-pages.svg",
-      "page_manifest": "industrial/industrial-future-blueblack-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-future-blueblack-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-future-blueblack-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-wireframe-minimal-a",
@@ -121,7 +133,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-wireframe-minimal-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-wireframe-minimal-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-wireframe-minimal-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-cool-gray-a",
@@ -151,7 +167,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-cool-gray-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-cool-gray-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-cool-gray-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-data-hub-a",
@@ -181,7 +201,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-data-hub-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-data-hub-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-data-hub-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-glass-light-a",
@@ -211,7 +235,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-glass-light-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-glass-light-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-glass-light-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-modular-a",
@@ -241,7 +269,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-modular-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-modular-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-modular-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-black-yellow-safety-a",
@@ -271,7 +303,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-black-yellow-safety-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-black-yellow-safety-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-black-yellow-safety-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-blue-white-workbench-a",
@@ -301,7 +337,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-blue-white-workbench-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-blue-white-workbench-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-blue-white-workbench-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-deep-space-monitoring-a",
@@ -331,7 +371,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-deep-space-monitoring-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-deep-space-monitoring-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-deep-space-monitoring-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-metallic-a",
@@ -361,7 +405,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-metallic-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-metallic-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-metallic-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-ai-vision-lab-a",
@@ -392,7 +440,11 @@
       "page_count": 12,
       "preview_mode": "all-pages-live",
       "all_pages_preview": "industrial/industrial-ai-vision-lab-a/preview/all-pages.svg",
-      "page_manifest": "industrial/industrial-ai-vision-lab-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-ai-vision-lab-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-ai-vision-lab-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-pure-minimal-a",
@@ -422,7 +474,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-pure-minimal-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-pure-minimal-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-pure-minimal-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "industrial-cool-console-a",
@@ -452,7 +508,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "industrial/industrial-cool-console-a/pages/pages.json"
+      "page_manifest": "industrial/industrial-cool-console-a/pages/pages.json",
+      "high_fidelity_preview": "industrial/industrial-cool-console-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "internet-us-saas-clean-a",
@@ -483,7 +543,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "internet/internet-us-saas-clean-a/pages/pages.json"
+      "page_manifest": "internet/internet-us-saas-clean-a/pages/pages.json",
+      "high_fidelity_preview": "internet/internet-us-saas-clean-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "internet-us-editorial-a",
@@ -515,7 +579,11 @@
       "page_count": 12,
       "preview_mode": "all-pages-live",
       "all_pages_preview": "internet/internet-us-editorial-a/preview/all-pages.svg",
-      "page_manifest": "internet/internet-us-editorial-a/pages/pages.json"
+      "page_manifest": "internet/internet-us-editorial-a/pages/pages.json",
+      "high_fidelity_preview": "internet/internet-us-editorial-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "internet-us-bold-flat-a",
@@ -546,7 +614,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "internet/internet-us-bold-flat-a/pages/pages.json"
+      "page_manifest": "internet/internet-us-bold-flat-a/pages/pages.json",
+      "high_fidelity_preview": "internet/internet-us-bold-flat-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "internet-us-fintech-a",
@@ -577,7 +649,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "internet/internet-us-fintech-a/pages/pages.json"
+      "page_manifest": "internet/internet-us-fintech-a/pages/pages.json",
+      "high_fidelity_preview": "internet/internet-us-fintech-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "internet-us-creator-a",
@@ -608,7 +684,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "internet/internet-us-creator-a/pages/pages.json"
+      "page_manifest": "internet/internet-us-creator-a/pages/pages.json",
+      "high_fidelity_preview": "internet/internet-us-creator-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "soe-formal-blue-a",
@@ -638,7 +718,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "enterprise/soe-formal-blue-a/pages/pages.json"
+      "page_manifest": "enterprise/soe-formal-blue-a/pages/pages.json",
+      "high_fidelity_preview": "enterprise/soe-formal-blue-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "soe-red-gold-a",
@@ -669,7 +753,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "enterprise/soe-red-gold-a/pages/pages.json"
+      "page_manifest": "enterprise/soe-red-gold-a/pages/pages.json",
+      "high_fidelity_preview": "enterprise/soe-red-gold-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "soe-steady-business-a",
@@ -699,7 +787,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "enterprise/soe-steady-business-a/pages/pages.json"
+      "page_manifest": "enterprise/soe-steady-business-a/pages/pages.json",
+      "high_fidelity_preview": "enterprise/soe-steady-business-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "soe-data-command-a",
@@ -730,7 +822,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "enterprise/soe-data-command-a/pages/pages.json"
+      "page_manifest": "enterprise/soe-data-command-a/pages/pages.json",
+      "high_fidelity_preview": "enterprise/soe-data-command-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "soe-tech-innovation-a",
@@ -760,7 +856,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "enterprise/soe-tech-innovation-a/pages/pages.json"
+      "page_manifest": "enterprise/soe-tech-innovation-a/pages/pages.json",
+      "high_fidelity_preview": "enterprise/soe-tech-innovation-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "women-35-45-elegant-warm-a",
@@ -791,7 +891,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "audience/women-35-45-elegant-warm-a/pages/pages.json"
+      "page_manifest": "audience/women-35-45-elegant-warm-a/pages/pages.json",
+      "high_fidelity_preview": "audience/women-35-45-elegant-warm-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "women-35-45-urban-a",
@@ -822,7 +926,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "audience/women-35-45-urban-a/pages/pages.json"
+      "page_manifest": "audience/women-35-45-urban-a/pages/pages.json",
+      "high_fidelity_preview": "audience/women-35-45-urban-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "women-35-45-natural-a",
@@ -852,7 +960,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "audience/women-35-45-natural-a/pages/pages.json"
+      "page_manifest": "audience/women-35-45-natural-a/pages/pages.json",
+      "high_fidelity_preview": "audience/women-35-45-natural-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "women-35-45-soft-luxury-a",
@@ -883,7 +995,11 @@
       "page_count": 12,
       "preview_mode": "all-pages-live",
       "all_pages_preview": "audience/women-35-45-soft-luxury-a/preview/all-pages.svg",
-      "page_manifest": "audience/women-35-45-soft-luxury-a/pages/pages.json"
+      "page_manifest": "audience/women-35-45-soft-luxury-a/pages/pages.json",
+      "high_fidelity_preview": "audience/women-35-45-soft-luxury-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     },
     {
       "id": "women-35-45-wellness-a",
@@ -914,7 +1030,11 @@
       "showcase_level": "gold",
       "page_count": 12,
       "preview_mode": "all-pages-live",
-      "page_manifest": "audience/women-35-45-wellness-a/pages/pages.json"
+      "page_manifest": "audience/women-35-45-wellness-a/pages/pages.json",
+      "high_fidelity_preview": "audience/women-35-45-wellness-a/preview/showcase.jpg",
+      "preview_ratio": "4:5",
+      "desktop_preview_ratio": "16:10",
+      "mobile_preview_ratio": "9:19.5"
     }
   ]
 }
