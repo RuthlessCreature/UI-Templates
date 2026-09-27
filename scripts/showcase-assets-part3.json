@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "id": "soe-steady-business-a",
+      "path": "enterprise/soe-steady-business-a",
+      "destination": "enterprise/soe-steady-business-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/4a392837-baea-477d-98f6-eccb2817bcc8/e8a9ddbb-a75e-411a-bcbf-ff5fbdbb99a2/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzEwYzhhYWQxMjcxOTc0MyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDU4NzgyMX0.DfZm-lEP4qv1FT-Dd7lr7xwqK4p_TP3ovMlmErdntCk"
+    },
+    {
+      "id": "soe-tech-innovation-a",
+      "path": "enterprise/soe-tech-innovation-a",
+      "destination": "enterprise/soe-tech-innovation-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/c935db92-5265-43c8-bf6a-3d566f7a44a9/21baa169-2e34-45c7-947e-3230b9e71312/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjQzNjlkMTZiMGIwYzAxNyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYzNDEzNH0.pBW6YTKqW2FsNS7kJdE0o380heMqKyPDGYWRManmFvk"
+    },
+    {
+      "id": "women-35-45-elegant-warm-a",
+      "path": "audience/women-35-45-elegant-warm-a",
+      "destination": "audience/women-35-45-elegant-warm-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/ea554910-eacf-4235-a655-b18636e5f80c/69d4f190-ab09-4233-a848-6da0d9cf07bd/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiY2I1ZGE2Yzk4MWM1OWQwNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxNjM5M30.l6yX5qneXXpdzMLt09hJlAgVObEkgYyg8abITfa5P8c"
+    },
+    {
+      "id": "women-35-45-urban-a",
+      "path": "audience/women-35-45-urban-a",
+      "destination": "audience/women-35-45-urban-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/b0cb9f0a-24bc-4416-ba97-fd92acd9792e/686d51f6-bcc8-4e75-bb72-5e4c89f11c57/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDViMjUxZjFhM2FlYWQxOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY1NDA2NX0.FfgRuK4aQXaLVk-ZHSe1FhcEnI0KoQ-dJQRr6wQckxw"
+    },
+    {
+      "id": "women-35-45-natural-a",
+      "path": "audience/women-35-45-natural-a",
+      "destination": "audience/women-35-45-natural-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/9102f6b2-d5e0-47bb-931e-ac4a1f97ec74/cd180c3e-2910-4fda-aa29-a0bd98f41d74/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYWRmMDdiMWUwY2Q3OTExZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxMjEyNn0.RRMsuTj4B8s0IiR4Huv7HOO-v0yi94bLkzEKR6kbzwk"
+    },
+    {
+      "id": "women-35-45-wellness-a",
+      "path": "audience/women-35-45-wellness-a",
+      "destination": "audience/women-35-45-wellness-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/e1f59572-1d90-44f5-a35b-aa523dbf1ed1/0761969e-8fcb-4d50-bb3b-7b4e77e74f10/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjU0YWY4N2Y2YTZmYmNjMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYwMTQ3MX0.gKZ15i8LeGQBt6SOzFD4vtmgdVwVc3x_GMiEdF7cDVo"
+    },
+    {
+      "id": "industrial-ai-vision-lab-a",
+      "path": "industrial/industrial-ai-vision-lab-a",
+      "destination": "industrial/industrial-ai-vision-lab-a/preview/showcase.jpg",
+      "source_url": "https://d2jqrm6oza8nb6.cloudfront.net/datasets/5d0e2dd3-d3bc-412c-8f12-d006513ec1a6.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZDZlNjRmZTQ1ZTY0ZTI2NiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY3MjM1Nn0.dpHJKuND73uO7hUW6n35IJONXqig4h5JUA19eoRtbj8"
+    },
+    {
+      "id": "internet-us-saas-clean-a",
+      "path": "internet/internet-us-saas-clean-a",
+      "destination": "internet/internet-us-saas-clean-a/preview/showcase.jpg",
+      "source_url": "https://d2jqrm6oza8nb6.cloudfront.net/datasets/0c4e1df9-bfb1-4d67-b2d7-7b4ca31f910a.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZDI5ZWIxZDJkNjhjMmVmNSIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY2ODM3MH0.v56U8ZgqxpEpLBn4ONpm4_dAmOIE-xR5-udUzObxeJ8"
+    },
+    {
+      "id": "soe-data-command-a",
+      "path": "enterprise/soe-data-command-a",
+      "destination": "enterprise/soe-data-command-a/preview/showcase.jpg",
+      "source_url": "https://d2jqrm6oza8nb6.cloudfront.net/datasets/7c1b7c28-fd3f-4d89-a3c1-a0cc744a0bb3.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjk5MWE1OTlmZjA2MDU5ZCIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDU5NTA5N30.fO4tmRjlsAcfzDLxy_eBIkjF9knMDYXAYkDcC91-JWM"
+    },
+    {
+      "id": "women-35-45-soft-luxury-a",
+      "path": "audience/women-35-45-soft-luxury-a",
+      "destination": "audience/women-35-45-soft-luxury-a/preview/showcase.jpg",
+      "source_url": "https://d2jqrm6oza8nb6.cloudfront.net/datasets/6ebf0e30-82dd-464b-8849-32fbd56b9bde.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDAyZGRjMDcwN2QxYWJlNyIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYyMTQ0N30.acCqSTZZSgxHm2_6rCSTN01882pZiVryV00QjLefTUQ"
+    }
+  ]
+}
