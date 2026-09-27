@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "id": "industrial-deep-space-monitoring-a",
+      "path": "industrial/industrial-deep-space-monitoring-a",
+      "destination": "industrial/industrial-deep-space-monitoring-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/6e04ce8d-4b13-4a65-89a2-bf90f4dd86a9/b35bc049-c4ce-4379-b4bd-27afff4fec9e/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOTU2YmQwMzM0YjRiNGJiMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxNDgzNX0.u16t4bw0eWOSEgWgiFDSDCjvWiDQaTfmRpUk6J59jQU"
+    },
+    {
+      "id": "industrial-metallic-a",
+      "path": "industrial/industrial-metallic-a",
+      "destination": "industrial/industrial-metallic-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/bb449733-fa63-4452-8fd8-49b3d2590732/92cf5621-44e6-41bc-9940-d940cb7ca52f/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWE1Y2Y1ODk0MjAwNmMwMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY1ODE4NX0.r5ijbOs6pHd6xBeLn7l2IMOT1c9R1cxnQ0_qLE-T8do"
+    },
+    {
+      "id": "industrial-pure-minimal-a",
+      "path": "industrial/industrial-pure-minimal-a",
+      "destination": "industrial/industrial-pure-minimal-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/12177917-9f8a-4d1e-88dc-92446aefbcf0/9cfb61fe-4365-49c5-af76-a356e93d4484/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTdlMTkzZmM1MzZkZjc2NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYyNTI3Nn0.eg8k_rIfwKQEU_syYpGGd1_quPeGlQ2LQzkk0ELCUlw"
+    },
+    {
+      "id": "industrial-cool-console-a",
+      "path": "industrial/industrial-cool-console-a",
+      "destination": "industrial/industrial-cool-console-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/272b88c8-de33-496d-a6f3-856466998f0c/18fb91b1-44da-4aa4-803d-c0ebd8f393ad/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYWUzODEyOWM2YjJjZmIyNyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYzODM2NH0.hTo7AOxP8_76g1t3-8w16LWjADfkWBIEMenfybW9204"
+    },
+    {
+      "id": "internet-us-editorial-a",
+      "path": "internet/internet-us-editorial-a",
+      "destination": "internet/internet-us-editorial-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/e23a8908-1369-416a-b76d-e665c2793eed/25b428cf-177f-497d-aa58-196993e36c85/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNmNiMjQxMDJiNGYyNjM0NyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYxNjU3OH0.CTd4QsxOmrJS2i0uapmLA5CxRy-kjYiyQDcJ1P9yUO4"
+    },
+    {
+      "id": "internet-us-bold-flat-a",
+      "path": "internet/internet-us-bold-flat-a",
+      "destination": "internet/internet-us-bold-flat-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/4a57bc75-4232-4d1a-9c55-1d609b7b388c/05e3cdd8-8d96-416c-81a9-8efd948ed7dd/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiODQxOTg5ZGFmYmNhOTk5YSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY1OTgwMn0.F17wJCWu1ZXnH1MKr9QCWfyAK0KoZF7SNKAAyrCWrtI"
+    },
+    {
+      "id": "internet-us-fintech-a",
+      "path": "internet/internet-us-fintech-a",
+      "destination": "internet/internet-us-fintech-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/0529f41c-f228-42e5-859d-9393088561d2/b30fcf99-3a4f-4072-9f5a-d169f5ebfb66/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYjc3OTE3NTViYzgyZGVjOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDYzMzU1N30.3qxQAT9rjBJ8XYaj8ZXqR0bZ9fl_gCssvZjKB-Q9oIM"
+    },
+    {
+      "id": "internet-us-creator-a",
+      "path": "internet/internet-us-creator-a",
+      "destination": "internet/internet-us-creator-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/427761a0-c086-4a2f-bd54-fd1d76994105/bf24632d-e2f2-4650-b8a6-61e1f59343c4/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOGFlOGI5OTgyOTVhZTZmMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDU5NDA3Mn0._ZSh76Hp2gvJZj97vW98xuOo6kS0dHIMmUrhrNGP5dE"
+    },
+    {
+      "id": "soe-formal-blue-a",
+      "path": "enterprise/soe-formal-blue-a",
+      "destination": "enterprise/soe-formal-blue-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/ab163964-62c2-4ee4-8ec9-c565097a86e5/cc139e22-1302-4e24-9d41-5cbee9bb60bb/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNzU5NTBkOWY4ZGEyNGU3ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDY1NzgyM30.J7gtcnjMLCdX5FwY-KzUW7yRWPN27TAkJSMc5b6xxU4"
+    },
+    {
+      "id": "soe-red-gold-a",
+      "path": "enterprise/soe-red-gold-a",
+      "destination": "enterprise/soe-red-gold-a/preview/showcase.jpg",
+      "source_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/9d3f8c6c-c4f1-4f99-a163-4a834eb47984/e789bade-4703-4428-979a-5f5820285a98/A_single_premium_4_5_product_design_portfolio_poster_for_a_b.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiM2RlZGRlNjk1MGFlODZjZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDU5Mjc0NX0.8wx22659F786_NSsiNJU3_0xYwzwbhfKXzimZMT4Yng"
+    }
+  ]
+}
