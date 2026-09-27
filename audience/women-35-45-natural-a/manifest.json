@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "women-35-45-natural-a",
   "display_name": {
     "zh": "自然生活",
     "en": "Natural Living A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "women-35-45",
   "layout_archetype": "organic-routine",
   "visual_signature": "自然日常计划板",
   "core_motif": "习惯圆环 + 松散日程块 + 自然比例留白",
-  "shape_language": "圆环、柔角、呼吸留白、淡绿色层次",
-  "motion_language": "进度环缓慢推进",
   "platforms": {
     "web": "primary",
-    "desktop": "supported",
     "mobile": "adapted",
+    "desktop": "supported",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

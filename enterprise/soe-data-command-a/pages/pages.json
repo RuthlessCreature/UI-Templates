@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "soe-data-command-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-portal",
+      "name": "综合门户",
+      "kind": "overview",
+      "task": "查看通知、待办、重点任务与经营信息",
+      "path": "pages/01-portal.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-workbench",
+      "name": "工作台",
+      "kind": "workspace",
+      "task": "处理个人待办、事项与业务任务",
+      "path": "pages/02-workbench.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-notices",
+      "name": "通知公告",
+      "kind": "list",
+      "task": "浏览正式通知、制度和公报",
+      "path": "pages/03-notices.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-projects",
+      "name": "项目列表",
+      "kind": "list",
+      "task": "查看项目状态、单位、节点和责任人",
+      "path": "pages/04-projects.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-project-detail",
+      "name": "项目详情",
+      "kind": "detail",
+      "task": "理解项目进度、资金、风险和责任链",
+      "path": "pages/05-project-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-approval",
+      "name": "审批详情",
+      "kind": "process",
+      "task": "查看流程节点、意见、附件并完成审批",
+      "path": "pages/06-approval.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-business",
+      "name": "经营分析",
+      "kind": "analysis",
+      "task": "查看经营指标、趋势和问题",
+      "path": "pages/07-business.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-procurement",
+      "name": "采购与资产",
+      "kind": "workspace",
+      "task": "处理采购、资产或供应商事项",
+      "path": "pages/08-procurement.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-documents",
+      "name": "制度档案",
+      "kind": "list",
+      "task": "查阅制度、文件、附件和归档资料",
+      "path": "pages/09-documents.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-system",
+      "name": "系统管理",
+      "kind": "settings",
+      "task": "管理组织、权限、流程和参数",
+      "path": "pages/10-system.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-workbench",
+      "name": "移动工作台",
+      "kind": "mobile",
+      "task": "移动端查看待办、通知和重点事项",
+      "path": "pages/11-mobile-workbench.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-approval",
+      "name": "移动审批",
+      "kind": "mobile-action",
+      "task": "移动端完成审批与意见提交",
+      "path": "pages/12-mobile-approval.html",
+      "device": "mobile"
+    }
+  ]
+}

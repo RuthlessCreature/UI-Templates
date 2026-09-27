@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "internet-us-creator-a",
   "display_name": {
     "zh": "美式创意工作台",
     "en": "US Creator Workspace A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "internet-us-flat",
   "layout_archetype": "infinite-creator-canvas",
   "visual_signature": "无限创作画布",
   "core_motif": "左工具轨 + 无限画布 + 右属性岛 + 浮动命令条",
-  "shape_language": "画布对象、浮动岛、紫色选择框",
-  "motion_language": "对象自由移动/缩放/吸附",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

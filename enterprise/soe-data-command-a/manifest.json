@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "soe-data-command-a",
   "display_name": {
     "zh": "国企数据驾驶舱",
     "en": "SOE Data Command A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "soe",
   "layout_archetype": "executive-command",
   "visual_signature": "经营态势驾驶舱",
   "core_motif": "中央区域态势图 + 左右指标塔 + 底部经营趋势",
-  "shape_language": "地图轮廓、指标塔、横向趋势带",
-  "motion_language": "指标联动高亮区域",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

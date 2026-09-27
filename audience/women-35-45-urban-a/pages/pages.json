@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "women-35-45-urban-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-home",
+      "name": "服务首页",
+      "kind": "overview",
+      "task": "查看下一安排、权益和精选内容",
+      "path": "pages/01-home.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-discover",
+      "name": "发现与推荐",
+      "kind": "workspace",
+      "task": "浏览适合当前需求的服务与内容",
+      "path": "pages/02-discover.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-service-detail",
+      "name": "服务详情",
+      "kind": "detail",
+      "task": "理解价值、流程、费用和规则",
+      "path": "pages/03-service-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-booking",
+      "name": "预约",
+      "kind": "editor",
+      "task": "选择时间、偏好并确认服务",
+      "path": "pages/04-booking.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-membership",
+      "name": "会员与权益",
+      "kind": "membership",
+      "task": "查看等级、权益、积分和使用记录",
+      "path": "pages/05-membership.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-orders",
+      "name": "订单与账单",
+      "kind": "list",
+      "task": "查看消费、付款、退款和状态",
+      "path": "pages/06-orders.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-content",
+      "name": "内容与精选",
+      "kind": "editorial",
+      "task": "阅读高质量内容、攻略和精选推荐",
+      "path": "pages/07-content.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-schedule",
+      "name": "日程",
+      "kind": "process",
+      "task": "查看预约、旅行和个人安排",
+      "path": "pages/08-schedule.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-profile",
+      "name": "个人与家庭",
+      "kind": "detail",
+      "task": "管理偏好、成员和联系资料",
+      "path": "pages/09-profile.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-privacy",
+      "name": "设置与隐私",
+      "kind": "settings",
+      "task": "管理通知、隐私、授权和账户",
+      "path": "pages/10-privacy.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-home",
+      "name": "移动首页",
+      "kind": "mobile",
+      "task": "移动端查看下一安排和重点权益",
+      "path": "pages/11-mobile-home.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-action",
+      "name": "移动核心任务",
+      "kind": "mobile-action",
+      "task": "移动端完成预约、确认或使用权益",
+      "path": "pages/12-mobile-action.html",
+      "device": "mobile"
+    }
+  ]
+}

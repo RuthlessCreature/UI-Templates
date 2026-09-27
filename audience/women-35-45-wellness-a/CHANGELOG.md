@@ -1,9 +1,12 @@
 # Changelog
 
+## 1.2.0 — 2026-09-27
+- Added 12-page Gold showcase system.
+- Preview now means the complete live page family.
+- Added page-specific layouts, realistic task content and mobile coverage.
+
 ## 1.1.0 — 2026-09-27
-- Rebuilt around **健康周环与习惯板** (`wellness-week`).
-- Added strong visual motif and grayscale recognition rule.
-- Reworked overview and live demo so the template is structurally distinct.
+- Introduced unique visual signature and layout archetype.
 
 ## 1.0.0 — 2026-09-27
 Initial release.

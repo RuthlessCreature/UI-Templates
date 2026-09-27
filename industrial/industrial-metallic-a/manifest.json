@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "industrial-metallic-a",
   "display_name": {
     "zh": "金属质感",
     "en": "Industrial Metallic A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "industrial",
   "layout_archetype": "instrument-rack",
   "visual_signature": "金属仪表机架",
   "core_motif": "垂直仪表条 + 大旋钮/环表 + 机柜分槽",
-  "shape_language": "硬边槽位、刻度、表盘、机械分区",
-  "motion_language": "数值/指针变化而非卡片闪动",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

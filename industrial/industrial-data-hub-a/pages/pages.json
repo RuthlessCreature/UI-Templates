@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "industrial-data-hub-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-overview",
+      "name": "运行总览",
+      "kind": "overview",
+      "task": "快速判断运行状态、产出、质量与异常",
+      "path": "pages/01-overview.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-workbench",
+      "name": "核心工作台",
+      "kind": "workspace",
+      "task": "完成该风格最核心的工程任务",
+      "path": "pages/02-workbench.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-object-list",
+      "name": "对象列表",
+      "kind": "list",
+      "task": "浏览设备、批次、任务或对象集合",
+      "path": "pages/03-object-list.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-object-detail",
+      "name": "对象详情",
+      "kind": "detail",
+      "task": "查看一个对象的状态、参数与证据",
+      "path": "pages/04-object-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-process",
+      "name": "流程与工艺",
+      "kind": "process",
+      "task": "理解步骤、依赖、当前节点和下一动作",
+      "path": "pages/05-process.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-editor",
+      "name": "参数编辑",
+      "kind": "editor",
+      "task": "编辑配方、阈值、工具或工程参数",
+      "path": "pages/06-editor.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-alarms",
+      "name": "异常中心",
+      "kind": "alarm",
+      "task": "识别、筛选并处理告警与异常",
+      "path": "pages/07-alarms.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-quality",
+      "name": "质量分析",
+      "kind": "analysis",
+      "task": "解释良率、缺陷、节拍和趋势",
+      "path": "pages/08-quality.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-traceability",
+      "name": "追溯查询",
+      "kind": "traceability",
+      "task": "按 SN、批次或时间追溯历史记录",
+      "path": "pages/09-traceability.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-system",
+      "name": "设备与系统",
+      "kind": "settings",
+      "task": "管理设备、通讯、权限和系统配置",
+      "path": "pages/10-system.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-status",
+      "name": "移动状态",
+      "kind": "mobile",
+      "task": "移动端查看核心状态与待处理事项",
+      "path": "pages/11-mobile-status.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-action",
+      "name": "移动处理",
+      "kind": "mobile-action",
+      "task": "移动端完成确认、复判或异常处理",
+      "path": "pages/12-mobile-action.html",
+      "device": "mobile"
+    }
+  ]
+}

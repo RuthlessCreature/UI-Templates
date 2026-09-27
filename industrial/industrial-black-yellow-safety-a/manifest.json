@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "industrial-black-yellow-safety-a",
   "display_name": {
     "zh": "高对比黑黄",
     "en": "Industrial Black Yellow Safety A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "industrial",
   "layout_archetype": "hazard-bay",
   "visual_signature": "安全警戒舱",
   "core_motif": "斜纹 hazard rail + 大型故障舱 + 明确安全联锁",
-  "shape_language": "黑黄斜纹、粗边、警戒框",
-  "motion_language": "异常时边框/警戒带替代普通 toast",
   "platforms": {
     "desktop": "primary",
     "web": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

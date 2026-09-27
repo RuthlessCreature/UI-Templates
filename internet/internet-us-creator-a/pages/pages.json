@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "template_id": "internet-us-creator-a",
+  "version": "1.2.0",
+  "showcase_level": "gold",
+  "pages": [
+    {
+      "index": 1,
+      "id": "01-home",
+      "name": "产品首页",
+      "kind": "overview",
+      "task": "查看今天最重要的工作、指标和主动作",
+      "path": "pages/01-home.html",
+      "device": "desktop"
+    },
+    {
+      "index": 2,
+      "id": "02-workspace",
+      "name": "工作区",
+      "kind": "workspace",
+      "task": "处理产品的核心工作对象",
+      "path": "pages/02-workspace.html",
+      "device": "desktop"
+    },
+    {
+      "index": 3,
+      "id": "03-library",
+      "name": "目录与列表",
+      "kind": "list",
+      "task": "浏览项目、客户、内容或资产",
+      "path": "pages/03-library.html",
+      "device": "desktop"
+    },
+    {
+      "index": 4,
+      "id": "04-detail",
+      "name": "详情页",
+      "kind": "detail",
+      "task": "深入查看一个对象的上下文与证据",
+      "path": "pages/04-detail.html",
+      "device": "desktop"
+    },
+    {
+      "index": 5,
+      "id": "05-create",
+      "name": "创建与编辑",
+      "kind": "editor",
+      "task": "创建、修改并提交核心对象",
+      "path": "pages/05-create.html",
+      "device": "desktop"
+    },
+    {
+      "index": 6,
+      "id": "06-analytics",
+      "name": "分析",
+      "kind": "analysis",
+      "task": "理解数据变化、原因和下一步",
+      "path": "pages/06-analytics.html",
+      "device": "desktop"
+    },
+    {
+      "index": 7,
+      "id": "07-activity",
+      "name": "活动与收件箱",
+      "kind": "activity",
+      "task": "处理事件、消息与团队协作",
+      "path": "pages/07-activity.html",
+      "device": "desktop"
+    },
+    {
+      "index": 8,
+      "id": "08-team",
+      "name": "团队",
+      "kind": "team",
+      "task": "管理成员、角色和协作状态",
+      "path": "pages/08-team.html",
+      "device": "desktop"
+    },
+    {
+      "index": 9,
+      "id": "09-settings",
+      "name": "设置",
+      "kind": "settings",
+      "task": "管理工作区、通知和集成",
+      "path": "pages/09-settings.html",
+      "device": "desktop"
+    },
+    {
+      "index": 10,
+      "id": "10-billing",
+      "name": "订阅与账单",
+      "kind": "billing",
+      "task": "查看套餐、用量和账单",
+      "path": "pages/10-billing.html",
+      "device": "desktop"
+    },
+    {
+      "index": 11,
+      "id": "11-mobile-home",
+      "name": "移动首页",
+      "kind": "mobile",
+      "task": "移动端快速获取重点与下一动作",
+      "path": "pages/11-mobile-home.html",
+      "device": "mobile"
+    },
+    {
+      "index": 12,
+      "id": "12-mobile-task",
+      "name": "移动任务",
+      "kind": "mobile-action",
+      "task": "移动端完成一个高频核心任务",
+      "path": "pages/12-mobile-task.html",
+      "device": "mobile"
+    }
+  ]
+}

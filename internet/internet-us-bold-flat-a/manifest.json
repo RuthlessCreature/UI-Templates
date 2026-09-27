@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "internet-us-bold-flat-a",
   "display_name": {
     "zh": "美式高对比扁平",
     "en": "US Bold Flat A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "internet-us-flat",
   "layout_archetype": "neo-brutal-blocks",
   "visual_signature": "美式粗暴块面",
   "core_motif": "2px 黑边 + 巨型数字 + 橙红动作砖块",
-  "shape_language": "硬边、无阴影、粗标题、矩形按钮",
-  "motion_language": "块面直接替换/推入",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }

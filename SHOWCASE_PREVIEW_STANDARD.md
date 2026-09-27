@@ -2,43 +2,46 @@
 
 ## Definition
 
-**Preview means the complete page system, not one overview screen.**
+**Preview means the complete live page system, not one overview screen and not one poster image.**
 
-A showcase-grade template must present enough pages for a viewer to judge whether the design language survives real product states and workflows.
+Every active template in this repository is a Gold showcase system.
 
-## Gold minimum
+## Gold requirements
 
-A Gold template requires:
-
-- 12 or more real pages.
+- 12 or more real HTML pages.
 - At least 2 mobile pages.
-- `pages/pages.json` as the page inventory.
-- `preview/all-pages.svg` as the all-page contact sheet.
+- `pages/pages.json` as the canonical page inventory.
 - Individual `pages/*.html` previews.
-- A mix of overview, list/library, detail/workspace, edit/process, state/monitoring/settings, and mobile screens.
-- Realistic content density and task language.
-- One dominant task per page.
-- The template's visual signature must remain recognizable across the whole page family.
-
-## Plasticity rejection
-
-A page fails showcase review when:
-
-- most screens are the same card grid with different labels;
-- placeholder copy dominates the page;
-- hierarchy is evenly distributed instead of task-led;
-- visual identity disappears outside the hero screen;
-- all pages use the same container geometry regardless of task;
-- charts, tables, filters, forms, empty/error states look like generic component demos.
+- `SHOWCASE.md` documenting the product-system intent.
+- A mix of overview, list/library, detail/workspace, edit/process, analysis/state/settings, and mobile screens.
+- Real task context and realistic content density.
+- The template’s visual signature survives across page types.
 
 ## Gallery behavior
 
-Gold templates open in **All Pages Preview** first.
+The Gallery’s default **完整预览** renders the real pages themselves as a live contact wall.
 
 The viewer can:
-1. scan the complete long contact sheet;
-2. choose any page in the page directory;
-3. open the real HTML page;
-4. compare complete page systems between templates.
+1. scan all 12 rendered pages;
+2. choose any page from the directory;
+3. open that real HTML page at full size;
+4. compare template identities side by side.
 
-The single overview image remains a cover/identity asset, not the definition of Preview.
+A cover image is only an identity asset. It is not the Preview.
+
+## Plasticity rejection
+
+A template fails review when:
+- the page family is just generic cards with renamed labels;
+- the visual signature disappears outside the cover;
+- lists, editors, detail pages, analytics and settings all share the same container skeleton;
+- copy and data feel like empty placeholders;
+- there is no clear dominant task;
+- the system looks good only as a static hero but collapses in real workflows.
+
+## Recognition tests
+
+- **Grayscale test:** recognizable without color.
+- **20% scale test:** hierarchy and silhouette remain distinguishable.
+- **12-page consistency test:** all page types clearly belong to the same visual world.
+- **Real-task test:** each page supports a credible user decision or action.

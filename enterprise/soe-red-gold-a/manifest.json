@@ -1,30 +1,33 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "soe-red-gold-a",
   "display_name": {
     "zh": "国企红金",
     "en": "SOE Red Gold A"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "brand_neutral": true,
   "category": "soe",
   "layout_archetype": "ceremonial-board",
   "visual_signature": "庄重红金公报板",
   "core_motif": "红色题头 + 细金分隔 + 公报主版 + 专题侧栏",
-  "shape_language": "题头带、细金线、章标题",
-  "motion_language": "专题切换保持版式庄重",
   "platforms": {
     "web": "primary",
     "desktop": "supported",
     "mobile": "adapted",
     "ppt": "supported"
   },
+  "showcase_level": "gold",
+  "page_count": 12,
+  "preview_mode": "all-pages-live",
   "canonical_files": {
     "spec": "SPEC.md",
     "style_dna": "STYLE_DNA.md",
     "tokens": "tokens/tokens.json",
     "components": "components/COMPONENTS.md",
     "layouts": "layouts/LAYOUTS.md",
-    "prompt": "prompts/UI_GENERATION.md"
+    "prompt": "prompts/UI_GENERATION.md",
+    "showcase": "SHOWCASE.md",
+    "page_manifest": "pages/pages.json"
   }
 }
