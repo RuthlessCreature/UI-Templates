@@ -548,7 +548,7 @@
       "id": "internet-us-saas-clean-a",
       "name_zh": "美式SaaS清爽",
       "name_en": "US SaaS Clean A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "清爽白底、强层级、轻边框和高转化动作的美式 SaaS 扁平风格.",
@@ -577,13 +577,15 @@
       "high_fidelity_preview": "internet/internet-us-saas-clean-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "internet-us-editorial-a",
       "name_zh": "美式编辑部",
       "name_en": "US Editorial Product A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "大标题、强排版、杂志式信息节奏与产品界面结合的美式编辑风格。",
@@ -613,13 +615,15 @@
       "high_fidelity_preview": "internet/internet-us-editorial-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "internet-us-bold-flat-a",
       "name_zh": "美式高对比扁平",
       "name_en": "US Bold Flat A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "高对比色块、粗体排版和直接操作的美式产品化扁平风格。",
@@ -648,13 +652,15 @@
       "high_fidelity_preview": "internet/internet-us-bold-flat-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "internet-us-fintech-a",
       "name_zh": "美式金融科技",
       "name_en": "US Fintech Flat A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "冷静深蓝、精确数字与可信赖信息层级的美式 FinTech 扁平风格。",
@@ -683,13 +689,15 @@
       "high_fidelity_preview": "internet/internet-us-fintech-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "internet-us-creator-a",
       "name_zh": "美式创意工作台",
       "name_en": "US Creator Workspace A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "internet-us-flat",
       "positioning": "柔和中性色、彩色工具标签和模块化工作区的美式创作工具风格。",
@@ -718,7 +726,9 @@
       "high_fidelity_preview": "internet/internet-us-creator-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "soe-formal-blue-a",
