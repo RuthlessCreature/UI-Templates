@@ -33,5 +33,6 @@ jobs:
             echo "No showcase changes."
           else
             git commit -m "Add 30 high-fidelity showcase previews"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
