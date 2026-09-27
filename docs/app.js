@@ -32,7 +32,7 @@ function renderGrid(){
   for(const t of list){
     const node=tpl.content.cloneNode(true);
     const img=node.querySelector('.preview-img');
-    img.src=RAW+t.path+'/preview/overview.svg?v='+encodeURIComponent(t.version||'1');
+    img.src=RAW+t.path+'/preview/overview.svg?ts='+Date.now();
     img.alt=(t.name_zh||t.id)+' preview';
     node.querySelector('.category-label').textContent=CATEGORY_NAMES[catOf(t)]||catOf(t);
     node.querySelector('.name').textContent=t.name_zh||t.id;
