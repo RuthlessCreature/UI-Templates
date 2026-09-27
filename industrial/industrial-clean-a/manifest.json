@@ -5,7 +5,7 @@
     "zh": "工业简洁A",
     "en": "Industrial Clean A"
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "brand_neutral": true,
   "category": "industrial",
   "layout_archetype": "precision-rail",
@@ -29,5 +29,7 @@
     "prompt": "prompts/UI_GENERATION.md",
     "showcase": "SHOWCASE.md",
     "page_manifest": "pages/pages.json"
-  }
+  },
+  "fidelity_level": "production-reference",
+  "real_ui_converged": true
 }

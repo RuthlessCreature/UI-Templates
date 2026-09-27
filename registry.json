@@ -5,7 +5,7 @@
       "id": "industrial-clean-a",
       "name_zh": "工业简洁A",
       "name_en": "Industrial Clean A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "浅色、高信息密度、工程导向、状态清楚、操作直接。",
@@ -34,7 +34,9 @@
       "high_fidelity_preview": "industrial/industrial-clean-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-dark-professional-a",
