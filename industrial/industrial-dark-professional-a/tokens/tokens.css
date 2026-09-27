@@ -1,0 +1,8 @@
+:root{
+ --ui-bg-canvas:#11161B;--ui-bg-surface:#171E24;--ui-bg-surface-alt:#1D262E;
+ --ui-border:#34434F;--ui-text:#EAF0F5;--ui-text-muted:#9CAAB5;
+ --ui-accent:#2FA8FF;--ui-accent-strong:#1E6FA8;
+ --ui-success:#39C77A;--ui-warning:#F3B24C;--ui-danger:#F05C5C;
+ --ui-radius:3px;--ui-space-1:4px;--ui-space-2:8px;--ui-space-3:12px;--ui-space-4:16px;
+ --ui-font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "industrial-dark-professional-a",
+  "display_name": {
+    "zh": "工业深色专业",
+    "en": "Industrial Dark Professional A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "design_intent": [
+    "深色石墨、低眩光、高密度、严肃克制的专业工业工作台。",
+    "低眩光深色面板、细边框、克制高亮；适合长期工程调试与控制。"
+  ],
+  "platforms": {
+    "desktop": "primary",
+    "web": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "current_state",
+    "what_matters",
+    "is_anything_wrong",
+    "next_action"
+  ],
+  "forbidden_base_identity": [
+    "company_name",
+    "logo",
+    "trademark",
+    "customer_name",
+    "real_domain",
+    "real_email",
+    "real_phone",
+    "vendor_specific_style_reference"
+  ]
+}

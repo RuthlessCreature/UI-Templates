@@ -1,0 +1,11 @@
+# Components — 酷炫操作台
+
+Button/Input/Select/Checkbox/Radio/Switch/Tabs/Table/Chart/Status/Alarm 必须有完整状态。
+
+- Panel：dramatic，8px，边框 #125577
+- Primary：#00BFF3
+- Table：数字右对齐、文本左对齐、状态列稳定
+- Alarm：等级/来源/时间/原因/处理状态/下一步
+- Industrial：Machine Card / Station Card / Recipe / Device Connection / PLC IO / Image Inspection / Parameter Group
+
+Required: Loading / Empty / Disconnected / Error / Timeout / Partial Failure / Offline / No Results / Permission Denied。

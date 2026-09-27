@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "industrial-data-hub-a",
+  "display_name": {
+    "zh": "数据中枢",
+    "en": "Industrial Data Hub A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "design_intent": [
+    "面向产线级监控与分析的数据中枢，深色高密度、多指标、强趋势与异常聚焦。",
+    "KPI、趋势、状态矩阵和异常构成主要视觉骨架；青绿高亮，数据优先于装饰。"
+  ],
+  "platforms": {
+    "desktop": "primary",
+    "web": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "current_state",
+    "what_matters",
+    "is_anything_wrong",
+    "next_action"
+  ],
+  "forbidden_base_identity": [
+    "company_name",
+    "logo",
+    "trademark",
+    "customer_name",
+    "real_domain",
+    "real_email",
+    "real_phone",
+    "vendor_specific_style_reference"
+  ]
+}

@@ -3,7 +3,7 @@
   "templates": [
     {
       "id": "industrial-clean-a",
-      "name_zh": "工业简洁A",
+      "name_zh": "工业简洁浅色",
       "name_en": "Industrial Clean A",
       "version": "1.0.0",
       "status": "active",
@@ -17,10 +17,318 @@
       "tags": [
         "industrial",
         "engineering",
+        "light",
+        "clean",
         "machine-vision",
         "hmi",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-dark-professional-a",
+      "name_zh": "工业深色专业",
+      "name_en": "Industrial Dark Professional A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-dark-professional-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "dark",
+        "professional",
+        "engineering",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-future-blueblack-a",
+      "name_zh": "未来蓝黑",
+      "name_en": "Industrial Future Blue-Black A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-future-blueblack-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "future",
+        "blue-black",
+        "high-tech",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-wireframe-minimal-a",
+      "name_zh": "极简线框",
+      "name_en": "Industrial Wireframe Minimal A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-wireframe-minimal-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "wireframe",
+        "minimal",
         "light",
-        "dense",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-cool-gray-a",
+      "name_zh": "冷峻灰白",
+      "name_en": "Industrial Cool Gray A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-cool-gray-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "cool-gray",
+        "enterprise",
+        "calm",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-data-hub-a",
+      "name_zh": "数据中枢",
+      "name_en": "Industrial Data Hub A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-data-hub-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "data",
+        "dashboard",
+        "monitoring",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-glass-light-a",
+      "name_zh": "轻科技玻璃",
+      "name_en": "Industrial Light Glass A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-glass-light-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "glass",
+        "light",
+        "modern",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-modular-a",
+      "name_zh": "模块拼接",
+      "name_en": "Industrial Modular A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-modular-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "modular",
+        "cards",
+        "structured",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-black-yellow-safety-a",
+      "name_zh": "高对比黑黄",
+      "name_en": "Industrial Black Yellow Safety A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-black-yellow-safety-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "black-yellow",
+        "safety",
+        "high-contrast",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-blue-white-workbench-a",
+      "name_zh": "蓝白工程台",
+      "name_en": "Industrial Blue White Workbench A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-blue-white-workbench-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "blue-white",
+        "classic",
+        "workbench",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-deep-space-monitoring-a",
+      "name_zh": "深空监控",
+      "name_en": "Industrial Deep Space Monitoring A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-deep-space-monitoring-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "deep-space",
+        "monitoring",
+        "control-room",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-metallic-a",
+      "name_zh": "金属质感",
+      "name_en": "Industrial Metallic A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-metallic-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "metallic",
+        "steel",
+        "machine",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-ai-vision-lab-a",
+      "name_zh": "AI视觉实验室",
+      "name_en": "Industrial AI Vision Lab A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-ai-vision-lab-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "ai",
+        "machine-vision",
+        "lab",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-pure-minimal-a",
+      "name_zh": "纯净极简",
+      "name_en": "Industrial Pure Minimal A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-pure-minimal-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "pure",
+        "minimal",
+        "whitespace",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "industrial-cool-console-a",
+      "name_zh": "酷炫操作台",
+      "name_en": "Industrial Cool Console A",
+      "version": "1.0.0",
+      "status": "active",
+      "path": "industrial/industrial-cool-console-a",
+      "platforms": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "industrial",
+        "console",
+        "cool",
+        "high-tech",
         "brand-neutral"
       ],
       "brand_neutral": true

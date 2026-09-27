@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Industrial UI Screen Contract",
+  "type": "object",
+  "required": [
+    "screen_id",
+    "platform",
+    "primary_user",
+    "user_task",
+    "location_context",
+    "current_state",
+    "information",
+    "exceptions",
+    "actions",
+    "required_states",
+    "acceptance_criteria"
+  ],
+  "properties": {
+    "screen_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "platform": {
+      "enum": [
+        "desktop",
+        "web",
+        "mobile",
+        "ppt"
+      ]
+    },
+    "primary_user": {
+      "type": "string"
+    },
+    "user_task": {
+      "type": "string"
+    },
+    "location_context": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "information": {
+      "type": "object",
+      "required": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "properties": {
+        "L1": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "string"
+          }
+        },
+        "L2": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "L3": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "L4": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "exceptions": {
+      "type": "array"
+    },
+    "actions": {
+      "type": "object"
+    },
+    "required_states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

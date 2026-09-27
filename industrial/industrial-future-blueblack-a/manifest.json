@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "industrial-future-blueblack-a",
+  "display_name": {
+    "zh": "未来蓝黑",
+    "en": "Industrial Future Blue-Black A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "design_intent": [
+    "蓝黑未来感、精密线条、适度辉光与空间层次的高端工业界面。",
+    "可使用细描边、微辉光和深度分层，但不可做成电影 HUD 或牺牲可读性。"
+  ],
+  "platforms": {
+    "desktop": "primary",
+    "web": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "current_state",
+    "what_matters",
+    "is_anything_wrong",
+    "next_action"
+  ],
+  "forbidden_base_identity": [
+    "company_name",
+    "logo",
+    "trademark",
+    "customer_name",
+    "real_domain",
+    "real_email",
+    "real_phone",
+    "vendor_specific_style_reference"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "industrial-ai-vision-lab-a",
+  "display_name": {
+    "zh": "AI视觉实验室",
+    "en": "Industrial AI Vision Lab A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "design_intent": [
+    "面向机器视觉与工业 AI 分析的实验室风格，突出图像、热力图、模型与样本证据。",
+    "中央证据区优先：原图、结果图、热力图、置信度和样本对比；AI 结论必须和可视证据并列。"
+  ],
+  "platforms": {
+    "desktop": "primary",
+    "web": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "current_state",
+    "what_matters",
+    "is_anything_wrong",
+    "next_action"
+  ],
+  "forbidden_base_identity": [
+    "company_name",
+    "logo",
+    "trademark",
+    "customer_name",
+    "real_domain",
+    "real_email",
+    "real_phone",
+    "vendor_specific_style_reference"
+  ]
+}

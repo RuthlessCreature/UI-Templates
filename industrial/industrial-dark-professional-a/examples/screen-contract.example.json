@@ -1,0 +1,71 @@
+{
+  "screen_id": "production-overview",
+  "platform": "desktop",
+  "primary_user": "operator",
+  "user_task": "确认当前工位正常运行并处理异常。",
+  "location_context": [
+    "module_name",
+    "station_name",
+    "current_recipe"
+  ],
+  "current_state": [
+    "machine_state",
+    "connection_state"
+  ],
+  "information": {
+    "L1": [
+      "machine_state",
+      "output_today",
+      "yield",
+      "cycle_time",
+      "active_alarm_count"
+    ],
+    "L2": [
+      "current_result"
+    ],
+    "L3": [
+      "short_trend",
+      "recent_alarm"
+    ],
+    "L4": [
+      "time",
+      "recipe_version",
+      "operator_role"
+    ]
+  },
+  "exceptions": [
+    {
+      "type": "alarm",
+      "surface": "persistent",
+      "requires_action": true
+    },
+    {
+      "type": "offline",
+      "surface": "persistent",
+      "requires_action": true
+    }
+  ],
+  "actions": {
+    "primary": "open_active_alarm_or_start_when_ready",
+    "secondary": [
+      "view_history"
+    ],
+    "dangerous": [
+      "stop",
+      "reset",
+      "clear_counter"
+    ]
+  },
+  "required_states": [
+    "loading",
+    "empty",
+    "error",
+    "offline",
+    "permission_denied"
+  ],
+  "acceptance_criteria": [
+    "三秒五问可回答",
+    "状态同时由文字/图标表达",
+    "危险动作确认时显示目标对象"
+  ]
+}
