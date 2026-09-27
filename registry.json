@@ -151,7 +151,7 @@
       "id": "industrial-cool-gray-a",
       "name_zh": "冷峻灰白",
       "name_en": "Industrial Cool Gray A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "冷灰白、低饱和、理性克制的企业级工业界面。",
@@ -179,13 +179,15 @@
       "high_fidelity_preview": "industrial/industrial-cool-gray-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-data-hub-a",
       "name_zh": "数据中枢",
       "name_en": "Industrial Data Hub A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深色高密度、多指标、强趋势与异常聚焦的数据中枢。",
@@ -213,13 +215,15 @@
       "high_fidelity_preview": "industrial/industrial-data-hub-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-glass-light-a",
       "name_zh": "轻科技玻璃",
       "name_en": "Industrial Light Glass A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "浅色半透明层次、柔和玻璃感与现代工程控件。",
@@ -247,13 +251,15 @@
       "high_fidelity_preview": "industrial/industrial-glass-light-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-modular-a",
       "name_zh": "模块拼接",
       "name_en": "Industrial Modular A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "组件化卡片、清晰模块边界与强分区节奏。",
@@ -281,13 +287,15 @@
       "high_fidelity_preview": "industrial/industrial-modular-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-black-yellow-safety-a",
       "name_zh": "高对比黑黄",
       "name_en": "Industrial Black Yellow Safety A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "黑底黄强调、强异常识别与安全语义。",
@@ -315,7 +323,9 @@
       "high_fidelity_preview": "industrial/industrial-black-yellow-safety-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-blue-white-workbench-a",
