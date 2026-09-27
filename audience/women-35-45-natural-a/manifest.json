@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "women-35-45-natural-a",
+  "display_name": {
+    "zh": "自然生活",
+    "en": "Natural Living A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "women-35-45",
+  "audience": "35-45 women",
+  "design_intent": [
+    "鼠尾草绿、燕麦米与自然留白构成的平静生活方式界面。",
+    "自然、平静、耐看；使用柔和绿色和材质感留白，但不做手账/森系幼态，适合健康生活、家居、旅行和社区服务。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "mobile": "primary",
+    "desktop": "supported",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  }
+}

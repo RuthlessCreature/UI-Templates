@@ -1,0 +1,42 @@
+{
+  "screen_id": "dashboard",
+  "platform": "web",
+  "primary_user": "member",
+  "user_task": "Understand priorities and take the next action.",
+  "information": {
+    "L1": [
+      "page_title",
+      "primary_action",
+      "critical_state"
+    ],
+    "L2": [
+      "main_content"
+    ],
+    "L3": [
+      "supporting_metrics"
+    ],
+    "L4": [
+      "metadata"
+    ]
+  },
+  "actions": {
+    "primary": "create_or_continue",
+    "secondary": [
+      "filter",
+      "open_detail"
+    ],
+    "dangerous": [
+      "delete"
+    ]
+  },
+  "required_states": [
+    "loading",
+    "empty",
+    "error",
+    "permission_denied"
+  ],
+  "acceptance_criteria": [
+    "primary action obvious",
+    "mobile usable"
+  ]
+}

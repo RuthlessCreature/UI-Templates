@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "soe-steady-business-a",
+  "display_name": {
+    "zh": "国企稳健商务",
+    "en": "SOE Steady Business A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "soe",
+  "design_intent": [
+    "深蓝灰、商务表格与稳健布局构成的企业经营管理风格。",
+    "适合经营管理、项目、采购、资产和办公系统；表格、审批和状态优先，视觉不抢业务内容。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "desktop": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  }
+}

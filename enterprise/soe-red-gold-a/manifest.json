@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "soe-red-gold-a",
+  "display_name": {
+    "zh": "国企红金",
+    "en": "SOE Red Gold A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "soe",
+  "design_intent": [
+    "克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。",
+    "红色只做主强调、标题和关键节点，金色只做细节辅助；禁止满屏红金和廉价庆典感。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "desktop": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  }
+}

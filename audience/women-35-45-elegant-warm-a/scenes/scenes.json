@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "template_id": "women-35-45-elegant-warm-a",
+  "scenes": [
+    {
+      "index": 1,
+      "name": "服务首页"
+    },
+    {
+      "index": 2,
+      "name": "推荐 / Discover"
+    },
+    {
+      "index": 3,
+      "name": "搜索与筛选"
+    },
+    {
+      "index": 4,
+      "name": "服务详情"
+    },
+    {
+      "index": 5,
+      "name": "商品 / 方案详情"
+    },
+    {
+      "index": 6,
+      "name": "预约选择"
+    },
+    {
+      "index": 7,
+      "name": "预约确认"
+    },
+    {
+      "index": 8,
+      "name": "订单列表"
+    },
+    {
+      "index": 9,
+      "name": "订单详情"
+    },
+    {
+      "index": 10,
+      "name": "会员中心"
+    },
+    {
+      "index": 11,
+      "name": "权益与积分"
+    },
+    {
+      "index": 12,
+      "name": "个人资料"
+    },
+    {
+      "index": 13,
+      "name": "家庭 / 关联成员"
+    },
+    {
+      "index": 14,
+      "name": "收藏与心愿单"
+    },
+    {
+      "index": 15,
+      "name": "消息通知"
+    },
+    {
+      "index": 16,
+      "name": "内容 / 文章"
+    },
+    {
+      "index": 17,
+      "name": "活动报名"
+    },
+    {
+      "index": 18,
+      "name": "旅行 / 日程"
+    },
+    {
+      "index": 19,
+      "name": "健康 / 习惯概览"
+    },
+    {
+      "index": 20,
+      "name": "账单与支付"
+    },
+    {
+      "index": 21,
+      "name": "客服帮助"
+    },
+    {
+      "index": 22,
+      "name": "设置与隐私"
+    },
+    {
+      "index": 23,
+      "name": "空状态 / 异常"
+    },
+    {
+      "index": 24,
+      "name": "移动端底部导航"
+    }
+  ]
+}

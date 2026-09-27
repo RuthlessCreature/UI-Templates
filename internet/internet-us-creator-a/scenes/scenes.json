@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "template_id": "internet-us-creator-a",
+  "scenes": [
+    {
+      "index": 1,
+      "name": "首页 / Dashboard"
+    },
+    {
+      "index": 2,
+      "name": "导航与应用目录"
+    },
+    {
+      "index": 3,
+      "name": "搜索与结果列表"
+    },
+    {
+      "index": 4,
+      "name": "对象详情页"
+    },
+    {
+      "index": 5,
+      "name": "创建 / 编辑表单"
+    },
+    {
+      "index": 6,
+      "name": "新用户 Onboarding"
+    },
+    {
+      "index": 7,
+      "name": "个人账户"
+    },
+    {
+      "index": 8,
+      "name": "团队与成员"
+    },
+    {
+      "index": 9,
+      "name": "设置中心"
+    },
+    {
+      "index": 10,
+      "name": "通知中心"
+    },
+    {
+      "index": 11,
+      "name": "任务 / To-do"
+    },
+    {
+      "index": 12,
+      "name": "消息 / Inbox"
+    },
+    {
+      "index": 13,
+      "name": "数据分析"
+    },
+    {
+      "index": 14,
+      "name": "趋势与报表"
+    },
+    {
+      "index": 15,
+      "name": "订阅 / 套餐"
+    },
+    {
+      "index": 16,
+      "name": "账单与支付"
+    },
+    {
+      "index": 17,
+      "name": "文件 / 资产管理"
+    },
+    {
+      "index": 18,
+      "name": "审批 / Review"
+    },
+    {
+      "index": 19,
+      "name": "活动时间线"
+    },
+    {
+      "index": 20,
+      "name": "帮助中心"
+    },
+    {
+      "index": 21,
+      "name": "权限与角色"
+    },
+    {
+      "index": 22,
+      "name": "空状态 / Empty"
+    },
+    {
+      "index": 23,
+      "name": "错误 / Offline"
+    },
+    {
+      "index": 24,
+      "name": "移动端主任务"
+    }
+  ]
+}

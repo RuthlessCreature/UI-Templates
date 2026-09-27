@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "templates": [
     {
       "id": "industrial-clean-a",
@@ -7,6 +7,8 @@
       "name_en": "Industrial Clean A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "浅色、高信息密度、工程导向、状态清楚、操作直接。",
       "path": "industrial/industrial-clean-a",
       "platforms": [
         "desktop",
@@ -19,8 +21,6 @@
         "engineering",
         "light",
         "clean",
-        "machine-vision",
-        "hmi",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -31,6 +31,8 @@
       "name_en": "Industrial Dark Professional A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "深色石墨、低眩光、高密度、严肃克制。",
       "path": "industrial/industrial-dark-professional-a",
       "platforms": [
         "desktop",
@@ -42,7 +44,6 @@
         "industrial",
         "dark",
         "professional",
-        "engineering",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -53,6 +54,8 @@
       "name_en": "Industrial Future Blue-Black A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "蓝黑未来感、精密线条、适度辉光与空间层次。",
       "path": "industrial/industrial-future-blueblack-a",
       "platforms": [
         "desktop",
@@ -64,7 +67,6 @@
         "industrial",
         "future",
         "blue-black",
-        "high-tech",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -75,6 +77,8 @@
       "name_en": "Industrial Wireframe Minimal A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "线框、留白和严格网格为核心的极简工程界面。",
       "path": "industrial/industrial-wireframe-minimal-a",
       "platforms": [
         "desktop",
@@ -86,7 +90,6 @@
         "industrial",
         "wireframe",
         "minimal",
-        "light",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -97,6 +100,8 @@
       "name_en": "Industrial Cool Gray A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "冷灰白、低饱和、理性克制的企业级工业界面。",
       "path": "industrial/industrial-cool-gray-a",
       "platforms": [
         "desktop",
@@ -108,7 +113,6 @@
         "industrial",
         "cool-gray",
         "enterprise",
-        "calm",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -119,6 +123,8 @@
       "name_en": "Industrial Data Hub A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "深色高密度、多指标、强趋势与异常聚焦的数据中枢。",
       "path": "industrial/industrial-data-hub-a",
       "platforms": [
         "desktop",
@@ -130,7 +136,6 @@
         "industrial",
         "data",
         "dashboard",
-        "monitoring",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -141,6 +146,8 @@
       "name_en": "Industrial Light Glass A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "浅色半透明层次、柔和玻璃感与现代工程控件。",
       "path": "industrial/industrial-glass-light-a",
       "platforms": [
         "desktop",
@@ -151,7 +158,6 @@
       "tags": [
         "industrial",
         "glass",
-        "light",
         "modern",
         "brand-neutral"
       ],
@@ -163,6 +169,8 @@
       "name_en": "Industrial Modular A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "组件化卡片、清晰模块边界与强分区节奏。",
       "path": "industrial/industrial-modular-a",
       "platforms": [
         "desktop",
@@ -174,7 +182,6 @@
         "industrial",
         "modular",
         "cards",
-        "structured",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -185,6 +192,8 @@
       "name_en": "Industrial Black Yellow Safety A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "黑底黄强调、强异常识别与安全语义。",
       "path": "industrial/industrial-black-yellow-safety-a",
       "platforms": [
         "desktop",
@@ -194,7 +203,6 @@
       ],
       "tags": [
         "industrial",
-        "black-yellow",
         "safety",
         "high-contrast",
         "brand-neutral"
@@ -207,6 +215,8 @@
       "name_en": "Industrial Blue White Workbench A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "经典蓝白工程软件语法、稳定工具栏与高可预测结构。",
       "path": "industrial/industrial-blue-white-workbench-a",
       "platforms": [
         "desktop",
@@ -218,7 +228,6 @@
         "industrial",
         "blue-white",
         "classic",
-        "workbench",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -229,6 +238,8 @@
       "name_en": "Industrial Deep Space Monitoring A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "深空蓝黑、沉浸式监控与大范围状态感知。",
       "path": "industrial/industrial-deep-space-monitoring-a",
       "platforms": [
         "desktop",
@@ -240,7 +251,6 @@
         "industrial",
         "deep-space",
         "monitoring",
-        "control-room",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -251,6 +261,8 @@
       "name_en": "Industrial Metallic A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "钢灰、金属层次与精密制造气质。",
       "path": "industrial/industrial-metallic-a",
       "platforms": [
         "desktop",
@@ -262,7 +274,6 @@
         "industrial",
         "metallic",
         "steel",
-        "machine",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -273,6 +284,8 @@
       "name_en": "Industrial AI Vision Lab A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "机器视觉与工业 AI 分析，突出图像、热力图、模型与样本证据。",
       "path": "industrial/industrial-ai-vision-lab-a",
       "platforms": [
         "desktop",
@@ -284,7 +297,6 @@
         "industrial",
         "ai",
         "machine-vision",
-        "lab",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -295,6 +307,8 @@
       "name_en": "Industrial Pure Minimal A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "大量留白、极低视觉噪音与强任务聚焦。",
       "path": "industrial/industrial-pure-minimal-a",
       "platforms": [
         "desktop",
@@ -306,7 +320,6 @@
         "industrial",
         "pure",
         "minimal",
-        "whitespace",
         "brand-neutral"
       ],
       "brand_neutral": true
@@ -317,6 +330,8 @@
       "name_en": "Industrial Cool Console A",
       "version": "1.0.0",
       "status": "active",
+      "category": "industrial",
+      "positioning": "高端蓝黑操作台、动态层次与强科技氛围。",
       "path": "industrial/industrial-cool-console-a",
       "platforms": [
         "desktop",
@@ -327,8 +342,362 @@
       "tags": [
         "industrial",
         "console",
-        "cool",
         "high-tech",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "internet-us-saas-clean-a",
+      "name_zh": "美式SaaS清爽",
+      "name_en": "US SaaS Clean A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "internet-us-flat",
+      "positioning": "清爽白底、强层级、轻边框和高转化动作的美式 SaaS 扁平风格.",
+      "path": "internet/internet-us-saas-clean-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "internet",
+        "us-style",
+        "saas",
+        "flat",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "internet-us-editorial-a",
+      "name_zh": "美式编辑部",
+      "name_en": "US Editorial Product A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "internet-us-flat",
+      "positioning": "大标题、强排版、杂志式信息节奏与产品界面结合的美式编辑风格。",
+      "path": "internet/internet-us-editorial-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "internet",
+        "us-style",
+        "editorial",
+        "typography",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "internet-us-bold-flat-a",
+      "name_zh": "美式高对比扁平",
+      "name_en": "US Bold Flat A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "internet-us-flat",
+      "positioning": "高对比色块、粗体排版和直接操作的美式产品化扁平风格。",
+      "path": "internet/internet-us-bold-flat-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "internet",
+        "us-style",
+        "bold",
+        "flat",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "internet-us-fintech-a",
+      "name_zh": "美式金融科技",
+      "name_en": "US Fintech Flat A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "internet-us-flat",
+      "positioning": "冷静深蓝、精确数字与可信赖信息层级的美式 FinTech 扁平风格。",
+      "path": "internet/internet-us-fintech-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "internet",
+        "us-style",
+        "fintech",
+        "data",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "internet-us-creator-a",
+      "name_zh": "美式创意工作台",
+      "name_en": "US Creator Workspace A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "internet-us-flat",
+      "positioning": "柔和中性色、彩色工具标签和模块化工作区的美式创作工具风格。",
+      "path": "internet/internet-us-creator-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "internet",
+        "us-style",
+        "creator",
+        "workspace",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "soe-formal-blue-a",
+      "name_zh": "国企政务蓝",
+      "name_en": "SOE Formal Blue A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "soe",
+      "positioning": "稳重政务蓝、清晰分区和正式信息层级的国企门户/业务系统风格。",
+      "path": "enterprise/soe-formal-blue-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "soe",
+        "formal",
+        "blue",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "soe-red-gold-a",
+      "name_zh": "国企红金",
+      "name_en": "SOE Red Gold A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "soe",
+      "positioning": "克制红色主强调、暖金辅助与庄重版式结合的正式企业风格。",
+      "path": "enterprise/soe-red-gold-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "soe",
+        "red",
+        "gold",
+        "formal",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "soe-steady-business-a",
+      "name_zh": "国企稳健商务",
+      "name_en": "SOE Steady Business A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "soe",
+      "positioning": "深蓝灰、商务表格与稳健布局构成的企业经营管理风格。",
+      "path": "enterprise/soe-steady-business-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "soe",
+        "business",
+        "steady",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "soe-data-command-a",
+      "name_zh": "国企数据驾驶舱",
+      "name_en": "SOE Data Command A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "soe",
+      "positioning": "深蓝数据驾驶舱、宏观指标、地图与趋势结合的经营监控风格。",
+      "path": "enterprise/soe-data-command-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "soe",
+        "data",
+        "command",
+        "dashboard",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "soe-tech-innovation-a",
+      "name_zh": "国企科技创新",
+      "name_en": "SOE Tech Innovation A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "soe",
+      "positioning": "蓝青科技感与正式企业结构融合的创新平台风格。",
+      "path": "enterprise/soe-tech-innovation-a",
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ],
+      "tags": [
+        "soe",
+        "technology",
+        "innovation",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "women-35-45-elegant-warm-a",
+      "name_zh": "雅致暖白",
+      "name_en": "Elegant Warm A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "women-35-45",
+      "positioning": "暖白、细腻中性色和高可读排版构成的成熟雅致消费服务界面。",
+      "path": "audience/women-35-45-elegant-warm-a",
+      "platforms": [
+        "web",
+        "mobile",
+        "desktop",
+        "ppt"
+      ],
+      "tags": [
+        "women-35-45",
+        "elegant",
+        "warm",
+        "lifestyle",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "women-35-45-urban-a",
+      "name_zh": "都市轻熟",
+      "name_en": "Urban Mature A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "women-35-45",
+      "positioning": "都市灰米、莓红点缀和利落信息结构结合的现代轻熟风格。",
+      "path": "audience/women-35-45-urban-a",
+      "platforms": [
+        "web",
+        "mobile",
+        "desktop",
+        "ppt"
+      ],
+      "tags": [
+        "women-35-45",
+        "urban",
+        "modern",
+        "service",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "women-35-45-natural-a",
+      "name_zh": "自然生活",
+      "name_en": "Natural Living A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "women-35-45",
+      "positioning": "鼠尾草绿、燕麦米与自然留白构成的平静生活方式界面。",
+      "path": "audience/women-35-45-natural-a",
+      "platforms": [
+        "web",
+        "mobile",
+        "desktop",
+        "ppt"
+      ],
+      "tags": [
+        "women-35-45",
+        "natural",
+        "wellbeing",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "women-35-45-soft-luxury-a",
+      "name_zh": "低奢柔金",
+      "name_en": "Soft Luxury A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "women-35-45",
+      "positioning": "奶油白、深咖与克制香槟金构成的低调品质感界面。",
+      "path": "audience/women-35-45-soft-luxury-a",
+      "platforms": [
+        "web",
+        "mobile",
+        "desktop",
+        "ppt"
+      ],
+      "tags": [
+        "women-35-45",
+        "premium",
+        "soft-luxury",
+        "brand-neutral"
+      ],
+      "brand_neutral": true
+    },
+    {
+      "id": "women-35-45-wellness-a",
+      "name_zh": "柔和健康",
+      "name_en": "Calm Wellness A",
+      "version": "1.0.0",
+      "status": "active",
+      "category": "women-35-45",
+      "positioning": "柔灰蓝、暖米白和清楚健康状态构成的可信生活健康风格。",
+      "path": "audience/women-35-45-wellness-a",
+      "platforms": [
+        "web",
+        "mobile",
+        "desktop",
+        "ppt"
+      ],
+      "tags": [
+        "women-35-45",
+        "wellness",
+        "calm",
+        "trust",
         "brand-neutral"
       ],
       "brand_neutral": true

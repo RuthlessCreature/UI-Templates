@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Web UI Screen Contract",
+  "type": "object",
+  "required": [
+    "screen_id",
+    "platform",
+    "primary_user",
+    "user_task",
+    "information",
+    "actions",
+    "required_states",
+    "acceptance_criteria"
+  ],
+  "properties": {
+    "screen_id": {
+      "type": "string"
+    },
+    "platform": {
+      "enum": [
+        "web",
+        "desktop",
+        "mobile",
+        "ppt"
+      ]
+    },
+    "primary_user": {
+      "type": "string"
+    },
+    "user_task": {
+      "type": "string"
+    },
+    "information": {
+      "type": "object",
+      "properties": {
+        "L1": {
+          "type": "array",
+          "maxItems": 6
+        },
+        "L2": {
+          "type": "array"
+        },
+        "L3": {
+          "type": "array"
+        },
+        "L4": {
+          "type": "array"
+        }
+      }
+    },
+    "actions": {
+      "type": "object"
+    },
+    "required_states": {
+      "type": "array"
+    },
+    "acceptance_criteria": {
+      "type": "array"
+    }
+  }
+}

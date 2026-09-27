@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Audience UI Screen Contract","type":"object","required":["screen_id","platform","primary_user","user_task","information","actions","required_states","acceptance_criteria"]}

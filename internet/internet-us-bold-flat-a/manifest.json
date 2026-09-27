@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "internet-us-bold-flat-a",
+  "display_name": {
+    "zh": "美式高对比扁平",
+    "en": "US Bold Flat A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "internet-us-flat",
+  "design_intent": [
+    "高对比色块、粗体排版和直接操作的美式产品化扁平风格。",
+    "色块明确、边界硬朗、按钮直接；允许橙红等强强调，但页面必须保持可扫描，适合增长、运营和高行动密度产品。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "desktop": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "what_matters",
+    "what_can_i_do",
+    "is_anything_wrong",
+    "what_happens_next"
+  ]
+}

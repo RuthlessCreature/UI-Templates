@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "internet-us-saas-clean-a",
+  "display_name": {
+    "zh": "美式SaaS清爽",
+    "en": "US SaaS Clean A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "internet-us-flat",
+  "design_intent": [
+    "清爽白底、强层级、轻边框和高转化动作的美式 SaaS 扁平风格。",
+    "大量使用清晰标题、简洁卡片和蓝色主 CTA；边框轻、阴影克制，视觉像成熟美式 B2B SaaS，而不是花哨营销页。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "desktop": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "what_matters",
+    "what_can_i_do",
+    "is_anything_wrong",
+    "what_happens_next"
+  ]
+}

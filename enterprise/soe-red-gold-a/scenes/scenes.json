@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "template_id": "soe-red-gold-a",
+  "scenes": [
+    {
+      "index": 1,
+      "name": "综合门户首页"
+    },
+    {
+      "index": 2,
+      "name": "工作台 / 待办"
+    },
+    {
+      "index": 3,
+      "name": "通知公告"
+    },
+    {
+      "index": 4,
+      "name": "新闻资讯"
+    },
+    {
+      "index": 5,
+      "name": "组织与通讯录"
+    },
+    {
+      "index": 6,
+      "name": "项目列表"
+    },
+    {
+      "index": 7,
+      "name": "项目详情"
+    },
+    {
+      "index": 8,
+      "name": "审批中心"
+    },
+    {
+      "index": 9,
+      "name": "流程详情"
+    },
+    {
+      "index": 10,
+      "name": "经营指标"
+    },
+    {
+      "index": 11,
+      "name": "数据报表"
+    },
+    {
+      "index": 12,
+      "name": "会议与日程"
+    },
+    {
+      "index": 13,
+      "name": "合同管理"
+    },
+    {
+      "index": 14,
+      "name": "采购管理"
+    },
+    {
+      "index": 15,
+      "name": "资产管理"
+    },
+    {
+      "index": 16,
+      "name": "供应商管理"
+    },
+    {
+      "index": 17,
+      "name": "档案资料"
+    },
+    {
+      "index": 18,
+      "name": "制度文件"
+    },
+    {
+      "index": 19,
+      "name": "党建/文化栏目"
+    },
+    {
+      "index": 20,
+      "name": "专题页面"
+    },
+    {
+      "index": 21,
+      "name": "权限与角色"
+    },
+    {
+      "index": 22,
+      "name": "系统设置"
+    },
+    {
+      "index": 23,
+      "name": "异常/无权限"
+    },
+    {
+      "index": 24,
+      "name": "移动办公"
+    }
+  ]
+}

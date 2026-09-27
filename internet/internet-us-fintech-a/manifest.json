@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "internet-us-fintech-a",
+  "display_name": {
+    "zh": "美式金融科技",
+    "en": "US Fintech Flat A"
+  },
+  "version": "1.0.0",
+  "brand_neutral": true,
+  "category": "internet-us-flat",
+  "design_intent": [
+    "冷静深蓝、精确数字与可信赖信息层级的美式 FinTech 扁平风格。",
+    "数字、状态和账户信息优先；使用冷静蓝绿与严谨对齐，强调可信、透明、可核验，避免金融产品常见的炫富视觉。"
+  ],
+  "platforms": {
+    "web": "primary",
+    "desktop": "supported",
+    "mobile": "adapted",
+    "ppt": "supported"
+  },
+  "canonical_files": {
+    "spec": "SPEC.md",
+    "tokens": "tokens/tokens.json",
+    "components": "components/COMPONENTS.md",
+    "scenes": "scenes/SCENES.md",
+    "prompt": "prompts/UI_GENERATION.md"
+  },
+  "required_screen_questions": [
+    "where_am_i",
+    "what_matters",
+    "what_can_i_do",
+    "is_anything_wrong",
+    "what_happens_next"
+  ]
+}
