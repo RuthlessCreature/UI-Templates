@@ -3,6 +3,24 @@ const GH='https://github.com/RuthlessCreature/UI-Templates/tree/main/';
 const CATEGORY_ORDER=['industrial','internet-us-flat','soe','women-35-45'];
 const CATEGORY_NAMES={industrial:'工业类','internet-us-flat':'互联网扁平 · 美式',soe:'国企风格','women-35-45':'35–45 女性'};
 const state={templates:[],category:'all',query:'',compare:new Set()};
+const styleCache=new Map();
+
+async function hydratePage(t,path){
+ let html=await fetchText(RAW+t.path+'/'+path+'?ts='+Date.now());
+ if(!html.includes('page-system.css')) return html;
+ let styles=styleCache.get(t.id);
+ if(!styles){
+  const [tokens,pageCss]=await Promise.all([
+    fetchText(RAW+t.path+'/tokens/tokens.css?ts='+Date.now()),
+    fetchText(RAW+t.path+'/pages/page-system.css?ts='+Date.now())
+  ]);
+  styles=tokens+'\n'+pageCss.replace(/@import[^;]+;/g,'');
+  styleCache.set(t.id,styles);
+ }
+ html=html.replace(/<link[^>]+page-system\.css[^>]*>/g,'');
+ html=html.replace('</head>','<style>'+styles+'</style></head>');
+ return html;
+}
 
 async function fetchText(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('fetch failed '+r.status);return r.json()}
@@ -37,12 +55,12 @@ async function showAllPages(t,pages,btn){
   tile.innerHTML='<div class="live-tile-head"><b>'+String(p.index).padStart(2,'0')+' · '+p.name+'</b><span>'+p.kind+'</span></div><div class="thumb-shell"><iframe title="'+p.name+'" tabindex="-1"></iframe></div>';
   tile.onclick=()=>{const button=[...document.querySelectorAll('#showcaseNav .page-nav')].find(x=>x.textContent.includes(p.name));showPage(t,p,button)};
   wall.appendChild(tile);
-  fetchText(RAW+t.path+'/'+p.path+'?ts='+Date.now()).then(html=>{tile.querySelector('iframe').srcdoc=html}).catch(()=>{tile.querySelector('.thumb-shell').innerHTML='<div class="thumb-error">加载失败</div>'});
+  hydratePage(t,p.path).then(html=>{tile.querySelector('iframe').srcdoc=html}).catch(()=>{tile.querySelector('.thumb-shell').innerHTML='<div class="thumb-error">加载失败</div>'});
  }
 }
-async function showPage(t,p,btn){if(btn)activatePageButton(btn);const stage=document.querySelector('#showcaseStage');stage.innerHTML='<div class="showcase-loading">加载 '+p.name+'…</div>';try{const html=await fetchText(RAW+t.path+'/'+p.path+'?ts='+Date.now());stage.innerHTML='<iframe class="showcase-frame" title="'+p.name+'"></iframe>';stage.querySelector('iframe').srcdoc=html}catch(e){stage.innerHTML='<div class="showcase-error">页面加载失败：'+String(e)+'</div>'}}
+async function showPage(t,p,btn){if(btn)activatePageButton(btn);const stage=document.querySelector('#showcaseStage');stage.innerHTML='<div class="showcase-loading">加载 '+p.name+'…</div>';try{const html=await hydratePage(t,p.path);stage.innerHTML='<iframe class="showcase-frame" title="'+p.name+'"></iframe>';stage.querySelector('iframe').srcdoc=html}catch(e){stage.innerHTML='<div class="showcase-error">页面加载失败：'+String(e)+'</div>'}}
 
-async function openPreview(t){const dlg=document.querySelector('#previewDialog'),frame=document.querySelector('#previewFrame');document.querySelector('#dialogTitle').textContent=t.name_zh;frame.srcdoc='';dlg.showModal();try{const manifest=await getJSON(RAW+t.path+'/pages/pages.json?ts='+Date.now());frame.srcdoc=await fetchText(RAW+t.path+'/'+manifest.pages[0].path+'?ts='+Date.now())}catch(e){frame.srcdoc='<p>加载失败</p>'}}
+async function openPreview(t){const dlg=document.querySelector('#previewDialog'),frame=document.querySelector('#previewFrame');document.querySelector('#dialogTitle').textContent=t.name_zh;frame.srcdoc='';dlg.showModal();try{const manifest=await getJSON(RAW+t.path+'/pages/pages.json?ts='+Date.now());frame.srcdoc=await hydratePage(t,manifest.pages[0].path)}catch(e){frame.srcdoc='<p>加载失败</p>'}}
 function openCompare(){const list=state.templates.filter(t=>state.compare.has(t.id));const box=document.querySelector('#compareGrid');box.innerHTML='';for(const t of list){const d=document.createElement('article');d.className='compare-item';d.innerHTML='<div class="compare-name">'+t.name_zh+'</div><div class="compare-sig">'+(t.visual_signature||'')+'</div><img src="'+RAW+t.path+'/preview/overview.svg?ts='+Date.now()+'" alt=""><div class="compare-motif">'+(t.core_motif||'')+' · 12 pages</div>';d.onclick=()=>openShowcase(t);box.appendChild(d)}document.querySelector('#compareDialog').showModal()}
 async function boot(){document.querySelector('#closePreview')?.addEventListener('click',()=>document.querySelector('#previewDialog').close());document.querySelector('#closeDialog').onclick=()=>document.querySelector('#previewDialog').close();document.querySelector('#closeShowcase').onclick=()=>document.querySelector('#showcaseDialog').close();document.querySelector('#closeCompare').onclick=()=>document.querySelector('#compareDialog').close();document.querySelector('#openCompare').onclick=openCompare;document.querySelector('#search').oninput=e=>{state.query=e.target.value;renderGrid()};try{const reg=await getJSON(RAW+'registry.json?ts='+Date.now());state.templates=reg.templates||[];document.querySelector('#count').textContent=state.templates.length+' templates';renderChips();renderGrid();updateCompare()}catch(e){document.querySelector('#grid').innerHTML='<div class="empty">registry.json 加载失败：'+String(e)+'</div>'}}
 boot();

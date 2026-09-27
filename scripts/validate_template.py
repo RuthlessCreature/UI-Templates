@@ -36,7 +36,10 @@ for item in items:
   fp=base/p["path"]
   if not fp.exists():fail(f"{tid}: missing page {p['path']}")
   text=fp.read_text(encoding="utf-8",errors="ignore")
-  if "<title>" not in text or len(text)<1200:fail(f"{tid}: page too thin {p['path']}")
+  if "<title>" not in text or "<main" not in text:fail(f"{tid}: malformed page {p['path']}")
+  external_system='page-system.css' in text
+  if not external_system and len(text)<1200:fail(f"{tid}: inline page too thin {p['path']}")
+  if external_system and not (base/"pages/page-system.css").exists():fail(f"{tid}: missing shared page-system.css")
  total_pages+=len(pages["pages"])
  scenes=json.loads((base/"scenes/scenes.json").read_text(encoding="utf-8"))
  if len(scenes.get("scenes",[]))!=24:fail(f"{tid}: expected 24 scenes")
