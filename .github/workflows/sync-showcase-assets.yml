@@ -1,0 +1,37 @@
+name: Sync High-Fidelity Showcase Assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/showcase-assets-part*.json'
+      - 'scripts/sync_showcase_assets.py'
+      - '.github/workflows/sync-showcase-assets.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Download and normalize 30 showcase images
+        run: python scripts/sync_showcase_assets.py
+      - name: Commit showcase images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*/**/preview/showcase.jpg' || true
+          if git diff --cached --quiet; then
+            echo "No showcase changes."
+          else
+            git commit -m "Add 30 high-fidelity showcase previews"
+            git push
+          fi
