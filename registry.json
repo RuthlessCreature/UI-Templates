@@ -42,7 +42,7 @@
       "id": "industrial-dark-professional-a",
       "name_zh": "工业深色专业",
       "name_en": "Industrial Dark Professional A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "深色石墨、低眩光、高密度、严肃克制。",
@@ -70,13 +70,15 @@
       "high_fidelity_preview": "industrial/industrial-dark-professional-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-future-blueblack-a",
       "name_zh": "未来蓝黑",
       "name_en": "Industrial Future Blue-Black A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "蓝黑未来感、精密线条、适度辉光与空间层次。",
@@ -105,13 +107,15 @@
       "high_fidelity_preview": "industrial/industrial-future-blueblack-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-wireframe-minimal-a",
       "name_zh": "极简线框",
       "name_en": "Industrial Wireframe Minimal A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "industrial",
       "positioning": "线框、留白和严格网格为核心的极简工程界面。",
@@ -139,7 +143,9 @@
       "high_fidelity_preview": "industrial/industrial-wireframe-minimal-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "industrial-cool-gray-a",
