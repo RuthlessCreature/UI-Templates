@@ -17,6 +17,14 @@ for item in items:
  if item.get("showcase_level")!="gold":fail(f"{tid}: all templates must be gold")
  if item.get("preview_mode")!="all-pages-live":fail(f"{tid}: preview must be all-pages-live")
  if item.get("page_count",0)<12:fail(f"{tid}: registry page_count < 12")
+ if item.get("preview_ratio")!="4:5":fail(f"{tid}: showcase preview ratio must be 4:5")
+ if item.get("desktop_preview_ratio")!="16:10":fail(f"{tid}: desktop preview ratio must be 16:10")
+ if item.get("mobile_preview_ratio")!="9:19.5":fail(f"{tid}: mobile preview ratio must be 9:19.5")
+ hf=item.get("high_fidelity_preview")
+ if not hf:fail(f"{tid}: missing high_fidelity_preview")
+ hf_path=ROOT/hf
+ if not hf_path.exists():fail(f"{tid}: missing high-fidelity image {hf}")
+ if hf_path.stat().st_size<100000:fail(f"{tid}: high-fidelity image too small {hf}")
  for rel in REQUIRED:
   if not (base/rel).exists():fail(f"{tid}: missing {rel}")
  mf=json.loads((base/"manifest.json").read_text(encoding="utf-8"))
@@ -55,5 +63,6 @@ for p in ROOT.rglob("*"):
 print("[PASS] 30 / 30 Gold templates")
 print(f"[PASS] {total_pages} real showcase pages")
 print("[PASS] all previews are live all-pages systems")
+print("[PASS] 30 repository-local high-fidelity showcase images")
 print("[PASS] unique visual signatures and layout archetypes")
 print("[PASS] brand-neutral scan")
