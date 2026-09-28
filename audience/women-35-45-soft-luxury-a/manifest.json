@@ -5,7 +5,7 @@
     "zh": "低奢柔金",
     "en": "Soft Luxury A"
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "brand_neutral": true,
   "category": "women-35-45",
   "layout_archetype": "premium-concierge",
@@ -32,5 +32,7 @@
   },
   "showcase_level": "gold",
   "page_count": 12,
-  "preview_mode": "all-pages-live"
+  "preview_mode": "all-pages-live",
+  "fidelity_level": "production-reference",
+  "real_ui_converged": true
 }

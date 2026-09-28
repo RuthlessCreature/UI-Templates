@@ -916,7 +916,7 @@
       "id": "women-35-45-elegant-warm-a",
       "name_zh": "雅致暖白",
       "name_en": "Elegant Warm A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "暖白、细腻中性色和高可读排版构成的成熟雅致消费服务界面。",
@@ -945,13 +945,15 @@
       "high_fidelity_preview": "audience/women-35-45-elegant-warm-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "women-35-45-urban-a",
       "name_zh": "都市轻熟",
       "name_en": "Urban Mature A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "都市灰米、莓红点缀和利落信息结构结合的现代轻熟风格。",
@@ -980,13 +982,15 @@
       "high_fidelity_preview": "audience/women-35-45-urban-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "women-35-45-natural-a",
       "name_zh": "自然生活",
       "name_en": "Natural Living A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "鼠尾草绿、燕麦米与自然留白构成的平静生活方式界面。",
@@ -1014,13 +1018,15 @@
       "high_fidelity_preview": "audience/women-35-45-natural-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "women-35-45-soft-luxury-a",
       "name_zh": "低奢柔金",
       "name_en": "Soft Luxury A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "奶油白、深咖与克制香槟金构成的低调品质感界面。",
@@ -1049,13 +1055,15 @@
       "high_fidelity_preview": "audience/women-35-45-soft-luxury-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     },
     {
       "id": "women-35-45-wellness-a",
       "name_zh": "柔和健康",
       "name_en": "Calm Wellness A",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "status": "active",
       "category": "women-35-45",
       "positioning": "柔灰蓝、暖米白和清楚健康状态构成的可信生活健康风格。",
@@ -1084,7 +1092,9 @@
       "high_fidelity_preview": "audience/women-35-45-wellness-a/preview/showcase.jpg",
       "preview_ratio": "4:5",
       "desktop_preview_ratio": "16:10",
-      "mobile_preview_ratio": "9:19.5"
+      "mobile_preview_ratio": "9:19.5",
+      "fidelity_level": "production-reference",
+      "real_ui_converged": true
     }
   ]
 }
