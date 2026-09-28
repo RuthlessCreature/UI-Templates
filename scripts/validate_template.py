@@ -15,6 +15,9 @@ archetypes=[];signatures=[];total_pages=0
 for item in items:
  base=ROOT/item["path"];tid=item["id"]
  if item.get("showcase_level")!="gold":fail(f"{tid}: all templates must be gold")
+ if item.get("version")!="1.3.0":fail(f"{tid}: all templates must be v1.3.0")
+ if item.get("fidelity_level")!="production-reference":fail(f"{tid}: fidelity_level must be production-reference")
+ if item.get("real_ui_converged") is not True:fail(f"{tid}: real_ui_converged must be true")
  if item.get("preview_mode")!="all-pages-live":fail(f"{tid}: preview must be all-pages-live")
  if item.get("page_count",0)<12:fail(f"{tid}: registry page_count < 12")
  if item.get("preview_ratio")!="4:5":fail(f"{tid}: showcase preview ratio must be 4:5")
@@ -35,6 +38,8 @@ for item in items:
  if mf.get("visual_signature")!=item.get("visual_signature"):fail(f"{tid}: signature mismatch")
  if mf.get("brand_neutral") is not True:fail(f"{tid}: manifest not neutral")
  if mf.get("showcase_level")!="gold":fail(f"{tid}: manifest not gold")
+ if mf.get("fidelity_level")!="production-reference":fail(f"{tid}: manifest fidelity_level mismatch")
+ if mf.get("real_ui_converged") is not True:fail(f"{tid}: manifest real_ui_converged must be true")
  pages=json.loads((base/"pages/pages.json").read_text(encoding="utf-8"))
  if pages.get("version")!=item.get("version"):fail(f"{tid}: page manifest version mismatch")
  if len(pages.get("pages",[]))<12:fail(f"{tid}: requires >=12 pages")
@@ -61,6 +66,7 @@ for p in ROOT.rglob("*"):
  for pattern in FORBIDDEN:
   if re.search(pattern,text,re.I) and p.name!="validate_template.py":fail(f"forbidden identity {pattern!r} in {p.relative_to(ROOT)}")
 print("[PASS] 30 / 30 Gold templates")
+print("[PASS] 30 / 30 v1.3.0 production-reference real UI systems")
 print(f"[PASS] {total_pages} real showcase pages")
 print("[PASS] all previews are live all-pages systems")
 print("[PASS] 30 repository-local high-fidelity showcase images")
